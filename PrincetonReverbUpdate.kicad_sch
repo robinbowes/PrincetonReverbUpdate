@@ -1493,158 +1493,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_Small"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Small"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Small_0_1"
-				(rectangle
-					(start 0.762 1.8034)
-					(end -0.762 -1.8034)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.9906)
-					(name "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Transformer_SP_1S"
 			(pin_names
 				(offset 1.016)
@@ -6378,19 +6226,6 @@
 		)
 		(uuid "1953b3a5-8705-4a07-976c-ececc7ba7822")
 	)
-	(text "Balance"
-		(exclude_from_sim no)
-		(at 199.39 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.2032)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "1a45152b-9f81-4004-b03d-92a195e5717f")
-	)
 	(text "In reality the mains is hard-wired.\n• Strain relief on chassis\n• L: Brown, N: Blue, PE: Green/Yellow (per IEC)\n• Ensure PE wire is longer than L and N"
 		(exclude_from_sim no)
 		(at 185.42 160.528 0)
@@ -6666,19 +6501,6 @@
 			(justify left)
 		)
 		(uuid "7a44ca8b-5766-4c7f-9490-edca46328a19")
-	)
-	(text "Valve\nbalance"
-		(exclude_from_sim no)
-		(at 201.295 43.18 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.016 1.016)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "7a929037-7d18-486e-bd2c-42a297b97809")
 	)
 	(text "Bass"
 		(exclude_from_sim no)
@@ -7376,6 +7198,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b85d2602-71ba-49fe-ae3c-3503d2e54e97")
+	)
+	(junction
+		(at 195.58 42.545)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98a5311-1d44-422f-b157-6b1c540c9dfb")
 	)
 	(junction
 		(at 35.56 104.14)
@@ -9011,6 +8839,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 42.545) (xy 195.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6d62e3-e33d-4cc8-9940-3738dd03cf80")
+	)
+	(wire
+		(pts
 			(xy 106.68 95.25) (xy 121.92 95.25)
 		)
 		(stroke
@@ -9208,6 +9046,16 @@
 			(type default)
 		)
 		(uuid "88b5f229-e156-4b2e-a970-8f8972efdeee")
+	)
+	(wire
+		(pts
+			(xy 194.31 42.545) (xy 195.58 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89447954-a08f-497e-a7e5-8b8ceac0c602")
 	)
 	(wire
 		(pts
@@ -9811,7 +9659,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 45.085) (xy 195.58 45.72)
+			(xy 195.58 39.37) (xy 195.58 42.545)
 		)
 		(stroke
 			(width 0)
@@ -10228,16 +10076,6 @@
 			(type default)
 		)
 		(uuid "d9b8a75f-8cde-47bd-861c-d94c83ca0a50")
-	)
-	(wire
-		(pts
-			(xy 195.58 40.005) (xy 195.58 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da3eed9d-76e8-4378-8204-74413e657257")
 	)
 	(wire
 		(pts
@@ -10987,7 +10825,7 @@
 	)
 	(global_label "Bias"
 		(shape input)
-		(at 193.04 42.545 180)
+		(at 194.31 42.545 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10997,7 +10835,7 @@
 		)
 		(uuid "78087a9c-4316-4ae6-82ef-0e3645de2bca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.0029 42.545 0)
+			(at 187.2729 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20758,82 +20596,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Small")
-		(at 195.58 42.545 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0d1a854-e355-4356-89cd-30ccf2494faa")
-		(property "Reference" "RV9"
-			(at 200.025 42.545 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(property "Value" "22k Lin"
-			(at 198.12 42.545 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 195.58 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b746225-7ef0-441a-be35-e6ea12e7b01d")
-		)
-		(pin "2"
-			(uuid "3418d285-9298-46a6-b79f-048a2c01af96")
-		)
-		(pin "3"
-			(uuid "b4feebf0-cf38-40bd-b604-e2a521b5886e")
-		)
-		(instances
-			(project ""
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "RV9")
 					(unit 1)
 				)
 			)
