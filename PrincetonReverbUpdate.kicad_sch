@@ -7547,19 +7547,6 @@
 		)
 		(uuid "d789984e-ac7c-423c-8f55-ccafbf14d507")
 	)
-	(text "Stop HT being\nnear control panel"
-		(exclude_from_sim no)
-		(at 58.42 22.86 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.016 1.016)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "d9463b7b-59d6-4a50-a752-165b677bc91c")
-	)
 	(text "Red"
 		(exclude_from_sim no)
 		(at 235.712 41.148 0)
@@ -7786,12 +7773,6 @@
 		(uuid "409ab50e-0b14-491d-9860-baba67164c43")
 	)
 	(junction
-		(at 239.395 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44f0e7be-ba7b-45ad-87f0-a74b8b57b2a9")
-	)
-	(junction
 		(at 104.14 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7808,6 +7789,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e1eb50-206c-4803-afd5-9c6a818b5f1b")
+	)
+	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e34559f-390d-4ef4-848c-a5b681029f3e")
 	)
 	(junction
 		(at 53.34 88.9)
@@ -7856,12 +7843,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6252f6d4-3e5a-438f-ab30-eeb2d4ccfc8e")
-	)
-	(junction
-		(at 237.49 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "631f6b61-bc85-4de1-bd43-0b5c28235425")
 	)
 	(junction
 		(at 87.63 157.48)
@@ -8593,7 +8574,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 97.79) (xy 239.395 102.235)
+			(xy 240.03 97.79) (xy 240.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9033,7 +9014,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 109.855) (xy 239.395 119.38)
+			(xy 240.03 110.49) (xy 240.03 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9250,16 +9231,6 @@
 			(type default)
 		)
 		(uuid "445385d5-3349-4843-9294-3fc297044296")
-	)
-	(wire
-		(pts
-			(xy 237.49 97.79) (xy 239.395 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b3c321-6306-41d6-bad6-50d6d5aa67e0")
 	)
 	(wire
 		(pts
@@ -9813,7 +9784,7 @@
 	)
 	(wire
 		(pts
-			(xy 239.395 119.38) (xy 245.11 119.38)
+			(xy 240.03 119.38) (xy 245.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9953,7 +9924,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 97.79) (xy 237.49 97.79)
+			(xy 236.22 97.79) (xy 240.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10093,7 +10064,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 55.88 31.75)
+			(xy 52.07 31.75) (xy 67.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10410,16 +10381,6 @@
 			(type default)
 		)
 		(uuid "a9bfabae-1d03-485c-94bb-f04fd4e7c52d")
-	)
-	(wire
-		(pts
-			(xy 63.5 31.75) (xy 67.31 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abbb1352-e2de-462b-8ae6-284ace1156ad")
 	)
 	(wire
 		(pts
@@ -11173,7 +11134,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 97.79) (xy 239.395 97.79)
+			(xy 241.3 97.79) (xy 240.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -12715,7 +12676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 114.3 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -12971,7 +12932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
 			(at 28.9052 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13059,7 +13020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 50.038 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -13391,7 +13352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 176.022 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +13705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 24.13 105.1052 0)
 			(hide yes)
 			(show_name no)
@@ -14095,7 +14056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
 			(at 55.5752 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14333,7 +14294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 173.228 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -14419,7 +14380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 35.56 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -14791,7 +14752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 100.6348 85.725 0)
 			(hide yes)
 			(show_name no)
@@ -14871,7 +14832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 123.19 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -15032,7 +14993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 97.282 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -15196,7 +15157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
 			(at 209.2452 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15381,7 +15342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 219.4052 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15619,7 +15580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
 			(at 146.3548 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15858,7 +15819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 176.53 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -16096,7 +16057,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
 			(at 254.3048 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -16176,7 +16137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 132.08 60.452 90)
 			(hide yes)
 			(show_name no)
@@ -16258,7 +16219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 69.088 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -16494,7 +16455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 140.208 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -17149,7 +17110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 198.628 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -17393,7 +17354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 149.225 32.7152 0)
 			(hide yes)
 			(show_name no)
@@ -17554,7 +17515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 267.208 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -17636,7 +17597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 140.208 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -17950,7 +17911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
 			(at 95.5548 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18529,7 +18490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
 			(at 58.1152 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19027,7 +18988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 77.47 54.3052 0)
 			(hide yes)
 			(show_name no)
@@ -19364,7 +19325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 160.528 50.165 90)
 			(hide yes)
 			(show_name no)
@@ -19446,7 +19407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 172.212 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -19528,7 +19489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
 			(at 48.5648 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20055,7 +20016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad"
 			(at 156.21 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -20237,7 +20198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 37.338 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -20673,7 +20634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 243.332 111.125 90)
 			(hide yes)
 			(show_name no)
@@ -20753,7 +20714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 213.36 96.012 90)
 			(hide yes)
 			(show_name no)
@@ -20925,7 +20886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 64.77 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -21089,7 +21050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-15-H25_Horizontal"
 			(at 245.11 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -22007,7 +21968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 101.092 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -22089,7 +22050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 193.802 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -22255,7 +22216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 166.37 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -22337,7 +22298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 142.748 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -22738,7 +22699,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 102.362 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -23214,7 +23175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal"
 			(at 227.33 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -23372,7 +23333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 189.738 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -23616,7 +23577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 52.832 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -23859,7 +23820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 173.228 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -24063,92 +24024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DevicesTC:C_compact")
-		(at 59.69 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b96cf7ac-2aac-4174-bc44-1b61f21341fd")
-		(property "Reference" "C28"
-			(at 59.69 26.0597 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 59.69 28.0752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 32.7152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 59.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49d8ee05-3c41-4ce1-910d-82d4dc9b59b0")
-		)
-		(pin "1"
-			(uuid "d2ee07f5-ad59-4ab4-a547-21c32b0dd800")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DevicesTC:R_compact")
 		(at 213.36 80.01 90)
 		(unit 1)
@@ -24186,7 +24061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 213.36 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -24268,7 +24143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 108.458 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -24348,7 +24223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 127 38.4048 0)
 			(hide yes)
 			(show_name no)
@@ -24722,7 +24597,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c33a66db-53c4-4f70-a762-209dac442868")
@@ -24754,7 +24629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 194.31 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -25329,7 +25204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 181.61 54.3052 0)
 			(hide yes)
 			(show_name no)
@@ -25409,7 +25284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 			(at 77.47 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -25491,7 +25366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 265.43 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -25755,7 +25630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 181.61 32.7152 0)
 			(hide yes)
 			(show_name no)
@@ -25915,7 +25790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 50.292 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -26232,7 +26107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
 			(at 122.8852 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -26503,7 +26378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
 			(at 156.21 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -26655,7 +26530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal"
 			(at 77.47 44.1452 0)
 			(hide yes)
 			(show_name no)
@@ -27296,7 +27171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 49.53 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -27621,7 +27496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
 			(at 111.4552 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -27671,7 +27546,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 239.395 106.045 0)
+		(at 240.03 106.68 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -27683,7 +27558,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed275fbd-e61b-4bd6-9a3a-266e25682ada")
 		(property "Reference" "C29"
-			(at 236.601 107.315 0)
+			(at 237.236 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27697,7 +27572,7 @@
 			)
 		)
 		(property "Value" "10u 50V"
-			(at 236.601 105.537 0)
+			(at 237.236 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27710,8 +27585,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 240.3602 102.235 0)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+			(at 240.9952 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27722,7 +27597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.395 106.045 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27733,7 +27608,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 239.395 106.045 0)
+			(at 240.03 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27874,7 +27749,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
 			(at 42.8752 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -28034,7 +27909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 79.502 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -28116,7 +27991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 132.588 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -28446,7 +28321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 169.418 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -28606,7 +28481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 193.802 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -28733,7 +28608,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 237.49 97.79 90)
+		(at 240.03 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28743,7 +28618,7 @@
 		(dnp no)
 		(uuid "ff4ea63f-8cf9-4ef8-bb2a-21b3ff09382c")
 		(property "Reference" "W29"
-			(at 237.49 96.774 90)
+			(at 240.03 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28753,7 +28628,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 235.458 97.79 0)
+			(at 237.998 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28763,7 +28638,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 237.49 92.71 0)
+			(at 240.03 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28774,7 +28649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 92.71 0)
+			(at 240.03 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28785,7 +28660,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 237.49 97.79 0)
+			(at 240.03 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
