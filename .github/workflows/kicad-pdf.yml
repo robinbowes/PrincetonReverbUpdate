@@ -24,8 +24,8 @@ jobs:
           schematic_output_black_white: true
           # PCB render
           pcb_file_name: ./PrincetonReverbUpdate.kicad_pcb
-          pcb_output_render: true
-          pcb_output_render_file_name: PrincetonReverbUpdate-render.png
+          pcb_output_image: true
+          pcb_output_image_file_name: PrincetonReverbUpdate-render.png
       - name: Move outputs into folders
         run: |
           mkdir -p schematic pcb
