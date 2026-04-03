@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Run KiCad actions (KiCad 10)
-        uses: actions-for-kicad/kicad-actions@v1-k10.0
+        uses: actions-for-kicad/kicad-actions@v2.0-k10.0
         with:
           schematic_file_name: ./PrincetonReverbUpdate.kicad_sch
           schematic_output_pdf: true
