@@ -7219,6 +7219,17 @@
 		)
 		(uuid "52b28e3c-2f25-48c4-8198-9d4d50cca06f")
 	)
+	(text "TODO\n• Do I have a suitable multiturn trim pot to replace the black one?"
+		(exclude_from_sim no)
+		(at 229.108 169.418 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "53232d58-f5a6-4acb-b1ad-e8f49fca198c")
+	)
 	(text "Screens"
 		(exclude_from_sim no)
 		(at 72.39 138.43 0)

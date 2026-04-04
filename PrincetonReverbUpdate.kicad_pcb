@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A3")
+	(title_block
+		(comment 4 "AISLER Project ID: LIYWMCWQ")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -88,7 +91,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "001747ed-e518-4c2d-afc0-c0bfceae2b66")
 		(at 341.5 125.62 90)
@@ -127,7 +129,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -138,16 +140,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a0570130-f16b-4f90-b9f0-ebcf88201dcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b2e29795-63ee-454d-9317-db82e35edddb")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -268,7 +276,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "021bec45-636d-48fd-a97e-c2f10569fba7")
 		(at 258 149.5)
@@ -307,7 +314,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -318,16 +325,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b3464379-9439-42e0-ad02-ed3718580a2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e4d5c301-ada6-45e7-985d-8b7602d2df02")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -388,7 +402,6 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "025e046f-d208-4e74-8688-eeef4a00d036")
 		(at 57 124.5)
@@ -427,7 +440,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -438,17 +451,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "073ba47c-78ac-4777-a05b-41134ec13c2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/dc3f79a8-fbbf-4ae5-89f9-7afedeb91757")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -493,16 +512,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "02c28833-158d-4191-9304-59e7dbf81a75")
-		(at 233.5 139.74 90)
+		(at 216.5 138.24 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R17"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "9a5886a4-d012-4249-8dc2-4ca1d91b2854")
+			(uuid "fea3426f-eb41-4a02-a28e-5e50873575f6")
 			(effects
 				(font
 					(size 1 1)
@@ -513,7 +531,7 @@
 		(property "Value" "470k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "205dc19d-3fa0-4891-8801-0f4449440307")
+			(uuid "6a0c0299-da73-42e7-ba32-9686a16445e6")
 			(effects
 				(font
 					(size 1 1)
@@ -525,21 +543,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f212a68-6f86-417b-b834-a49d5aa8b658")
+			(uuid "695c9145-1aa0-4523-a4f5-9a983379afee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "701c1260-4b65-4d7e-9e68-94f714ed073d")
+			(uuid "99069382-5363-4f8e-98c5-c1df2c33dcfe")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cf4221c3-60ce-4514-a056-ecefb6331ffe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -547,12 +577,6 @@
 		(path "/f40db069-841c-4667-a8fb-38bd3f5e99bb")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -711,7 +735,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -722,16 +746,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3aa4509a-d749-4924-ae86-4b718edbb9d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f7fd8da7-7e83-443d-b679-1417eebabcb2")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -852,10 +882,9 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "07410790-e6f3-481b-8bf0-998d136cfffa")
-		(at 273.5 141 90)
+		(at 282 142.5 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C12"
@@ -891,7 +920,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -902,16 +931,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "739175c6-a385-49e4-b324-93a63d3531b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3aee84de-3e17-4e29-903b-fc2f5bfa739c")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1251,7 +1286,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "0b1b783e-1f5a-4a0d-9c70-5d5b7c7475c6")
 		(at 88 149)
@@ -1290,7 +1324,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1301,16 +1335,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "13be3fcd-42b4-44c2-a781-66e2ac7ed6a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/dcc4f58e-7d46-4cf7-8fd3-043fdecbe2c9")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -1371,7 +1412,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "0b632301-ab40-414c-9539-1cb946c1e4c8")
 		(at 335 149)
@@ -1410,7 +1450,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1421,16 +1461,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0cc15231-155e-4830-8274-628f47fd7ff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c4445140-17ea-4033-89b1-9c0f66a3e97e")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -1491,16 +1538,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "0bc05f60-91ac-4cb8-9636-81448d113166")
-		(at 239.5 139.62 90)
+		(at 222.5 138.12 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R14"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "1f94f9f1-5e64-490d-8bb6-5671754ebc96")
+			(uuid "a8c183c2-e3c6-4574-9c82-32700523b171")
 			(effects
 				(font
 					(size 1 1)
@@ -1511,7 +1557,7 @@
 		(property "Value" "1.5k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "b546a62e-b3f1-4c4c-a77c-a4e1bb51c1b7")
+			(uuid "59d26ccf-64c1-4dca-974c-bfd5826a4012")
 			(effects
 				(font
 					(size 1 1)
@@ -1523,21 +1569,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae96c7b5-7670-48c5-9a63-cb7ee9e67156")
+			(uuid "67d6ee6d-1053-48d5-9e50-dc6e99f45789")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47fe2e3a-2d45-4baa-aa34-145d63b01a3e")
+			(uuid "ece7f4f0-149f-4aa9-a446-ffb34664ca9a")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "260fbe14-7d96-4036-b6b5-b516e84a2ea5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1545,12 +1603,6 @@
 		(path "/a5842f91-23d4-43dc-ab9e-668b9e2c79fd")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1671,7 +1723,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "0deffa3d-0134-4ed4-bc0e-4fbe5c7b6adb")
 		(at 268 104.5)
@@ -1710,7 +1761,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1721,16 +1772,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "14f378d4-f42d-4af1-ab37-40353f113b09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/60512c45-16ee-46ab-8d2a-52a8813d431f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -1791,16 +1849,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "0f660873-abb3-4c14-b58d-9bc4a20f30d1")
-		(at 142.5 133.62 90)
+		(at 125.5 132.12 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R33"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "5044dd9b-a020-470f-9fcd-583521b8dd1c")
+			(uuid "c184f625-7be1-40b2-8cf2-86c13f1dbf9c")
 			(effects
 				(font
 					(size 1 1)
@@ -1811,7 +1868,7 @@
 		(property "Value" "220k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "43a95dea-f1e6-4b84-8434-03e6e394c64c")
+			(uuid "6a9aa1ae-24b6-410a-ac0f-29fc31de04e8")
 			(effects
 				(font
 					(size 1 1)
@@ -1823,21 +1880,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d5c0c69-86be-4735-85fc-c184035ea73a")
+			(uuid "3645ecd3-f661-4bfa-ab10-2f53c92923cb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04fe1501-0ad6-4d94-90e8-efec42ec9169")
+			(uuid "a7dd8f1f-07ec-45f0-a7ab-c99a8d0aecfb")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "06b9191c-a271-4492-b91c-722b74f206d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1845,12 +1914,6 @@
 		(path "/fc68328f-591d-4031-a3d2-2a12e25d98c1")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1971,10 +2034,9 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "1249805e-49e6-479b-8058-5efc335de3e0")
-		(at 254 191.5 90)
+		(at 246 142 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=35mm, length*diameter=30*15mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 35mm  length 30mm diameter 15mm Electrolytic Capacitor")
 		(property "Reference" "C23"
@@ -2010,7 +2072,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2021,16 +2083,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c94e52ae-740b-4573-b002-9123e2cd7080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/f0ab1176-63e4-4835-93bb-5dd57ea2b7c8")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2370,7 +2438,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "14d42300-4391-4ad5-a2bc-eb1270ba396d")
 		(at 341.5 105)
@@ -2388,7 +2455,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -0.1425 4.7 0)
+			(at 0 2.2 0)
 			(layer "F.Fab")
 			(uuid "1f956604-c4e0-476c-99e0-96fbf167c81d")
 			(effects
@@ -2409,7 +2476,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2420,16 +2487,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "48280397-7fb4-4a7c-b4d5-7cd9c9f850b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/be9c2dfe-7b64-4bcc-998e-c5f1cf3c2832")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2490,7 +2564,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "16b03232-3ed0-48ce-85b8-7b492f236717")
 		(at 276 104.5)
@@ -2529,7 +2602,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2540,16 +2613,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b3cab99d-0027-40c4-bc9b-615449c96325")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bf987760-8542-45dd-bd6f-5c231f1dd150")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2610,7 +2690,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "186504c6-9b1e-4f01-8f7b-25683d6b9861")
 		(at 127 150)
@@ -2649,7 +2728,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2660,16 +2739,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b1a532e-71e3-4594-82ae-babafaf67057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d2b4064c-a850-402f-adaa-6a0c7caa1c17")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2730,7 +2816,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "1d38c805-3954-4fff-bcb5-244eed8618ed")
 		(at 159 150)
@@ -2769,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2780,16 +2865,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "538ce5cc-0f86-42fe-800e-777b0b5345a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e3d50397-50dc-46aa-a14a-f4ceb6118667")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2850,10 +2942,9 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "1def4e04-9b45-4858-841f-b44401d68502")
-		(at 202 149.5)
+		(at 199.5 149.5)
 		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "W14"
@@ -2889,7 +2980,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2900,16 +2991,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1cd09ca3-2ec6-4e25-84cf-717fee3caed6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f89b5f6c-776c-43ca-9a8f-93c6cf8813a1")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2970,7 +3068,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "2323c80e-4873-4087-84ad-4044e7668cd8")
 		(at 155 150)
@@ -3009,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3020,16 +3117,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "33864884-2628-4d2f-aec4-cf3a09d28bd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/90434c79-09fd-420a-a1bb-59fed2351c18")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -3090,14 +3194,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "2346f45c-1de7-43f7-b319-73bb771cc124")
 		(at 328 134.26 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R8"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
 			(uuid "6ee74096-9535-4dca-8f2a-53049d485078")
 			(effects
@@ -3108,7 +3211,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
 			(uuid "fcbc4a54-bdbc-4a99-915c-748c4e3a178e")
 			(effects
@@ -3119,7 +3222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "668acfb2-6483-402e-ba21-381dbe772671")
@@ -3129,8 +3232,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b12f0cb1-416a-41a4-87eb-a3c14a4f30f7")
@@ -3140,16 +3243,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1953f2de-cd21-49c7-8b8b-8c9874c2674c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4460beda-02b4-47ac-b9ca-88976c5a9054")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3226,7 +3335,7 @@
 			(uuid "b1795764-6d41-4afe-9b13-c4a28e1e9771")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "83298b74-3947-4eb8-b201-717efcb418c4")
 			(effects
@@ -3270,7 +3379,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "241e8cc7-5a8a-48a0-aac5-07e8fd6073cc")
 		(at 254 149.5)
@@ -3309,7 +3417,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3320,16 +3428,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "92a846fe-ea10-42f3-a094-b95d8300e321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/941859e7-0a90-4bbc-bc39-2a48b7773ce1")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -3390,16 +3505,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "26202a65-2f73-48dc-97ef-8c8de4453f27")
-		(at 242 110)
+		(at 210.5 108.5)
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 6.5mm")
 		(property "Reference" "C11"
 			(at 10 -4.37 0)
 			(layer "F.SilkS")
-			(uuid "11846c8d-51b2-494c-9f12-28f42ae2c1fe")
+			(uuid "6c5eae1b-9e2e-4f55-89c8-e12934db1f79")
 			(effects
 				(font
 					(size 1 1)
@@ -3410,7 +3524,7 @@
 		(property "Value" "3.3n"
 			(at 10 4.37 0)
 			(layer "F.Fab")
-			(uuid "ca6fdba4-72b2-4e99-a02a-3babc4101ae6")
+			(uuid "f25dc6e4-293f-459e-83fd-0e21a0272714")
 			(effects
 				(font
 					(size 1 1)
@@ -3422,21 +3536,33 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7dec318-69fc-419b-98ec-c3f8ae384aec")
+			(uuid "03efa2f1-1f33-4a5a-bdd6-3e26c392315c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b08b6705-7db0-4f68-a5ee-80eda11764fb")
+			(uuid "3a24af44-9248-4dcd-836e-c763f4960a83")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "07a841af-e968-4cb3-bd3a-1b1370d102b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3444,12 +3570,6 @@
 		(path "/d7f95ea7-6fc0-42b1-81c9-a0b5b9c7b9ad")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3570,7 +3690,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "271ef42b-7706-4490-942f-da0886012340")
 		(at 144.5 192 90)
@@ -3609,7 +3728,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3620,16 +3739,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c92c5e1-f04b-453e-b844-10e114b53985")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/372ef11b-b178-47a8-957b-b2f0febedc2b")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3969,7 +4094,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "27cfe7cf-34d2-4559-af51-2e5b73fc10f6")
 		(at 295.5 149)
@@ -4008,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4019,16 +4143,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "02287553-8b0a-44ff-bb32-6fb2a1bf724d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d56f3245-9198-42a0-a4ed-a1e8b0a50b0e")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -4089,14 +4220,13 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "2b230632-3bd3-4624-b26e-96c2015d66b0")
 		(at 90.5 111 -90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C29"
-			(at 9 -4.12 90)
+			(at 9 -4.12 270)
 			(layer "F.SilkS")
 			(uuid "30fa2b0e-a46b-4384-9dd7-830756a0432c")
 			(effects
@@ -4107,7 +4237,7 @@
 			)
 		)
 		(property "Value" "10u 50V"
-			(at 9 4.12 90)
+			(at 9 4.12 270)
 			(layer "F.Fab")
 			(uuid "3a3edbc6-8544-4561-959b-262a96186919")
 			(effects
@@ -4118,7 +4248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4335a8a-e5e8-438b-823d-109fc61463f9")
@@ -4128,8 +4258,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df227abe-6b9e-4365-8f73-50fce10ff200")
@@ -4139,16 +4269,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d75e1219-4a67-48b5-bc1f-d3c18b566469")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/ed275fbd-e61b-4bd6-9a3a-266e25682ada")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4443,7 +4579,7 @@
 			(uuid "7d09982d-2984-4b30-bbb5-bebfcc734ac7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 9 0 90)
+			(at 9 0 270)
 			(layer "F.Fab")
 			(uuid "b0a3d7b4-161a-4e4f-8ea8-1a5bf4c73e14")
 			(effects
@@ -4488,16 +4624,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "2c91bab3-f4fc-4646-816c-60e582920c4e")
-		(at 175.5 139.74 90)
+		(at 158.5 138.24 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R4"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "89df3983-2bd4-4e21-877b-25fc6235d547")
+			(uuid "f1e93c1f-aa01-4926-8297-1cdded059760")
 			(effects
 				(font
 					(size 1 1)
@@ -4508,7 +4643,7 @@
 		(property "Value" "1.5k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "ac0f3a03-80b7-466e-84bd-52ba598391d7")
+			(uuid "aa00c38a-9060-4e9e-91bb-31d1682b3f24")
 			(effects
 				(font
 					(size 1 1)
@@ -4520,21 +4655,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e55c0a3-66e5-4545-b02b-a12c0490ba50")
+			(uuid "466b43a6-0e20-4328-96ec-8db583960c46")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b8fa20e2-3f0f-4288-abc3-d36f03d27a71")
+			(uuid "1bedb740-73c1-4d79-918d-209d1247790b")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e4e036c2-a4a1-4a6f-b26f-249bff01d8c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4542,12 +4689,6 @@
 		(path "/0c851437-0cc8-412f-a0bd-2fcc6999bdfd")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4668,14 +4809,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "326b810d-2e13-4e51-8c00-c3f31210f869")
 		(at 241.5 147.5 180)
 		(descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
 		(property "Reference" "R40"
-			(at 10.16 -4.12 0)
+			(at 10.16 -4.12 180)
 			(layer "F.SilkS")
 			(uuid "57afe681-814e-45ee-b64a-c8a85d09e6b8")
 			(effects
@@ -4686,7 +4826,7 @@
 			)
 		)
 		(property "Value" "10k 1W"
-			(at 10.16 4.12 0)
+			(at 10.16 4.12 180)
 			(layer "F.Fab")
 			(uuid "9e37ae74-9363-4b0e-99fa-3661768cd764")
 			(effects
@@ -4697,7 +4837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea6eba2d-197f-43c4-82b1-2b89b9d1fc9b")
@@ -4707,8 +4847,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e21e73c-42dc-4803-a699-3641b645d886")
@@ -4718,16 +4858,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e407bdc4-0860-47e9-8ce0-4dc2e5c5aa3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e96b6fed-db7d-41cd-89d8-135259ee5414")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4804,7 +4950,7 @@
 			(uuid "bac99e46-9bef-4252-8c8f-1237ed3a075f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10.16 0 0)
+			(at 10.16 0 180)
 			(layer "F.Fab")
 			(uuid "1bb9f79d-91d0-4ace-94e4-3026fd15e988")
 			(effects
@@ -4848,16 +4994,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "33ec588f-b4db-4246-bc12-e5ef6efbabff")
-		(at 251 139.62 90)
+		(at 234 138.12 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R39"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "381825b3-e0be-42cf-afd7-8f12e6705b7c")
+			(uuid "dec0021f-372f-4e41-80e9-baf20f103fcd")
 			(effects
 				(font
 					(size 1 1)
@@ -4868,7 +5013,7 @@
 		(property "Value" "100k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "d55fe369-3435-4b6d-8270-f92e378b38f0")
+			(uuid "780bad3f-b30f-4908-8115-4d6d15de3fec")
 			(effects
 				(font
 					(size 1 1)
@@ -4880,21 +5025,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e78eeec8-6c5e-4055-8bc5-5ca34ce00ebc")
+			(uuid "86f6f0e8-9fcf-4c2c-b2b3-127f971a6c3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10b4b4f6-71e5-4967-b6e6-6b8a431ee26d")
+			(uuid "fccf6236-e6d2-4028-a2a5-7475e224b948")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "053d81c0-1022-40c9-8278-cc210ca5066d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4902,12 +5059,6 @@
 		(path "/9fcf51c0-9632-4571-a929-6c0fdb9a282f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5028,7 +5179,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "3520dcba-8a05-4e42-ad9a-238534617593")
 		(at 71.5 149)
@@ -5067,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5078,16 +5228,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "483eb63d-c4b8-4fa8-a0dd-7010bf42c845")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/71bbf731-775d-42c9-bc96-abc25c635552")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -5148,16 +5305,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "36a80887-48cb-4a41-a9ae-8a39efee4911")
-		(at 209 139.74 90)
+		(at 192 138.24 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R27"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "f80a8d92-aac0-4674-9e17-00ab89bb05ea")
+			(uuid "03e9bb17-0e57-4b05-b9ff-bdbef6f6cd7c")
 			(effects
 				(font
 					(size 1 1)
@@ -5168,7 +5324,7 @@
 		(property "Value" "56k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "5cc14dcc-e40b-4658-b789-7746b7bfdf20")
+			(uuid "45c56e3d-0103-4ec6-8b99-95d9fb85ebe8")
 			(effects
 				(font
 					(size 1 1)
@@ -5180,21 +5336,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9c0d494-556e-4971-972c-5ac2a779eb63")
+			(uuid "9f4aa691-e1cb-405e-9a73-0d72bb6bc315")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5362edb-8377-4660-aa5e-4015bca96fb7")
+			(uuid "ba2d2960-e6ba-4eb0-9051-adb38db902e0")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f80a7f62-4288-47fe-bc73-af480ad46511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5202,12 +5370,6 @@
 		(path "/b7b422d5-1ba0-4056-8d0c-81f6ee3496e6")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5328,16 +5490,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "3b313a50-c155-4b83-9075-99c4c882dc0f")
-		(at 136 118.26 -90)
+		(at 119 116.76 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R34"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
-			(uuid "e24530a6-2923-4451-b864-6fe945a2a23c")
+			(uuid "6851efa0-fa06-43f6-bb34-eedb12e28d4f")
 			(effects
 				(font
 					(size 1 1)
@@ -5346,9 +5507,9 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
-			(uuid "2d21d87f-2e88-4907-8fc3-cbd38c022a6a")
+			(uuid "e23d3f72-96c2-4665-b0be-7f200679a480")
 			(effects
 				(font
 					(size 1 1)
@@ -5357,24 +5518,36 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33ee64ba-fbf7-4947-9b94-df89509a8496")
+			(uuid "3c614b18-d512-4306-b2b3-22bbdbeb5076")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7470a657-520d-478b-92bd-3ed16b268388")
+			(uuid "087c514c-9acc-4d5d-86dc-c697e48988d7")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "21db7e02-79b4-4990-8740-c1d709ed8099")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5382,12 +5555,6 @@
 		(path "/9d4d7256-e064-460b-9c90-c4ba09273e2f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5464,7 +5631,7 @@
 			(uuid "06823cdf-89c0-45b4-8836-1e802a891891")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "2c6bcc85-ef61-4eef-895e-da1739d45036")
 			(effects
@@ -5508,7 +5675,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "40080b9b-a7f9-4f08-b7f1-59f36513fe55")
 		(at 325.5 131 90)
@@ -5547,7 +5713,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5558,16 +5724,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f4c5b629-47a8-4a7d-bf08-d1b05f4320d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/dce60508-a2bf-49c7-b0b1-9bf6cc7a4c61")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5688,7 +5860,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "418d3066-65ae-4d10-b5dd-ee4ec85bf172")
 		(at 56.2 185.1)
@@ -5727,7 +5898,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5738,16 +5909,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e5d98d6-d52b-4461-97db-3ac7e5cbc4f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3ec33625-c4d9-4f8e-adda-f9ae3b46035d")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5868,7 +6045,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "41acb7bd-8a16-4de6-87fe-9b19d989d081")
 		(at 335 127 90)
@@ -5907,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5918,16 +6094,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "397e7fd5-d9f4-45be-bda4-9b2363c2ac27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7bb403d2-8031-43c0-979e-c3567dafdda0")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6267,7 +6449,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "42eec57a-9508-4f90-9653-af6c38d70cd7")
 		(at 76.2 212.1)
@@ -6306,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6317,16 +6498,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4ac15843-926c-4527-a5ef-267edf71c08d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3b67329b-3b9e-4a56-b5f5-22b4fa23e651")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6387,16 +6575,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "43c1b055-c639-4bf8-9889-c43ba3fa8572")
-		(at 182 139.74 90)
+		(at 165 138.24 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R6"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "9f4451af-0366-49e9-a706-4a7878c5d80a")
+			(uuid "f162f9e2-ae8b-4762-a2d3-ebe4e014fcd9")
 			(effects
 				(font
 					(size 1 1)
@@ -6407,7 +6594,7 @@
 		(property "Value" "1Meg"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "bea18f35-e740-4a76-ae2c-36e2abcf699c")
+			(uuid "867e43e2-4351-4934-8a21-9c6591785227")
 			(effects
 				(font
 					(size 1 1)
@@ -6419,21 +6606,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d2f4b20-036f-423a-afd1-a0b27a0a2027")
+			(uuid "519fa85b-415c-40b8-bf67-143bb72c63e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d832275f-e72b-46a5-9f29-acd3f22eb4a7")
+			(uuid "89f86c96-239a-4424-8489-6569b96a913d")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "864c7c8d-239c-4d8c-aaff-de809e527894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6441,12 +6640,6 @@
 		(path "/84466708-9523-4ba0-b5ef-687f3e23131b")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6567,7 +6760,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "441e3416-c415-4541-a6b4-e99712df1e82")
 		(at 139 150)
@@ -6606,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6617,16 +6809,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e9d50273-92bc-4f80-a78a-efa1392bf1f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/922ab3ed-4a1e-4324-bbf4-6ef2de8586f3")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6687,14 +6886,13 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "44456527-f3df-46ca-99db-9f371cd6e5a3")
 		(at 97.8575 111 -90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C24"
-			(at 9 -4.12 90)
+			(at 9 -4.12 270)
 			(layer "F.SilkS")
 			(uuid "94e3e131-7684-4f97-8293-bc425ff1a2e4")
 			(effects
@@ -6705,7 +6903,7 @@
 			)
 		)
 		(property "Value" "25u 50V"
-			(at 9 4.12 90)
+			(at 9 4.12 270)
 			(layer "F.Fab")
 			(uuid "38d8de10-147b-4637-866c-353a30de3b2e")
 			(effects
@@ -6716,7 +6914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83389c10-620c-4168-b018-59fa2c9d122a")
@@ -6726,8 +6924,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9f230f7-e90e-42c1-867b-01f788fc8706")
@@ -6737,16 +6935,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9dafde0c-daf3-49b2-8b37-18aa329363ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/43380bc5-f229-483f-a971-3e9739380a02")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7041,7 +7245,7 @@
 			(uuid "e3c82f52-ff43-447b-8b93-d044d3be2f8c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 9 0 90)
+			(at 9 0 270)
 			(layer "F.Fab")
 			(uuid "865d8c23-9afa-4c88-877f-a7beca56efef")
 			(effects
@@ -7086,16 +7290,15 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "45274693-08e9-493d-ae8d-660be33d7ac3")
-		(at 142.5 138.5)
+		(at 125.5 137)
 		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "W15"
 			(at 0 -2.2 0)
 			(layer "F.SilkS")
-			(uuid "17f7de70-2a0b-4c4e-b919-0d595e6bedc7")
+			(uuid "d3b54180-5de6-4a08-9f15-7cb2a3fb7ddd")
 			(effects
 				(font
 					(size 1 1)
@@ -7106,7 +7309,7 @@
 		(property "Value" "~"
 			(at 0 2.2 0)
 			(layer "F.Fab")
-			(uuid "8118bd0d-1282-4f04-993c-b2c4eb5edd59")
+			(uuid "fb24d033-0a7f-412f-b665-7b7d5ab37194")
 			(effects
 				(font
 					(size 1 1)
@@ -7118,21 +7321,33 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "715fe137-bc1b-4af4-aded-7eaf65979013")
+			(uuid "15e577b8-82e2-46e6-a43b-d3a596c63897")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39156708-dd3d-43cb-9eab-6ec7b9d57a3c")
+			(uuid "1662917f-41b9-4e5e-ac59-97a15450e817")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "57c9ebd4-0b1d-4795-a1dd-737d28e7da80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7140,12 +7355,7 @@
 		(path "/b0c3772a-372f-4bdc-9f27-edcb141c35ec")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -7244,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7255,16 +7465,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12ce2155-529e-49e9-bd54-5e7bc1425fe0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f127422b-93e9-44fb-ad86-24783911e208")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -7325,10 +7542,9 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "4950e358-157c-41aa-8b6b-6d8c1ad9b2f7")
-		(at 267.5 139.62 90)
+		(at 269.5 140.36 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R18"
@@ -7364,7 +7580,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7375,16 +7591,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "58bd68fd-d76d-4a9b-9481-0c17652a5b9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5ddc1990-5be9-46a2-b218-86f49e39e012")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7507,11 +7729,11 @@
 	(footprint "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "4cfa2f81-5273-4888-bafd-785152349182")
-		(at 273.5 111 -90)
+		(at 269 119)
 		(descr "C, Disc series, Radial, pin pitch=7.50mm, diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
 		(tags "C Disc series Radial pin pitch 7.50mm diameter 10.5mm width 5.0mm Capacitor")
 		(property "Reference" "C10"
-			(at 3.75 -3.75 90)
+			(at 3.75 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "40bcbc55-8bf4-47eb-be2a-0c8a7c9efeb1")
 			(effects
@@ -7522,7 +7744,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 3.75 3.75 90)
+			(at 3.75 3.75 0)
 			(layer "F.Fab")
 			(uuid "e7c53ff8-f50e-4246-879c-8080b72f5c21")
 			(effects
@@ -7533,7 +7755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b23dd863-fae5-4880-b5df-50c48d05c08a")
@@ -7543,8 +7765,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f8835b8-7c66-4de7-8082-74270da3b222")
@@ -7554,38 +7776,24 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "092da755-24b2-4b6f-8cb2-66f7ac137230")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bd78d086-bc3f-41a1-ad1a-aae1f119d2a6")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -1.62 2.62)
-			(end -1.62 -2.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f467ef9a-97c8-4d70-ae07-ddb8a23544da")
-		)
-		(fp_line
-			(start 9.12 2.62)
-			(end -1.62 2.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f6ce431f-d489-4b21-940a-b85a677252c7")
-		)
 		(fp_line
 			(start -1.62 -2.62)
 			(end 9.12 -2.62)
@@ -7597,6 +7805,16 @@
 			(uuid "c13ce6b7-eded-43bb-b2df-aeb44ade7717")
 		)
 		(fp_line
+			(start -1.62 2.62)
+			(end -1.62 -2.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f467ef9a-97c8-4d70-ae07-ddb8a23544da")
+		)
+		(fp_line
 			(start 9.12 -2.62)
 			(end 9.12 2.62)
 			(stroke
@@ -7605,6 +7823,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "37c0d4ff-5435-472c-9563-1a85d379d85a")
+		)
+		(fp_line
+			(start 9.12 2.62)
+			(end -1.62 2.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f6ce431f-d489-4b21-940a-b85a677252c7")
 		)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -7629,7 +7857,7 @@
 			(uuid "56abf3fd-e799-41f7-8a66-87810b56ff32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.75 0 90)
+			(at 3.75 0 0)
 			(layer "F.Fab")
 			(uuid "46ed2a81-c2a4-4503-96c2-abbdf9551a8f")
 			(effects
@@ -7640,7 +7868,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7650,7 +7878,7 @@
 			(uuid "9b71a85e-262d-4567-956a-2c1bd307f71d")
 		)
 		(pad "2" thru_hole circle
-			(at 7.5 0 270)
+			(at 7.5 0)
 			(size 2 2)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7673,14 +7901,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "4f7e1bde-aeac-4acf-a837-0abe17051585")
 		(at 316.5 134.38 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R13"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
 			(uuid "06addfcf-41e1-4819-87ec-af5e9a2a0480")
 			(effects
@@ -7691,7 +7918,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
 			(uuid "f7f0e47a-8b93-48ec-8902-ea5da42bd65a")
 			(effects
@@ -7702,7 +7929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f8e5a47-d15e-4f91-8c06-5f945d4959a4")
@@ -7712,8 +7939,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e4ded12b-742a-4b70-811e-c0cf5eae9987")
@@ -7723,16 +7950,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9339f294-9ce8-4fa3-911e-ef2d4b0d8d82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/348e17e2-60e7-4dc3-95b8-932178a9bd4a")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7809,7 +8042,7 @@
 			(uuid "57c25678-17b3-4aa7-8d1f-cb43f2e5ea75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "e758f86b-78df-4f4e-9d90-112784dc2411")
 			(effects
@@ -7853,14 +8086,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "4ff189c0-c285-432f-bced-056397c8388d")
-		(at 256.5 124.26 -90)
+		(at 258.5 125 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R19"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
 			(uuid "8e14ff4e-019a-459a-9189-614628871af1")
 			(effects
@@ -7871,7 +8103,7 @@
 			)
 		)
 		(property "Value" "47r"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
 			(uuid "42fe1d47-f51f-457a-85e3-9eb747d72668")
 			(effects
@@ -7882,7 +8114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "547f4661-20eb-4e35-ba3d-5d5c280459dd")
@@ -7892,8 +8124,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb9088d3-3b26-49d3-871f-c581c2ffc8b2")
@@ -7903,16 +8135,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5a469ff1-fa14-41c8-8fa4-809d2af025d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/47f6fd42-578a-41f1-88b4-c167832cb8d8")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7989,7 +8227,7 @@
 			(uuid "dcbf697e-e58d-41e5-af86-e2cf2af3e5eb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "281cc467-22f5-409e-a6d6-b4a4967992c8")
 			(effects
@@ -8033,7 +8271,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "53726f5c-3f85-4967-9f96-305845d0e2b1")
 		(at 134.5 150)
@@ -8072,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8083,16 +8320,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7fa18bcf-4876-48bc-99cd-1c0867341aeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/464c836a-b863-4d1f-b989-616baf6bc0db")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -8153,10 +8397,9 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "56e48910-ea07-4ba0-80be-1c53f90a8737")
-		(at 246 149.5)
+		(at 207.5 149.5)
 		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "W12"
@@ -8192,7 +8435,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8203,16 +8446,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ae96ddd-1b98-4e71-9e53-fdb34a8a5d0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/dd8e24c3-849f-4378-85e9-d4517a30a711")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -8273,7 +8523,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "57ca87b8-2304-4d0e-b364-4d4631f3ef15")
 		(at 72.5 143 90)
@@ -8312,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8323,16 +8572,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ff8dfeb1-8d60-48ce-b4a6-a4bbfaffb4b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5bba790f-707f-437c-a55c-32b922cee1a9")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8453,7 +8708,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "5c209ea7-45c4-4aaf-bb5b-928f1ab4a736")
 		(at 78.7 195.6)
@@ -8492,7 +8746,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8503,16 +8757,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51b3ac3c-49fa-4518-a295-ac85acf33662")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/af933b72-9eac-4f2b-b6c3-4d39c90a9910")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8633,10 +8893,9 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "5c900b65-3d59-4225-a430-d72fe78e9956")
-		(at 206 149.5)
+		(at 203.5 149.5)
 		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "W13"
@@ -8672,7 +8931,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8683,16 +8942,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "677e8ad5-ec6d-493c-aedd-1e9865410597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/aaaf5fbc-81c9-4f85-bf52-f997533d1e1d")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -8753,7 +9019,6 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "5ce2342b-2323-420a-b25e-4a99864cd076")
 		(at 89 141.5)
@@ -8794,7 +9059,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8811,12 +9076,6 @@
 		(path "/406390ab-9a6d-4a89-bed8-95691e3f8c36")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -8899,14 +9158,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "61d9c282-8bab-4457-9fd9-ea992e223dae")
 		(at 187.32 148 180)
 		(descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
 		(property "Reference" "R41"
-			(at 10.16 -4.12 0)
+			(at 10.16 -4.12 180)
 			(layer "F.SilkS")
 			(uuid "06668bc6-64b5-49ad-b7e7-f4c97101fda0")
 			(effects
@@ -8917,7 +9175,7 @@
 			)
 		)
 		(property "Value" "10k 1W"
-			(at 10.16 4.12 0)
+			(at 10.16 4.12 180)
 			(layer "F.Fab")
 			(uuid "5c9e2a24-18d6-4f4c-acb3-f426173fdbb5")
 			(effects
@@ -8928,7 +9186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0166bf2-8a37-482e-96c4-9ad58f7fa2d9")
@@ -8938,8 +9196,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bbb62fb-f6f7-478e-9150-cc4aa5a6f9b2")
@@ -8949,16 +9207,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6b88a5a9-1a86-4ac9-9bff-bde4d1ecdd12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8de13f22-9038-4bbc-bad2-63423dd722fd")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9035,7 +9299,7 @@
 			(uuid "6bb54a49-57d6-494e-9994-b8804c83fdca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10.16 0 0)
+			(at 10.16 0 180)
 			(layer "F.Fab")
 			(uuid "35f7ed5a-640b-47a6-a75b-cd4d0f77d09c")
 			(effects
@@ -9079,7 +9343,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "64ce5b51-9fdb-4bd3-9f1d-6d6a84b39c2a")
 		(at 35 180.5)
@@ -9118,7 +9381,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9129,16 +9392,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7119e5cf-26f3-424f-8fa2-9b74ca29d5ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b0c69645-434f-4cc8-830b-92aec64ec85f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9259,7 +9528,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "6f9bcd73-f229-4516-b808-d0d5e8b0ef69")
 		(at 216.5 149.5)
@@ -9298,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9309,16 +9577,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cce10da6-62e0-41a8-a693-ee0a5d4da0bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/65d96d7d-32b4-4a88-b85b-6e4c6c682913")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -9379,7 +9654,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "700ceb63-5617-41f8-80b5-bb5a54cd2d24")
 		(at 262 149.5)
@@ -9418,7 +9692,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9429,16 +9703,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12ccd429-93c2-47a5-956a-ccbe6edaa672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9b09e7d3-8d74-4494-90e6-b170eb0e2ef8")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -9499,16 +9780,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "713a9af2-8a8a-4a48-b871-e95568129bbb")
-		(at 207.5 121 90)
+		(at 190.5 119.5 90)
 		(descr "C, Disc series, Radial, pin pitch=7.50mm, diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
 		(tags "C Disc series Radial pin pitch 7.50mm diameter 10.5mm width 5.0mm Capacitor")
 		(property "Reference" "C6"
 			(at 3.75 -3.75 90)
 			(layer "F.SilkS")
-			(uuid "867c62df-4960-4cb9-a1e2-42d366e9b80c")
+			(uuid "25e8170a-2349-4558-af6c-2295b4abcc52")
 			(effects
 				(font
 					(size 1 1)
@@ -9519,7 +9799,7 @@
 		(property "Value" "470p"
 			(at 3.75 3.75 90)
 			(layer "F.Fab")
-			(uuid "1b5745be-ecad-431d-a048-50ba0f04d957")
+			(uuid "e87512ef-7df4-4ce3-bad7-4d67ec5c56ba")
 			(effects
 				(font
 					(size 1 1)
@@ -9531,21 +9811,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d09cce99-1599-4072-90f7-fc9a4e877b7f")
+			(uuid "66817137-5d0d-40b3-b1d1-f84d4224e9bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "230b32be-ad0b-4a88-8ff5-568dca4f42e9")
+			(uuid "5e4aab36-1e9d-4b67-a04f-d403de784030")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ee1cf664-05b2-4236-a099-e4ff14bf7c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9553,12 +9845,6 @@
 		(path "/20ebf2d4-d5eb-4bda-b008-f7591b2ad2a0")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9668,16 +9954,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "725054f0-7a10-4e59-81ef-e5ebde3e7393")
-		(at 245.5 124.26 -90)
+		(at 228.5 122.76 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R23"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
-			(uuid "bb74d434-1cdd-4a37-8a08-aa9caaab1b31")
+			(uuid "22ce0240-d2e7-4b89-89aa-97926987446f")
 			(effects
 				(font
 					(size 1 1)
@@ -9686,9 +9971,9 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
-			(uuid "3878a709-aea3-4232-94a5-78ddafca4670")
+			(uuid "a3982482-4c89-4788-90fb-64ffdefae688")
 			(effects
 				(font
 					(size 1 1)
@@ -9697,24 +9982,36 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "273af4b8-ecc0-47c4-8e75-b98c92c9fe5d")
+			(uuid "4567c983-6ca5-41f2-be42-9b330456216b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea26596e-4db3-4798-854d-158e1c79143d")
+			(uuid "9da9afd5-222b-47c2-ba22-736795fb1417")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de57e744-462a-4e44-b04a-baee3caf93e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9722,12 +10019,6 @@
 		(path "/7aef0402-4811-4df1-9468-ac5b2e4d84a1")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9804,7 +10095,7 @@
 			(uuid "15c5a6d8-41ea-4204-a7e1-87c753e53516")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "84acfcdd-cc16-4def-9630-7f659f02b73c")
 			(effects
@@ -9848,7 +10139,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "74868855-8ebc-4cfc-bf69-36c889932dac")
 		(at 78.5 149)
@@ -9887,7 +10177,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9898,16 +10188,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c217b900-df11-455f-9614-ec76941c9b9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/de156537-cc75-4bd7-863c-e8619d20e4b7")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -9968,7 +10265,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "7534baa9-70fb-41cb-97c6-606af4ed048c")
 		(at 193.5 149.5)
@@ -10007,7 +10303,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10018,16 +10314,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7cb5829f-c2f5-431d-90d8-595576542334")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/528c7faf-7d47-4fef-86c6-6780a76e98b2")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -10088,7 +10391,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "7b6f5f12-fc03-4004-887f-7fca46a99422")
 		(at 144 105)
@@ -10127,7 +10429,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10138,16 +10440,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "72f79826-ff6b-4188-8cd1-10b3c35abbb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/eb253926-934a-452f-9179-8200ad02869c")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -10208,7 +10517,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "7bd43306-f378-4e12-90a7-e51d6a6d5c7d")
 		(at 341.5 149)
@@ -10247,7 +10555,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10258,16 +10566,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05f474e5-a981-4a09-b916-046d2b1cc4fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ede7d9c0-d1ba-42f9-b54c-2d4cc056588f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -10328,7 +10643,6 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "7bd51863-e041-46ab-a1df-e601f759e6c0")
 		(at 52 133.5)
@@ -10367,7 +10681,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10378,17 +10692,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4fa34f63-c4e6-4327-8204-00b38d3fdffe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/80fa0ddb-a71f-4290-aaa0-f49d79835dfc")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10438,16 +10758,15 @@
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "7daee1e7-0b4e-42da-b64e-92b681637f8c")
-		(at 214 120.75 90)
+		(at 197 119.25 90)
 		(descr "C, Disc series, Radial, pin pitch=7.50mm, diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
 		(tags "C Disc series Radial pin pitch 7.50mm diameter 10.5mm width 5.0mm Capacitor")
 		(property "Reference" "C27"
 			(at 3.75 -3.75 90)
 			(layer "F.SilkS")
-			(uuid "e83043c0-5fae-4cf5-8faf-4eabb8b21a21")
+			(uuid "81b64434-4615-4947-895e-458503e54fd1")
 			(effects
 				(font
 					(size 1 1)
@@ -10458,7 +10777,7 @@
 		(property "Value" "100-470p"
 			(at 3.75 3.75 90)
 			(layer "F.Fab")
-			(uuid "b4569b5b-803a-4139-b446-bfd1ad60435f")
+			(uuid "2f18789e-d009-4f17-91f9-88b5bb7d69b6")
 			(effects
 				(font
 					(size 1 1)
@@ -10470,21 +10789,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f18622b-6dd4-4b75-97c3-bbf91b08e1f3")
+			(uuid "c09ac404-81a7-47d0-a2eb-20fad52d476e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbbcd0ec-7d68-451b-89af-c0bef49775a0")
+			(uuid "fbf76093-f750-4aba-a84c-4ac76d2935c4")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "507aef97-5145-4403-a01d-f271c5cedb74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10492,12 +10823,6 @@
 		(path "/2f4cdebc-2333-49ed-9f9a-d3340a77199b")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10607,14 +10932,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "7eab63dc-5261-49cd-9603-9bb692038744")
-		(at 281 125.26 -90)
+		(at 275 125.12 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R15"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
 			(uuid "271292aa-59b0-4df2-9ffa-7cc21e4c14b6")
 			(effects
@@ -10625,7 +10949,7 @@
 			)
 		)
 		(property "Value" "3.3Meg"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
 			(uuid "abbeffd0-3be9-4ada-958c-59883b828828")
 			(effects
@@ -10636,7 +10960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1aa7a92-a101-40b9-99cb-436c7b22e5da")
@@ -10646,8 +10970,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9214b24d-97df-4b03-8dbf-b93f24bb7205")
@@ -10657,16 +10981,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ca5f178-22e1-4202-9bf0-1e13d56ac0ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3193bac3-0a28-43fa-91b7-b4ddff38f618")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10743,7 +11073,7 @@
 			(uuid "007a88d3-38ad-43b6-a805-3b4ee0f376e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "d8cec206-b6de-4da0-b4aa-5f151f3e3f93")
 			(effects
@@ -10787,7 +11117,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "80972401-abcf-4d65-817a-5841a236fbc0")
 		(at 204 192 90)
@@ -10826,7 +11155,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10837,16 +11166,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9cf9b2e3-99c2-49b8-8195-f9a6e40dfd18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/6eb36ffc-a16b-4ed2-809c-4c8846211efc")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11186,7 +11521,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "815cbf37-76e1-4214-95fe-68f294bde419")
 		(at 84 149)
@@ -11225,7 +11559,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11236,16 +11570,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e48102da-8260-4675-ae2b-d41b8c8d4aee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/295cf1ae-0834-4b0a-ab1b-6a9a0a58f066")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -11306,14 +11647,13 @@
 		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-15-H25_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "861be595-09b3-47ac-b99d-2d1f7bb0641b")
 		(at 75.5 122 180)
 		(descr "Potentiometer, horizontal, Piher PT-15-H25, http://www.piher-nacesa.com/pdf/14-PT15v03.pdf")
 		(tags "Potentiometer horizontal Piher PT-15-H25")
 		(property "Reference" "RV7"
-			(at 0 -3.75 0)
+			(at 0 -3.75 180)
 			(layer "F.SilkS")
 			(uuid "9e158d5a-2335-49d5-87df-6830e93d845b")
 			(effects
@@ -11324,7 +11664,7 @@
 			)
 		)
 		(property "Value" "22k Lin"
-			(at 0 13.75 0)
+			(at 0 13.75 180)
 			(layer "F.Fab")
 			(uuid "87bc65ad-933b-405b-97af-729c2ba85c63")
 			(effects
@@ -11335,7 +11675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97dc0a4d-3a01-4d29-afbd-571ef53dffe2")
@@ -11345,8 +11685,8 @@
 				)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d77b30cd-f34a-48e3-b837-cf7bb032e524")
@@ -11356,16 +11696,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "500ad6eb-241f-4fc3-87b7-5bd92924ebb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/911a6396-41c3-407c-938c-3923c0f0dcfc")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11522,7 +11868,7 @@
 			(uuid "9108bbe9-f495-4577-a565-866ab77e8d36")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 5 0)
+			(at 2.5 5 180)
 			(layer "F.Fab")
 			(uuid "89322c67-7c29-4286-9c3c-c07036fc815a")
 			(effects
@@ -11579,14 +11925,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "874c4358-59e0-44fe-9352-6d874968ebed")
 		(at 341.5 130.38 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R7"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
 			(uuid "8ebdd3d6-e011-4684-bf6e-3a5af53ab808")
 			(effects
@@ -11597,7 +11942,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
 			(uuid "de351c37-45d8-4923-96a2-642034f3e192")
 			(effects
@@ -11608,7 +11953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c901f012-6650-4e24-9c5f-92510245467e")
@@ -11618,8 +11963,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b00c293f-d271-4575-9199-0d838d33db28")
@@ -11629,16 +11974,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "10a591d0-8b62-4b7b-b6e7-6d31f3d65705")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d25848b8-0472-452b-a770-2fda47531101")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11715,7 +12066,7 @@
 			(uuid "0299f1e2-e814-4775-82c8-55a65fe75494")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "7a362e91-3816-46fe-be19-d0dbaadfc62e")
 			(effects
@@ -11885,7 +12236,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "88dba0b7-547d-4bc7-977e-0b05e48f1df0")
 		(at 136 105)
@@ -11924,7 +12274,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11935,16 +12285,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "75abc318-818d-4d43-a4df-f3ebc3d1f86a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b1c35018-34af-4599-84a3-f2350a26fbc3")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -12005,7 +12362,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "88ffcb68-cc4f-4a6d-a445-4f53d6de2e1e")
 		(at 58.86 204)
@@ -12044,7 +12400,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12055,16 +12411,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b2ee48d-b18d-42a9-b544-90e00ef7c28c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/129e167f-6c0a-4760-9f06-9e232915092f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12185,7 +12547,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "89dbe6fe-f42e-4582-8e0c-832ca7390ec4")
 		(at 35 187.5)
@@ -12224,7 +12585,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12235,16 +12596,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6667b6c2-dd8e-4485-9cb8-618bc9625302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f966fc2c-b781-4e6d-83b4-9c7f90599a30")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12365,7 +12732,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "8cc6bd24-baf3-4e3d-9c6c-f2d3db7896be")
 		(at 316.7 105)
@@ -12404,7 +12770,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12415,16 +12781,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2d91527-76ad-45db-8ece-ca795c192125")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/5ee77431-941d-42fa-bf04-1bdc168a4664")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -12485,16 +12858,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "8cd4da4d-9bb1-483a-8ac6-fe6b9b5e7e11")
-		(at 215 139.74 90)
+		(at 198 138.24 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R30"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "5f298b2b-66fa-4dd1-a045-c6a1a8208639")
+			(uuid "af900f96-ee29-4147-be0c-7943111f239a")
 			(effects
 				(font
 					(size 1 1)
@@ -12505,7 +12877,7 @@
 		(property "Value" "56k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "dbce8352-c84a-455e-8dee-7387cf1030e3")
+			(uuid "2660eee5-4433-4d68-9ee0-44e8febbb420")
 			(effects
 				(font
 					(size 1 1)
@@ -12517,21 +12889,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4c2c3ce-0ade-4901-b985-cd8a0d83ca0c")
+			(uuid "2ab77e58-d6c3-429f-8ff9-e9e8a2111d23")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0343f2ed-4aeb-4fdd-a7f9-98f38d3801e8")
+			(uuid "50200575-4529-4914-92a7-982422fa7e60")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "05dd723a-324e-4adc-9916-b799bf641e00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12539,12 +12923,6 @@
 		(path "/7b8a8860-9b8f-4708-a8d8-dd0cad4dac2f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12665,7 +13043,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "9066d3c0-a2ed-4bd1-88d7-1318e14cf1df")
 		(at 290 142.5 90)
@@ -12704,7 +13081,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12715,16 +13092,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4a21109-a172-4052-904b-6fda0d7e39b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/07d23fbc-4210-41f2-bba1-8abf6f0f59ed")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12845,16 +13228,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "91bad1ee-3903-4059-860e-b9da510737d2")
-		(at 167.1425 140 90)
+		(at 150.1425 138.5 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C2"
 			(at 9 -4.12 90)
 			(layer "F.SilkS")
-			(uuid "640bd8bf-0df5-4b81-a530-19ede1230d07")
+			(uuid "6ae3e428-e260-494b-8d87-46eae08c147b")
 			(effects
 				(font
 					(size 1 1)
@@ -12865,7 +13247,7 @@
 		(property "Value" "25u 50V"
 			(at 9 4.12 90)
 			(layer "F.Fab")
-			(uuid "80fafd17-7715-4ec8-b481-fb7b840d6c78")
+			(uuid "21f0aafd-2345-496d-a906-2d1b1c071887")
 			(effects
 				(font
 					(size 1 1)
@@ -12877,21 +13259,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0c97121-89c9-4567-b0b4-f8a32933c5f5")
+			(uuid "b799e61d-8406-404f-b690-ba9435fd52c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c36082e-0556-4911-8e51-266f492f7a1d")
+			(uuid "134de295-6f20-4bfb-99eb-98cef95f22e6")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8e99cdaf-d250-4b0f-a0f8-67ec6b3e098c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12899,12 +13293,6 @@
 		(path "/27cc8523-6e04-42bd-994a-e61c452d69c8")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13244,16 +13632,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "944787fc-34e1-45bb-b359-ae03611ae54e")
-		(at 201 123.5 -90)
+		(at 184 122 -90)
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 6.5mm")
 		(property "Reference" "C21"
-			(at 10 -4.37 90)
+			(at 10 -4.37 270)
 			(layer "F.SilkS")
-			(uuid "17bf692a-46b3-41de-96a8-0e67c579e117")
+			(uuid "0d2d15ff-53f1-40e1-be80-cbae6e38d360")
 			(effects
 				(font
 					(size 1 1)
@@ -13262,9 +13649,9 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 10 4.37 90)
+			(at 10 4.37 270)
 			(layer "F.Fab")
-			(uuid "7145b127-dcdb-4ca2-863b-72d62cd18f28")
+			(uuid "6914c760-5fb9-4523-8656-5c2138bfe35c")
 			(effects
 				(font
 					(size 1 1)
@@ -13273,24 +13660,36 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c23c94f6-8a8e-4519-b5b0-2992224867e6")
+			(uuid "296d8168-8303-459c-a4f4-1bf391792e4a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65de92af-0402-4e81-84fb-7768fb831be1")
+			(uuid "6f07b5b6-4f30-44fa-b23a-ed4622e5ce2a")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b41352a4-212e-4c45-8032-d325fe40a280")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13298,12 +13697,6 @@
 		(path "/cd8b43e8-deda-432a-801c-415a397c8d2a")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13380,7 +13773,7 @@
 			(uuid "c390ab00-e9e0-41a9-b3ed-a958fe6e383f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10 0 90)
+			(at 10 0 270)
 			(layer "F.Fab")
 			(uuid "e5ece200-e13e-452f-9c2b-ae9c8e2f9e7e")
 			(effects
@@ -13424,7 +13817,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "94c6801b-c5af-4e50-b66a-126619ca5d9e")
 		(at 312.6 105)
@@ -13463,7 +13855,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13474,16 +13866,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66731640-841f-446e-985c-c6f8ec842e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b83eb228-aefe-48cc-afa4-c2106a1e054f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -13544,16 +13943,15 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "9a667c59-035f-4028-99ab-ac368b8533ba")
-		(at 136 138.5)
+		(at 119 137)
 		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "W16"
 			(at 0 -2.2 0)
 			(layer "F.SilkS")
-			(uuid "eb82cf6c-bedc-4911-b3d0-a7f822c42b77")
+			(uuid "e1c9c45f-778c-4956-a918-0bd2af258b9a")
 			(effects
 				(font
 					(size 1 1)
@@ -13564,7 +13962,7 @@
 		(property "Value" "~"
 			(at 0 2.2 0)
 			(layer "F.Fab")
-			(uuid "ceccd243-c39d-4283-bbf4-4b8016c93099")
+			(uuid "224ef5e8-c2e3-4d53-8650-2dd78baa6785")
 			(effects
 				(font
 					(size 1 1)
@@ -13576,21 +13974,33 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9bc8745-4ffa-439f-a738-1d1de8d2871c")
+			(uuid "e890d708-2040-4c77-b1a1-43f78e6eb13f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b19b53c-d77f-424f-9507-f0f95e843eb1")
+			(uuid "ca23b8f1-82c6-4f04-833d-92214d8d1931")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c3b8b59c-8cfb-4943-91df-c7908fe9dde0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13598,12 +14008,7 @@
 		(path "/6c29e3db-4442-4244-85ac-27f64e365b09")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -13664,10 +14069,9 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "a0522e65-362e-421f-84ed-71e1d5e38eb3")
-		(at 302.5 147.5 90)
+		(at 302.5 144.5 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=35mm, length*diameter=30*15mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 35mm  length 30mm diameter 15mm Electrolytic Capacitor")
 		(property "Reference" "C25"
@@ -13703,7 +14107,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13714,16 +14118,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2f779e3f-32f1-4c22-8221-38e11b55b474")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/091ffb66-8144-47ca-962d-7d55afc083b9")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14063,7 +14473,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "a266fe0e-9387-4a7a-bef8-79499156ca52")
 		(at 92 149)
@@ -14102,7 +14511,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14113,16 +14522,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d23ae5f-88d2-4160-9869-f601a164f107")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/7ac928ef-4fe1-477d-a047-a2af827ac049")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -14183,7 +14599,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "a7258c2a-a749-47b0-af2a-b0df003dd3ff")
 		(at 308.5 105)
@@ -14222,7 +14637,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14233,16 +14648,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a938a397-9103-454c-8876-a6f5fcd4c1c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/85325a52-9ef3-4173-adef-eb73dcb804e1")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -14303,7 +14725,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "a8926ef4-db83-4338-8460-1a2980b1bf17")
 		(at 52.1 194.5)
@@ -14342,7 +14763,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14353,16 +14774,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7bb35e8d-8c09-44a4-881b-2d797137c07c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9f764413-9a9f-4d45-b619-0d7d7be59be9")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14483,14 +14910,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "a8f7b73a-7ce8-43b1-b3ec-8cb071919b53")
 		(at 122.16 147.5 180)
 		(descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
 		(property "Reference" "R28"
-			(at 10.16 -4.12 0)
+			(at 10.16 -4.12 180)
 			(layer "F.SilkS")
 			(uuid "055fc832-c6d8-43a6-b58d-3721c1fcc849")
 			(effects
@@ -14501,7 +14927,7 @@
 			)
 		)
 		(property "Value" "1k 1W"
-			(at 10.16 4.12 0)
+			(at 10.16 4.12 180)
 			(layer "F.Fab")
 			(uuid "7695cfdc-8c09-4bcf-950b-22ab22e15737")
 			(effects
@@ -14512,7 +14938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f884d629-fe46-4c0c-95ed-2c65883b06d4")
@@ -14522,8 +14948,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c578d57e-285d-4708-aae2-0fe9ffeac15d")
@@ -14533,16 +14959,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eeb100d6-2764-4bad-9d62-1c74312f4ae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbba006b-0888-4870-b941-6c25e91aab56")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14619,7 +15051,7 @@
 			(uuid "3a56e062-2afa-4c2a-8b8c-029f8e98b073")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10.16 0 0)
+			(at 10.16 0 180)
 			(layer "F.Fab")
 			(uuid "581ac230-12e2-4eaa-a630-ddd3f0c8ed2a")
 			(effects
@@ -14663,16 +15095,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "acb522f2-6435-4645-bf4d-9aecfd4ee15f")
-		(at 220.5 117.6425)
+		(at 188 106)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C9"
 			(at 9 -4.12 0)
 			(layer "F.SilkS")
-			(uuid "66da4ff0-d7ee-4df7-ac6f-95057b343d9a")
+			(uuid "39db074d-a24d-4435-bf74-7f3d945dfe76")
 			(effects
 				(font
 					(size 1 1)
@@ -14683,7 +15114,7 @@
 		(property "Value" "25u 50V"
 			(at 9 4.12 0)
 			(layer "F.Fab")
-			(uuid "3344b67d-9a06-44ea-a518-a6fa899beb88")
+			(uuid "8c914b89-1f18-412c-927d-2d47714c00b1")
 			(effects
 				(font
 					(size 1 1)
@@ -14695,21 +15126,33 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa272f00-8f25-408a-8a9f-8ce28b1ea790")
+			(uuid "34608483-5186-4221-88ce-068f19e47354")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b09f79b-2f73-42a3-b35e-d24cc6c6a4be")
+			(uuid "aa88cb93-0990-45e6-8b2d-7026827abe08")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b5f79b62-125b-4500-800d-c0ed030c4b9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14717,12 +15160,6 @@
 		(path "/ecf81138-c505-40eb-b2d7-01bcee52635e")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15062,16 +15499,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "b0be4a0d-737c-4db0-aa9e-de539ade38f6")
-		(at 157.2 125 -90)
+		(at 140.2 123.5 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R31"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
-			(uuid "db47382f-88d9-4b71-be12-0a7374e24077")
+			(uuid "55e905a1-7694-4331-9445-39ba83a701ed")
 			(effects
 				(font
 					(size 1 1)
@@ -15080,9 +15516,9 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
-			(uuid "1b266525-e6ae-4202-af4d-e88af90252c1")
+			(uuid "c3d823dd-4a0c-49f7-9a23-906934a88cc9")
 			(effects
 				(font
 					(size 1 1)
@@ -15091,24 +15527,36 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0020536c-a74d-4b3f-98bc-4c8dee134ba6")
+			(uuid "30c0b9ad-9ccd-4e8b-b0b5-abc0220921e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32e9327f-37ef-4d4f-b9ee-3a2d425f2e27")
+			(uuid "5a1b13be-d319-45cd-8a4f-37c46aec198a")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d6454306-6137-4942-8fdf-110578d39931")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15116,12 +15564,6 @@
 		(path "/8b48e658-4ea5-4ec3-ad12-7d6cc207ea8b")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15198,7 +15640,7 @@
 			(uuid "42cef565-d4eb-46af-acdb-8bb54148041a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "f95ea2ed-262f-4bf3-bbfd-26509ddd4ca1")
 			(effects
@@ -15242,10 +15684,9 @@
 		)
 	)
 	(footprint "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "b60c950f-d4e9-424b-a312-a1056275a943")
-		(at 282 122 90)
+		(at 282 121.5 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C7"
@@ -15281,7 +15722,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15292,16 +15733,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "62774884-cab4-4bf6-af94-c8d3e563a5e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/60db2e4f-d01e-41cc-80d6-433feb929ab7")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15641,7 +16088,6 @@
 		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "b9784c05-d595-4706-9273-e415fd666a58")
 		(at 77.5 140.5 90)
@@ -15680,7 +16126,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15691,25 +16137,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "KiLib_Generator" "diode/THT"
 			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5cec3b9e-b193-439f-b824-052add0bca09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5e6ee29-7f9d-41bb-a340-5c3c5f363449")
+			(uuid "5174a271-8f61-4ae5-88c1-f47b18e5312c")
 			(effects
 				(font
 					(size 1 1)
@@ -15721,12 +16153,6 @@
 		(path "/ca981aee-e9a0-4b6f-a37a-96d2f7cb4b2f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15932,7 +16358,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "ba704f6d-d3ed-45cd-b4e6-5cb1407039cd")
 		(at 335 143 90)
@@ -15971,7 +16396,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15982,16 +16407,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de27db59-052f-461d-9bc1-294a37485665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca4d77a1-f542-404d-8806-33e97c2b19ae")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16101,7 +16532,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "bccfd062-5810-43ed-a825-17fb26426ac7")
 		(at 46.66 196.4)
@@ -16140,7 +16570,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16151,16 +16581,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c8ee754-1c0b-41f6-8526-770fdc8d20ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ad277568-72c7-40f5-889c-6cd9da07ac62")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16221,10 +16658,9 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "be8625d7-cbb9-4a51-a4f9-c826aa51125c")
-		(at 291.4 149.15)
+		(at 291.5 149)
 		(descr "Soldered wire connection, for a single 0.25 mm² wire, reinforced insulation, conductor diameter 0.65mm, outer diameter 2mm, size source Multi-Contact FLEXI-2V 0.25 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.25sqmm")
 		(property "Reference" "W8"
@@ -16260,7 +16696,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16271,16 +16707,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "488e273a-6032-49b1-a853-fbea8dc6a142")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/487a1743-57ef-47d9-a011-9a5258eb59a1")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16341,7 +16784,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "beda490e-2156-496b-bb30-2f1953f7e01c")
 		(at 322.5 149.5 90)
@@ -16380,7 +16822,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16391,16 +16833,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32968d26-8485-4602-aa27-72e58bdf5c43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f2f0eb90-ccdf-4431-b98f-7481cd11ff6f")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16521,7 +16969,6 @@
 		)
 	)
 	(footprint "LED_THT:LED_D5.0mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "cce68422-be6f-4004-8e9f-be9aa6ee9ed9")
 		(at 51.86 204)
@@ -16560,7 +17007,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16571,12 +17018,11 @@
 				)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "KiLib_Generator" "LED/THT"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ffa8cd80-7594-422e-87c7-3d65be1315dc")
+			(uuid "a519dfee-19c0-4fd2-be46-9e36e003f443")
 			(effects
 				(font
 					(size 1 1)
@@ -16588,12 +17034,6 @@
 		(path "/c33a66db-53c4-4f70-a762-209dac442868")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16735,14 +17175,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "d23e11a7-918e-4dbd-9934-60376b4f7410")
 		(at 287 147.5 180)
 		(descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
 		(property "Reference" "R9"
-			(at 10.16 -4.12 0)
+			(at 10.16 -4.12 180)
 			(layer "F.SilkS")
 			(uuid "e173ea69-c15e-4078-95eb-5d3628c3cbed")
 			(effects
@@ -16753,7 +17192,7 @@
 			)
 		)
 		(property "Value" "10k 1W"
-			(at 10.16 4.12 0)
+			(at 10.16 4.12 180)
 			(layer "F.Fab")
 			(uuid "1160b56a-0d8a-41f2-9a57-a36b9fa42688")
 			(effects
@@ -16764,7 +17203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef2db69e-8107-4679-9aec-67758ad1f39e")
@@ -16774,8 +17213,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8bcf241f-9669-4a81-84e4-04e99aca744c")
@@ -16785,16 +17224,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "996ce47d-c0f3-4abb-b223-6b7b9da4bb85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2ad931fc-1796-4db8-8463-975e7ba3a4cf")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16871,7 +17316,7 @@
 			(uuid "9486fd32-ca90-4739-b084-4b9e1f011c99")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10.16 0 0)
+			(at 10.16 0 180)
 			(layer "F.Fab")
 			(uuid "568325a7-ce74-4771-86a5-92d481780399")
 			(effects
@@ -16953,7 +17398,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16964,16 +17409,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "adee7115-e9bb-4cef-9489-1c8d565ce3c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c2c9e5d3-068d-4ae1-b84b-fb671178d7ac")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17094,16 +17545,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "d5bfa52c-ea60-4231-abd3-f508067ff306")
-		(at 156.5 115.5)
+		(at 139.5 114)
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 6.5mm")
 		(property "Reference" "C19"
 			(at 10 -4.37 0)
 			(layer "F.SilkS")
-			(uuid "3f9a2a02-283d-43d6-af48-72ee87d2cc23")
+			(uuid "3c9c0cd1-141f-41d7-9d1e-c2f4318cf2ff")
 			(effects
 				(font
 					(size 1 1)
@@ -17114,7 +17564,7 @@
 		(property "Value" "22n"
 			(at 10 4.37 0)
 			(layer "F.Fab")
-			(uuid "b9dbbe14-0520-4104-be64-f1765fd2fedd")
+			(uuid "533df3e2-985f-4d1e-aa8e-94ce558b5330")
 			(effects
 				(font
 					(size 1 1)
@@ -17126,21 +17576,33 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e823a4cc-81e4-489d-8a6d-ec2d39d3eb52")
+			(uuid "b534f37f-0699-4b2b-84ac-b0ad6253d540")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98de4de7-3718-494b-be50-998c44767c58")
+			(uuid "91d6b916-c1aa-4724-8105-071e5e07cb64")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "61ce9443-48c3-447e-8347-841e363ed480")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17148,12 +17610,6 @@
 		(path "/39a2a553-5fda-4c2e-8fdf-8b492a0fe893")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17274,7 +17730,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "df65b5c6-8aee-4547-9706-ab2689ff650e")
 		(at 80.5 125 90)
@@ -17313,7 +17768,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17324,16 +17779,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fca01ac5-8d78-4133-82bf-e332f0ea5308")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8920746d-8c3d-49cc-ba7f-9ff1bad0010a")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17454,7 +17915,6 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "e10d2322-6aa5-4d00-af6d-a0b7a31cda6d")
 		(at 315 130 90)
@@ -17493,7 +17953,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17504,16 +17964,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5aa39d2-459f-4706-8552-bbf4f99377d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/77bd10ba-5b45-4f7a-a04e-354275c9d146")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17634,7 +18100,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "e274e864-db12-4ff0-8b93-e1fc9c0abf36")
 		(at 272 104.5)
@@ -17673,7 +18138,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17684,16 +18149,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "73317804-aa08-4789-8ed7-b39a4e904005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4f396900-a5ad-46b4-b120-25e077e992e2")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -17754,7 +18226,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "e5611d00-b7ee-49ee-a5d1-75d765c12bd0")
 		(at 143.5 150)
@@ -17793,7 +18264,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17804,16 +18275,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a72838f0-12a7-47b9-a981-0272c3e7d0a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3557014a-9681-466c-b4e9-2b60bc9319a5")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -17874,7 +18352,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "e6678685-2662-4be3-9d1d-99b13ad30e27")
 		(at 151 150)
@@ -17913,7 +18390,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17924,16 +18401,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0fd09978-a20d-4efd-9e62-f2689fb24b1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3a5b81eb-aee9-4b41-b7ce-16c220e020ab")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -17994,7 +18478,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "e6d5f201-eb72-4b2f-aa15-444d8cd791b0")
 		(at 46.66 196.4)
@@ -18033,7 +18516,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18044,16 +18527,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91ab927c-8a95-4bc8-a67d-e4f57a4edd62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/78aaa023-47bb-4319-b8d1-4cc6ba29f894")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -18114,7 +18604,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "ec8196cc-6dc9-4544-8105-20e8342eadb9")
 		(at 212.5 149.5)
@@ -18153,7 +18642,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18164,16 +18653,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95dbaec8-4eb0-4b35-ba32-21a819913309")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4dee3f4d-17bd-4afc-930c-b34e23588d22")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -18234,16 +18730,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "ef1160dc-efe4-4d51-a44e-e4a813c5ee23")
-		(at 193 123.5 -90)
+		(at 176 122 -90)
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 6.5mm")
 		(property "Reference" "C20"
-			(at 10 -4.37 90)
+			(at 10 -4.37 270)
 			(layer "F.SilkS")
-			(uuid "f4631a5f-c6cb-4765-ae3d-02a05e8871c9")
+			(uuid "2afebe0e-25da-44c3-a595-60d9e202c9c6")
 			(effects
 				(font
 					(size 1 1)
@@ -18252,9 +18747,9 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 10 4.37 90)
+			(at 10 4.37 270)
 			(layer "F.Fab")
-			(uuid "52b4f4f9-b655-4cda-9657-9fd2f1094005")
+			(uuid "ea9ae42c-4168-4338-ba19-b7badc24a2c9")
 			(effects
 				(font
 					(size 1 1)
@@ -18263,24 +18758,36 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe8cafa1-0b12-4997-ab2a-a6c0b8f6743a")
+			(uuid "2a20bbf7-19ac-455c-974c-e572d3eec2ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1806ed0-ec69-4c69-8427-078e768e5f70")
+			(uuid "d67cb1af-1f54-4abc-a63d-379018d8cb0f")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6cde75b0-a15d-4886-9a6c-ef46c4cf826a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18288,12 +18795,6 @@
 		(path "/c905b56d-f1e0-4caa-ab4d-48b172537532")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18370,7 +18871,7 @@
 			(uuid "f1fb7002-b0f5-40e3-ac5c-088a5df4fb7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10 0 90)
+			(at 10 0 270)
 			(layer "F.Fab")
 			(uuid "5bd0fd09-b4c7-47ff-8873-4194beaaf63d")
 			(effects
@@ -18414,7 +18915,6 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "f14899d5-cbac-49f8-b28b-bd5aae35333c")
 		(at 290 119 90)
@@ -18453,7 +18953,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18464,16 +18964,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6d0f58fc-a42e-41f8-bb3a-5db60d4275db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9bb6b306-13b8-4d5e-8dea-59ac2e54eecb")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18594,7 +19100,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "f1fbb84d-9843-4847-8d11-cfd72212a20e")
 		(at 250 149.5)
@@ -18633,7 +19138,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18644,16 +19149,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2b75202c-ecc0-4850-8760-8f645be2c11e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a1023ebf-7926-4dd2-945c-4c79de69bec9")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -18714,7 +19226,6 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "f3f86c46-0717-446d-94ad-2f92fbe36f3d")
 		(at 83.5 141.5)
@@ -18755,7 +19266,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18772,12 +19283,6 @@
 		(path "/fe542591-3a02-46fc-a886-55fd701dba58")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -18860,16 +19365,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "f742c452-c4f7-4a2f-a43c-6cee3348e6af")
-		(at 227.5 139.74 90)
+		(at 210.5 138.24 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R16"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "e5c1bc90-336b-40b3-bd20-1b09805c5dc6")
+			(uuid "143cfaec-e27e-44ec-94d4-3f917f633707")
 			(effects
 				(font
 					(size 1 1)
@@ -18880,7 +19384,7 @@
 		(property "Value" "100k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "aa2d5818-e504-4c4a-b9de-da80d02404ae")
+			(uuid "9310fa6b-f2be-4ce8-bd0b-ca44f2b9a12b")
 			(effects
 				(font
 					(size 1 1)
@@ -18892,21 +19396,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9cd255a3-559f-4457-b412-5c6cfbc4f68b")
+			(uuid "8c940ec0-ffbb-415c-b08a-88fd83e86198")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bef07878-8a6e-4b7f-863a-7695b82c0234")
+			(uuid "2944c91f-ed58-4d75-bf6a-13ea1109fade")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "155aa315-29bf-4b35-a4e5-931a309f5743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18914,12 +19430,6 @@
 		(path "/bd4339d6-5a36-46cd-af30-b7f98a89d912")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19040,16 +19550,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "f7ee890e-f01d-4541-af7a-6665779a17b1")
-		(at 151 140.24 90)
+		(at 134 138.74 90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R29"
 			(at 7.62 -3.37 90)
 			(layer "F.SilkS")
-			(uuid "551b6a32-b036-4282-af7d-844644e3d4c9")
+			(uuid "172329b2-a76b-40f9-a750-51c42f43f0f4")
 			(effects
 				(font
 					(size 1 1)
@@ -19060,7 +19569,7 @@
 		(property "Value" "220k"
 			(at 7.62 3.37 90)
 			(layer "F.Fab")
-			(uuid "71b1ef41-0159-44ea-af91-ec7cf27df423")
+			(uuid "56b7dc9e-805a-4a02-b630-83a8cdac4039")
 			(effects
 				(font
 					(size 1 1)
@@ -19072,21 +19581,33 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46272b3d-85fc-47d6-9847-deed473a10f1")
+			(uuid "91f89e9c-945d-49d7-939d-97b28b9f266f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15997b39-e998-4acd-a5b7-2e05a8994967")
+			(uuid "d2a1f2b3-c04c-40b2-b883-b2d4bc494eef")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ca36384-575f-4843-8d6e-eab7b9a04a5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19094,12 +19615,6 @@
 		(path "/4fe47c71-8c40-4e7a-99f7-7f720c9bded0")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19220,16 +19735,15 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "fb40e0f9-7780-4afc-9fc6-a6fc2249b8f4")
-		(at 242 117.5)
+		(at 210.5 116)
 		(descr "C, Axial series, Axial, Horizontal, pin pitch=20mm, length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf")
 		(tags "C Axial series Axial Horizontal pin pitch 20mm  length 17mm diameter 6.5mm")
 		(property "Reference" "C14"
 			(at 10 -4.37 0)
 			(layer "F.SilkS")
-			(uuid "b2a28a30-3984-418c-81ad-07cce1fa3079")
+			(uuid "cb7ea784-2c3e-4718-b42f-bf488fb2ad85")
 			(effects
 				(font
 					(size 1 1)
@@ -19240,7 +19754,7 @@
 		(property "Value" "22n"
 			(at 10 4.37 0)
 			(layer "F.Fab")
-			(uuid "a39aea19-f6e7-4f9a-978e-aaf4ccb60fbc")
+			(uuid "c82554aa-aae9-4ca4-8db1-22fffb363e75")
 			(effects
 				(font
 					(size 1 1)
@@ -19252,21 +19766,33 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a65c241-6ac3-4a61-8cba-4496637ce1f8")
+			(uuid "7a437c00-ddcc-4159-859c-7e136e585c2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba70ef87-7949-4cd8-a309-9da016a95a5a")
+			(uuid "86639c65-1b96-4da6-804d-f835b30d7912")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6ca7164-582c-4574-ba03-ae0a3cd9f9eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19274,12 +19800,6 @@
 		(path "/584f1e1d-9a33-4f21-8128-d0a240001625")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19400,14 +19920,13 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "fb619174-7d76-4162-a01f-2870a2cc7b31")
-		(at 262 124.38 -90)
+		(at 264 125.12 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R22"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
 			(uuid "c15cfb8c-0529-44ae-a689-87c91a8e43de")
 			(effects
@@ -19418,7 +19937,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
 			(uuid "28a5e745-ebab-49cf-85eb-cf823bf40ec7")
 			(effects
@@ -19429,7 +19948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77974879-fdf0-451c-a015-8d654c82f7f9")
@@ -19439,8 +19958,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc50ffdc-85a2-43bf-9dc9-13a86d316786")
@@ -19450,16 +19969,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84f427a9-b95d-4f3d-8fda-d6caffadd23c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/43f484c8-e043-47e4-95ca-06d30a0173c3")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19536,7 +20061,7 @@
 			(uuid "26e3bc31-13e0-4809-8c0c-c08403e56252")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "e0760fcb-4566-4b26-8681-6afd207875b0")
 			(effects
@@ -19580,7 +20105,6 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "fc304364-bb9c-458e-b20f-a57ea4adbaa6")
 		(at 63.3 210.7)
@@ -19619,7 +20143,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19630,16 +20154,23 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/wire"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1eab8ce-e0f8-4537-b494-15a0bf1ad2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9b613e68-1548-4918-a3a7-aecfdd7bcc0b")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -19700,16 +20231,15 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-		(placed yes)
 		(layer "F.Cu")
 		(uuid "ff896aaa-fa99-409d-9f29-e8fa579b173f")
-		(at 221.5 124.26 -90)
+		(at 204.5 122.76 -90)
 		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
 		(property "Reference" "R26"
-			(at 7.62 -3.37 90)
+			(at 7.62 -3.37 270)
 			(layer "F.SilkS")
-			(uuid "ecff24f6-3976-40ec-8dd3-9d3271c3d1a0")
+			(uuid "4f95b0c4-2eb9-4443-94df-d7f66d5dc886")
 			(effects
 				(font
 					(size 1 1)
@@ -19718,9 +20248,9 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 7.62 3.37 90)
+			(at 7.62 3.37 270)
 			(layer "F.Fab")
-			(uuid "35a7d62b-ff18-4e63-b06e-d10385ef0b5f")
+			(uuid "a8d1dae1-22a6-4f18-8748-7343a3b682b3")
 			(effects
 				(font
 					(size 1 1)
@@ -19729,24 +20259,36 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c2a6ab0-a6c6-48dc-95a5-cd0b2349e4b5")
+			(uuid "70ecc521-92a0-4135-9b58-a7d6e9405019")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3a116f4-1a91-47aa-af6a-c64c39a25022")
+			(uuid "8283de7f-109b-45ef-9e82-395835593d10")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f490aac6-b1b1-472c-b548-758319421948")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19754,12 +20296,6 @@
 		(path "/2a629202-9d5e-42dc-b924-61b8e3cc8dcb")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19836,7 +20372,7 @@
 			(uuid "594c8c8a-fdb1-4b5e-9ea5-136a1404f029")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(layer "F.Fab")
 			(uuid "edd28b2d-3013-42ac-a113-f996217cd86b")
 			(effects
