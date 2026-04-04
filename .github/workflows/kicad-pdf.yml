@@ -26,6 +26,7 @@ jobs:
           pcb_file_name: ./PrincetonReverbUpdate.kicad_pcb
           pcb_output_image: true
           pcb_output_image_width: 3200
+          pcb_output_image_DPI: 300
           pcb_output_image_quality: high 
           pcb_output_image_file_name: PrincetonReverbUpdate-render.png
       - name: Move outputs into folders
