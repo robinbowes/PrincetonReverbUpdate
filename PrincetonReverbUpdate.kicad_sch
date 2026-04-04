@@ -8145,6 +8145,12 @@
 		(uuid "c2e0e67e-1e53-4653-a597-ae5edabf3318")
 	)
 	(junction
+		(at 217.17 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35cfaaa-36f6-4de7-8c9a-c6570489de55")
+	)
+	(junction
 		(at 49.53 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24512,7 +24518,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2c9e5d3-068d-4ae1-b84b-fb671178d7ac")
@@ -24542,7 +24548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 251.968 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -27798,6 +27804,82 @@
 		)
 	)
 	(symbol
+		(lib_id "DevicesTC:TestPoint_Small_TC")
+		(at 217.17 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f127422b-93e9-44fb-ad86-24783911e208")
+		(property "Reference" "W43"
+			(at 217.17 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 215.138 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+			(at 217.17 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f63de7fe-1d96-4821-9a34-7c4dbeb8a55a")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "W43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 157.48 180)
 		(unit 1)
@@ -28047,7 +28129,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7fd8da7-7e83-443d-b679-1417eebabcb2")
@@ -28077,7 +28159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 262.128 73.66 90)
 			(hide yes)
 			(show_name no)
