@@ -7230,6 +7230,16 @@
 		)
 		(uuid "53232d58-f5a6-4acb-b1ad-e8f49fca198c")
 	)
+	(text "FIX R12!!!\nNeeds a wire point and then the numbering needs adjusted down stream"
+		(exclude_from_sim no)
+		(at 93.98 119.126 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "53c85b3f-ae1c-4c73-a640-b7b85647b791")
+	)
 	(text "Screens"
 		(exclude_from_sim no)
 		(at 72.39 138.43 0)
@@ -7640,12 +7650,6 @@
 		(uuid "00c6c0d9-562c-4a50-b76d-794496b38095")
 	)
 	(junction
-		(at 196.85 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06acf673-17bc-469c-96b4-12090db4aacb")
-	)
-	(junction
 		(at 69.85 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7736,6 +7740,12 @@
 		(uuid "2892b0cb-dc60-401e-91c9-f02f60044806")
 	)
 	(junction
+		(at 54.61 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b0f43e-c2b2-4169-bbdf-08d5697bbc52")
+	)
+	(junction
 		(at 138.43 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7754,28 +7764,28 @@
 		(uuid "2b546514-734e-4b6b-b324-23542185858e")
 	)
 	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cddb4b5-e3bc-4ab9-ba1d-932b64f1817f")
+	)
+	(junction
 		(at 49.53 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32c5aa5a-9cac-4609-af5b-680b91cd9313")
 	)
 	(junction
-		(at 194.31 120.65)
+		(at 140.97 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33f6cff3-58c4-46b9-a5f4-1a5826dd7616")
+		(uuid "3453dbbe-f220-4351-b75c-fe46d46e6681")
 	)
 	(junction
 		(at 194.31 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34df33e0-3a01-493a-abe5-587c8d3f9081")
-	)
-	(junction
-		(at 158.75 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "399da0cf-90ac-415f-804b-5b36adde5673")
 	)
 	(junction
 		(at 251.46 139.7)
@@ -7802,12 +7812,6 @@
 		(uuid "47e1eb50-206c-4803-afd5-9c6a818b5f1b")
 	)
 	(junction
-		(at 240.03 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e34559f-390d-4ef4-848c-a5b681029f3e")
-	)
-	(junction
 		(at 53.34 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7820,16 +7824,16 @@
 		(uuid "550fbde9-84f5-4596-b890-6cfeccce71fc")
 	)
 	(junction
-		(at 54.61 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "551e2317-3574-4bad-bfea-d2d70dcf8108")
-	)
-	(junction
 		(at 48.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "575f6cd3-adb9-45ae-8af6-7536582f6159")
+	)
+	(junction
+		(at 35.56 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a044d7-8761-4959-bb91-be85f0524c94")
 	)
 	(junction
 		(at 255.27 77.47)
@@ -7850,6 +7854,12 @@
 		(uuid "5c11eb93-2395-4424-9e15-751926d0bd42")
 	)
 	(junction
+		(at 59.69 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df7bf2d-829f-4f24-bb00-bad29e330152")
+	)
+	(junction
 		(at 111.76 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7860,6 +7870,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "649d4020-f74f-4f68-b0af-da2ad77d211c")
+	)
+	(junction
+		(at 187.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68706af9-8bdf-45e6-9824-d110232611f2")
 	)
 	(junction
 		(at 124.46 157.48)
@@ -7904,12 +7920,6 @@
 		(uuid "79f8eb6d-e72e-4a47-bf72-50962b23cd8c")
 	)
 	(junction
-		(at 59.69 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a44ef7f-1018-4a65-ba69-aea329efd08d")
-	)
-	(junction
 		(at 99.06 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7928,12 +7938,6 @@
 		(uuid "88ed4dc7-083a-432f-aadf-b02ede4e14f0")
 	)
 	(junction
-		(at 232.41 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "899bad11-f399-449f-bdde-d52ac528b731")
-	)
-	(junction
 		(at 259.08 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7946,10 +7950,10 @@
 		(uuid "89aa4d84-cae6-4d44-a80f-c7e5a9df240a")
 	)
 	(junction
-		(at 187.96 109.22)
+		(at 232.41 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b91936e-af52-41cd-ac5a-f479121557ba")
+		(uuid "89f50e0e-f4db-4458-91da-6e204924ffb4")
 	)
 	(junction
 		(at 195.58 31.75)
@@ -7968,6 +7972,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c82abfc-961c-4e2a-b453-b30126e9e66d")
+	)
+	(junction
+		(at 196.85 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fcc05bf-6de6-4e5e-bcf7-b1ae607b7fb8")
 	)
 	(junction
 		(at 87.63 144.78)
@@ -8006,7 +8016,7 @@
 		(uuid "9612462f-0564-4430-b10e-24fac67a4895")
 	)
 	(junction
-		(at 140.97 31.75)
+		(at 133.35 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96726659-14ec-42a2-b35f-f2ff40168a3e")
@@ -8120,12 +8130,6 @@
 		(uuid "b98a5311-1d44-422f-b157-6b1c540c9dfb")
 	)
 	(junction
-		(at 35.56 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "badd9b5e-1519-4d5f-95c2-b53933464bfe")
-	)
-	(junction
 		(at 82.55 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8142,6 +8146,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc80a9d4-786f-408f-9585-2c2b73436c97")
+	)
+	(junction
+		(at 173.99 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc9190d0-9f46-4a2e-8644-d037e10bf669")
 	)
 	(junction
 		(at 121.92 118.11)
@@ -8264,16 +8274,16 @@
 		(uuid "f3afd115-36b5-4e85-8639-2de313a9847e")
 	)
 	(junction
-		(at 133.35 41.91)
+		(at 194.31 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8af2c68-74a8-46a1-8d30-da74f2032040")
+		(uuid "f545e692-084d-409d-a1d6-46b077d7994f")
 	)
 	(junction
-		(at 173.99 31.75)
+		(at 158.75 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb169040-5cd3-470e-a6db-55efc65053bf")
+		(uuid "f9823af3-6a06-4ff3-bb88-193e6cd0f91e")
 	)
 	(junction
 		(at 104.14 118.11)
@@ -8528,6 +8538,16 @@
 			(type default)
 		)
 		(uuid "0b14f65c-af1a-4b3f-887a-6b3035037fc9")
+	)
+	(wire
+		(pts
+			(xy 186.69 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b52e0ad-f063-48ac-afed-c8cf6b953154")
 	)
 	(wire
 		(pts
@@ -8891,6 +8911,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 92.71) (xy 232.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aaffdda-735a-46eb-8eee-8e83ccf7c119")
+	)
+	(wire
+		(pts
 			(xy 49.53 67.31) (xy 49.53 62.23)
 		)
 		(stroke
@@ -9131,16 +9161,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 97.79) (xy 196.85 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f093b4b-2f4a-4453-893d-f2eb7f1daafe")
-	)
-	(wire
-		(pts
 			(xy 77.47 31.75) (xy 81.28 31.75)
 		)
 		(stroke
@@ -9188,16 +9208,6 @@
 			(type default)
 		)
 		(uuid "41f6470a-f9c4-4938-8f3d-a713bb0bb1e3")
-	)
-	(wire
-		(pts
-			(xy 196.85 97.79) (xy 157.48 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42172a42-5378-4c60-8f37-e9ba8d24a449")
 	)
 	(wire
 		(pts
@@ -9531,6 +9541,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 97.79) (xy 196.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631ba300-d380-4f59-95fa-8718615c46c4")
+	)
+	(wire
+		(pts
 			(xy 226.06 147.32) (xy 226.06 149.86)
 		)
 		(stroke
@@ -9578,6 +9598,16 @@
 			(type default)
 		)
 		(uuid "6717d75a-b2c8-4a8f-98af-b65ec18495a1")
+	)
+	(wire
+		(pts
+			(xy 196.85 97.79) (xy 209.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e19a70-4a03-4f59-ba7a-3d8ea0b661cd")
 	)
 	(wire
 		(pts
@@ -9921,16 +9951,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 97.79) (xy 209.55 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833eb5b4-7951-46fc-a0c2-4eed14e0fedd")
-	)
-	(wire
-		(pts
 			(xy 27.94 147.32) (xy 27.94 144.78)
 		)
 		(stroke
@@ -10168,16 +10188,6 @@
 			(type default)
 		)
 		(uuid "92e4ae5c-35f7-452f-86d8-a35ba0021086")
-	)
-	(wire
-		(pts
-			(xy 232.41 92.71) (xy 232.41 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94999eca-2e1c-4a75-8dc3-1f28bca5d2c7")
 	)
 	(wire
 		(pts
@@ -11221,16 +11231,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 109.22) (xy 187.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d84489-c054-4c33-82c5-afc047714e1f")
-	)
-	(wire
-		(pts
 			(xy 276.86 129.54) (xy 276.86 132.08)
 		)
 		(stroke
@@ -11308,6 +11308,16 @@
 			(type default)
 		)
 		(uuid "e9f77601-3cf5-44b2-8380-16c8622fd487")
+	)
+	(wire
+		(pts
+			(xy 157.48 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9bec3c-7275-4aaa-a82e-ea861d661457")
 	)
 	(wire
 		(pts
@@ -12949,7 +12959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 28.9052 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14062,7 +14072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25u 50V"
+		(property "Value" "22u 50V"
 			(at 57.404 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14073,7 +14083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 55.5752 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -15174,7 +15184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 209.2452 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15409,7 +15419,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 59.69 114.3 0)
+		(at 35.56 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15417,10 +15427,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a5b81eb-aee9-4b41-b7ce-16c220e020ab")
 		(property "Reference" "W18"
-			(at 60.96 114.3 0)
+			(at 33.02 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15431,7 +15440,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 59.69 112.268 0)
+			(at 35.56 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15441,7 +15450,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 64.77 114.3 0)
+			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15452,7 +15461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 114.3 0)
+			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15463,7 +15472,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 59.69 114.3 0)
+			(at 35.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15586,7 +15595,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25u 50V"
+		(property "Value" "22u 50V"
 			(at 150.241 58.1577 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15597,7 +15606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 146.3548 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16063,7 +16072,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "25u 50V"
+		(property "Value" "22u 50V"
 			(at 258.064 105.537 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 254.3048 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -17917,7 +17926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25u 50V"
+		(property "Value" "22u 50V"
 			(at 96.012 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17928,7 +17937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 95.5548 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18507,7 +18516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 58.1152 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19055,7 +19064,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 187.96 109.22 90)
+		(at 196.85 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19065,7 +19074,7 @@
 		(dnp no)
 		(uuid "78aaa023-47bb-4319-b8d1-4cc6ba29f894")
 		(property "Reference" "W25"
-			(at 187.96 107.696 90)
+			(at 195.58 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19075,7 +19084,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 185.928 109.22 0)
+			(at 194.818 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19085,7 +19094,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 187.96 104.14 0)
+			(at 196.85 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19096,7 +19105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 104.14 0)
+			(at 196.85 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19107,7 +19116,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 109.22 0)
+			(at 196.85 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19495,7 +19504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25u 50V"
+		(property "Value" "22u 50V"
 			(at 49.022 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19506,7 +19515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 48.5648 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20953,7 +20962,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 35.56 104.14 90)
+		(at 59.69 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20963,7 +20972,7 @@
 		(dnp no)
 		(uuid "90434c79-09fd-420a-a1bb-59fed2351c18")
 		(property "Reference" "W19"
-			(at 34.29 105.156 90)
+			(at 60.96 115.316 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20973,7 +20982,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 33.528 104.14 0)
+			(at 57.658 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20983,7 +20992,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 35.56 99.06 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20994,7 +21003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 99.06 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21005,7 +21014,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 35.56 104.14 0)
+			(at 59.69 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21714,7 +21723,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 133.35 41.91 180)
+		(at 140.97 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21724,7 +21733,7 @@
 		(dnp no)
 		(uuid "9b09e7d3-8d74-4494-90e6-b170eb0e2ef8")
 		(property "Reference" "W9"
-			(at 131.318 41.91 0)
+			(at 138.938 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21735,7 +21744,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 133.35 43.942 0)
+			(at 140.97 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21745,7 +21754,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 128.27 41.91 0)
+			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21756,7 +21765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 41.91 0)
+			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21767,7 +21776,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 133.35 41.91 0)
+			(at 140.97 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22446,7 +22455,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22473,7 +22482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 95.758 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -22851,7 +22860,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 173.99 31.75 180)
+		(at 158.75 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22861,7 +22870,7 @@
 		(dnp no)
 		(uuid "aaaf5fbc-81c9-4f85-bf52-f997533d1e1d")
 		(property "Reference" "W13"
-			(at 174.498 30.988 0)
+			(at 156.464 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22872,7 +22881,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 173.99 33.782 0)
+			(at 158.75 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22882,7 +22891,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 168.91 31.75 0)
+			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22893,7 +22902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 31.75 0)
+			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22904,7 +22913,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 173.99 31.75 0)
+			(at 158.75 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23084,7 +23093,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 194.31 120.65 0)
+		(at 187.96 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23092,10 +23101,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad277568-72c7-40f5-889c-6cd9da07ac62")
 		(property "Reference" "W26"
-			(at 195.58 120.65 0)
+			(at 185.928 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23106,7 +23114,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 194.31 118.618 0)
+			(at 187.96 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23116,7 +23124,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 199.39 120.65 0)
+			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23127,7 +23135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 120.65 0)
+			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23138,7 +23146,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.31 120.65 0)
+			(at 187.96 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23400,7 +23408,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 232.41 92.71 180)
+		(at 240.03 97.79 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23410,7 +23418,7 @@
 		(dnp no)
 		(uuid "b1c35018-34af-4599-84a3-f2350a26fbc3")
 		(property "Reference" "W30"
-			(at 234.188 92.71 0)
+			(at 240.03 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23420,7 +23428,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 232.41 94.742 0)
+			(at 240.03 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23430,7 +23438,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 227.33 92.71 0)
+			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23441,7 +23449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 92.71 0)
+			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23452,7 +23460,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 232.41 92.71 0)
+			(at 240.03 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25857,7 +25865,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 196.85 97.79 90)
+		(at 194.31 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25867,7 +25875,7 @@
 		(dnp no)
 		(uuid "d2b4064c-a850-402f-adaa-6a0c7caa1c17")
 		(property "Reference" "W27"
-			(at 198.12 97.028 90)
+			(at 195.58 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25877,7 +25885,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 194.818 97.79 0)
+			(at 192.278 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25887,7 +25895,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 196.85 92.71 0)
+			(at 194.31 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25898,7 +25906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 92.71 0)
+			(at 194.31 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25909,7 +25917,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 196.85 97.79 0)
+			(at 194.31 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26675,7 +26683,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 158.75 41.91 0)
+		(at 173.99 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26685,7 +26693,7 @@
 		(dnp no)
 		(uuid "dd8e24c3-849f-4378-85e9-d4517a30a711")
 		(property "Reference" "W12"
-			(at 156.21 41.91 0)
+			(at 171.45 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26696,7 +26704,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 158.75 39.878 0)
+			(at 173.99 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26706,7 +26714,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 163.83 41.91 0)
+			(at 179.07 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26717,7 +26725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 41.91 0)
+			(at 179.07 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26728,7 +26736,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 41.91 0)
+			(at 173.99 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27075,7 +27083,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 140.97 31.75 180)
+		(at 133.35 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27085,7 +27093,7 @@
 		(dnp no)
 		(uuid "e4d5c301-ada6-45e7-985d-8b7602d2df02")
 		(property "Reference" "W10"
-			(at 141.732 30.734 0)
+			(at 131.318 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27096,7 +27104,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 140.97 33.782 0)
+			(at 133.35 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27106,7 +27114,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 135.89 31.75 0)
+			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27117,7 +27125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 31.75 0)
+			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27128,7 +27136,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 140.97 31.75 0)
+			(at 133.35 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27502,7 +27510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25u 50V"
+		(property "Value" "22u 50V"
 			(at 113.411 122.9277 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27513,7 +27521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 111.4552 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -27575,7 +27583,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed275fbd-e61b-4bd6-9a3a-266e25682ada")
 		(property "Reference" "C29"
-			(at 237.236 107.95 0)
+			(at 236.22 106.299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27588,8 +27596,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u 50V"
-			(at 237.236 106.172 0)
+		(property "Value" "22u 50V"
+			(at 236.22 108.839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27602,7 +27610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L11.0mm_D6.0mm_P18.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 240.9952 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -27766,7 +27774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D15.0mm_P35.00mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 42.8752 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -28701,7 +28709,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:TestPoint_Small_TC")
-		(at 240.03 97.79 90)
+		(at 232.41 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28711,7 +28719,7 @@
 		(dnp no)
 		(uuid "ff4ea63f-8cf9-4ef8-bb2a-21b3ff09382c")
 		(property "Reference" "W29"
-			(at 240.03 96.774 90)
+			(at 233.934 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28721,7 +28729,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 237.998 97.79 0)
+			(at 230.378 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28731,7 +28739,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
-			(at 240.03 92.71 0)
+			(at 232.41 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28742,7 +28750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 92.71 0)
+			(at 232.41 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28753,7 +28761,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 240.03 97.79 0)
+			(at 232.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
