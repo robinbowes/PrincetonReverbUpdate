@@ -4305,6 +4305,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "SolderJumper_2_Bridged_TC_1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
