@@ -4304,41 +4304,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SolderJumper_2_Bridged_TC_1"
+		(symbol "R_compact_2"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 1.778 0)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.762 0.762)
+						(size 1.016 1.016)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SolderJumper_2_Bridged_TC"
-				(at 0 -1.778 0)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.762 0.762)
+						(size 1.016 1.016)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4349,28 +4350,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 -3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4381,7 +4360,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4392,60 +4371,34 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_TC_1_0_1"
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_2_0_1"
 				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4453,11 +4406,11 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Bridged_TC_1_1_1"
+			(symbol "R_compact_2_1_1"
 				(pin passive line
-					(at -1.905 0 0)
-					(length 0.635)
-					(name "A"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4473,9 +4426,9 @@
 					)
 				)
 				(pin passive line
-					(at 1.905 0 180)
-					(length 0.635)
-					(name "B"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8069,16 +8022,6 @@
 		)
 		(uuid "2f24c87d-3907-4335-8092-9774f05b0b63")
 	)
-	(text "CHECK THE SIZE OF MY 47n CAPS!!!!!!"
-		(exclude_from_sim no)
-		(at 193.802 22.606 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "30776634-5a5f-429e-a75e-2c84b3078fa9")
-	)
 	(text "Green"
 		(exclude_from_sim no)
 		(at 248.666 35.814 0)
@@ -8103,9 +8046,9 @@
 		)
 		(uuid "3aa30b30-1816-4b8b-9357-838b324a4c55")
 	)
-	(text "LFO gets its own spur"
+	(text "LFO gets its own spur\nusing CapCan"
 		(exclude_from_sim no)
-		(at 196.85 73.66 0)
+		(at 196.85 80.01 0)
 		(effects
 			(font
 				(face "Arial")
@@ -8595,7 +8538,7 @@
 	)
 	(text "~400VDC"
 		(exclude_from_sim no)
-		(at 203.2 78.74 0)
+		(at 203.2 85.09 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -8665,22 +8608,10 @@
 		(uuid "085048e6-66a2-4a1e-8a6a-5c68045eb8cb")
 	)
 	(junction
-		(at 125.73 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cf32bda-80c3-4780-a8e8-ca7bcdb5daca")
-	)
-	(junction
 		(at 121.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d1797e2-81a3-4df0-b1f2-a27b357a30e8")
-	)
-	(junction
-		(at 208.28 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16891617-1ba2-44cc-92c2-b2f5e87d0ce5")
 	)
 	(junction
 		(at 195.58 53.34)
@@ -9097,6 +9028,12 @@
 		(uuid "a898ded6-c033-43a7-a0af-4202b719bbc2")
 	)
 	(junction
+		(at 125.73 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad5977d6-4715-4761-822d-f8aec973288b")
+	)
+	(junction
 		(at 53.34 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9337,10 +9274,6 @@
 	(no_connect
 		(at 76.2 74.93)
 		(uuid "8841acda-0092-4da6-953f-610dda64f00e")
-	)
-	(no_connect
-		(at 107.95 143.51)
-		(uuid "886f475d-df7c-4bca-8156-a058935c1acd")
 	)
 	(no_connect
 		(at 266.7 53.34)
@@ -10382,16 +10315,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 80.01) (xy 209.55 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4912548e-6469-41d1-b780-229e470ed5c6")
-	)
-	(wire
-		(pts
 			(xy 129.54 31.75) (xy 129.54 30.48)
 		)
 		(stroke
@@ -10422,7 +10345,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 157.48) (xy 120.015 157.48)
+			(xy 118.11 157.48) (xy 125.73 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10852,7 +10775,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 80.01) (xy 196.85 88.9)
+			(xy 196.85 86.36) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11252,7 +11175,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 80.01) (xy 208.28 80.01)
+			(xy 196.85 86.36) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11272,7 +11195,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 80.01) (xy 218.44 80.01)
+			(xy 214.63 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11779,16 +11702,6 @@
 			(type default)
 		)
 		(uuid "ba67a28b-2c3c-42a6-8d7e-5e6923233543")
-	)
-	(wire
-		(pts
-			(xy 123.825 157.48) (xy 125.73 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad55d18-450c-43b6-bc72-ee8a989b326e")
 	)
 	(wire
 		(pts
@@ -13777,6 +13690,30 @@
 			)
 		)
 	)
+	(global_label "A'"
+		(shape input)
+		(at 107.95 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "12adfdcb-15ac-404d-80b0-3f19b0601727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 138.8314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "FromReverb"
 		(shape input)
 		(at 130.81 100.33 90)
@@ -13899,7 +13836,7 @@
 	)
 	(global_label "A'"
 		(shape input)
-		(at 196.85 80.01 90)
+		(at 196.85 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13909,7 +13846,7 @@
 		)
 		(uuid "48b6ab08-3063-47b3-b180-151ca8173174")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 75.3314 90)
+			(at 196.85 81.6814 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14547,7 +14484,7 @@
 	)
 	(global_label "A"
 		(shape input)
-		(at 218.44 80.01 0)
+		(at 215.9 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14557,7 +14494,7 @@
 		)
 		(uuid "faea4d8f-f8a8-4fde-9689-f557edf453f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.5138 80.01 0)
+			(at 219.9738 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17296,94 +17233,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 208.28 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "372ef11b-b178-47a8-957b-b2f0febedc2b")
-		(property "Reference" "C26"
-			(at 205.486 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u 450V"
-			(at 205.486 84.328 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 209.2452 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 208.28 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f03dcb64-50b5-4f4b-8b5a-bed719185618")
-		)
-		(pin "1"
-			(uuid "c8acccaf-3001-4f40-a66a-6c785bf3b397")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Valve:ECC83")
 		(at 99.06 41.91 0)
 		(unit 1)
@@ -18243,7 +18092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Library:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm_TC"
 			(at 64.135 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18684,8 +18533,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_2")
 		(lib_id "DevicesTC:R_compact")
-		(at 138.43 67.31 180)
+		(at 138.43 67.31 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18696,7 +18547,7 @@
 		(fields_autoplaced yes)
 		(uuid "47f6fd42-578a-41f1-88b4-c167832cb8d8")
 		(property "Reference" "R19"
-			(at 140.208 66.3022 0)
+			(at 140.208 68.3178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18707,7 +18558,7 @@
 			)
 		)
 		(property "Value" "47r"
-			(at 140.208 68.3177 0)
+			(at 140.208 66.3023 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22084,87 +21935,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "SolderJumper_2_Bridged_TC_1")
-		(lib_id "DevicesTC:SolderJumper_2_Bridged_TC")
-		(at 121.92 157.48 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e7c5a4f-bf61-41b0-892f-ea379004b1cd")
-		(property "Reference" "JP2"
-			(at 121.92 159.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "A'-AB"
-			(at 121.92 160.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-			(at 121.92 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 121.92 154.432 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b2af738-53c7-4547-930c-7617e5a53c2f")
-		)
-		(pin "2"
-			(uuid "dc8b35b0-5f64-43f4-a2d8-51365fc1b3f9")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -26716,7 +26486,7 @@
 	)
 	(symbol
 		(lib_id "DevicesTC:R_compact")
-		(at 213.36 80.01 90)
+		(at 210.82 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26727,7 +26497,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbba006b-0888-4870-b941-6c25e91aab56")
 		(property "Reference" "R28"
-			(at 213.36 75.4627 90)
+			(at 210.82 81.8127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26740,7 +26510,7 @@
 			)
 		)
 		(property "Value" "1k 1W"
-			(at 213.36 77.4782 90)
+			(at 210.82 83.8282 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26753,7 +26523,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
-			(at 213.36 81.788 90)
+			(at 210.82 88.138 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26764,7 +26534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 80.01 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26775,7 +26545,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 213.36 80.01 0)
+			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28373,84 +28143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 208.28 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d17f68c0-48a2-416f-b9c2-e1258c166f34")
-		(property "Reference" "#PWR03"
-			(at 208.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "GNDA'"
-			(at 208.28 91.7631 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89c8bb74-250c-4711-8694-a3e2cb38fc10")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DevicesTC:R_compact")
 		(at 52.07 21.59 0)
 		(unit 1)
@@ -28799,7 +28491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Library:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm_TC"
 			(at 35.56 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -29305,7 +28997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Library:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm_TC"
 			(at 49.53 157.48 0)
 			(hide yes)
 			(show_name no)
