@@ -8719,8 +8719,8 @@
 		)
 	)
 	(rectangle
-		(start 138.684 163.068)
-		(end 173.736 176.276)
+		(start 143.256 163.068)
+		(end 173.736 175.006)
 		(stroke
 			(width 0)
 			(type default)
@@ -8860,10 +8860,11 @@
 	)
 	(text "A single connection at the input"
 		(exclude_from_sim no)
-		(at 152.908 173.99 0)
+		(at 157.988 173.99 0)
 		(effects
 			(font
 				(size 1.016 1.016)
+				(italic yes)
 			)
 		)
 		(uuid "2f24c87d-3907-4335-8092-9774f05b0b63")
@@ -9029,7 +9030,7 @@
 	)
 	(text "Better grounding scheme"
 		(exclude_from_sim no)
-		(at 17.78 135.89 0)
+		(at 17.526 136.144 0)
 		(effects
 			(font
 				(face "Arial")
@@ -29033,6 +29034,7 @@
 		)
 		(property "Value" "4BK"
 			(at 192.278 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
