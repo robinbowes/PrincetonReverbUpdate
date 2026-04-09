@@ -1,0 +1,187 @@
+(footprint "C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=16.5*6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
+	(tags "C Rect series Radial pin pitch 15.00mm length 16.5mm width 6mm Capacitor")
+	(property "Reference" "REF**"
+		(at 7.5 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "ba417a7e-26ab-4aad-83d1-bd57bff1e7ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC"
+		(at 7.5 2.25 0)
+		(layer "F.Fab")
+		(uuid "0cb786d8-232b-4424-bd8a-6ab16a03fa86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a8a3e9d-5c98-4c71-bf15-34654cf4338c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "916a4cb6-5dfb-4dd1-9e72-6be53545f8d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "capacitor/THT/other"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2dc97a31-40a7-42c3-96f4-b6de55ce4986")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.87 -3.12)
+		(end 15.87 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70571022-07ee-4e49-8966-b3e0491856fa")
+	)
+	(fp_line
+		(start -0.87 -1.019)
+		(end -0.87 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1689c72c-e860-4eec-ae95-a844962721c3")
+	)
+	(fp_line
+		(start -0.87 3.12)
+		(end -0.87 1.019)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1f55f00-84c1-41e5-bbab-8bab61d7a17b")
+	)
+	(fp_line
+		(start 15.87 -3.12)
+		(end 15.87 -1.019)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e5fd620-dda3-48ce-8853-c86d97a47c5e")
+	)
+	(fp_line
+		(start 15.87 1.019)
+		(end 15.87 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20018c85-d798-43ab-8795-32c407a99b26")
+	)
+	(fp_line
+		(start 15.87 3.12)
+		(end -0.87 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96e24084-fa3b-494d-bf95-13fb69026239")
+	)
+	(fp_rect
+		(start -1.35 -3.25)
+		(end 16.35 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "10cf4277-df12-42ab-ac72-77451ad8f134")
+	)
+	(fp_rect
+		(start -0.75 -3)
+		(end 15.75 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cc174f1e-e8fb-4d79-90e5-61d876ca2273")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(layer "F.Fab")
+		(uuid "b53152b7-cd1a-4e4a-850a-52fb23c8b287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98f27cb4-82c1-46be-a9e5-5cb9c653a7cb")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c6c1526-ec76-4370-a64e-69ddb07f8d8c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

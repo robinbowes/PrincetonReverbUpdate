@@ -4446,6 +4446,852 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_compact_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_3_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_compact_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_compact_4"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_4_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_compact_4_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_compact_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_5_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_compact_5_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_compact_6"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_6_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_compact_6_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_compact_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_7_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_compact_7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_compact_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R1"
+				(at 1.27 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_compact"
+				(at 1.27 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_compact_8_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_compact_8_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_DPST"
 			(pin_names
 				(offset 0)
@@ -7873,8 +8719,8 @@
 		)
 	)
 	(rectangle
-		(start 135.89 167.894)
-		(end 169.418 176.276)
+		(start 138.684 163.068)
+		(end 173.736 176.276)
 		(stroke
 			(width 0)
 			(type default)
@@ -8612,6 +9458,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d1797e2-81a3-4df0-b1f2-a27b357a30e8")
+	)
+	(junction
+		(at 152.4 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13cc3f7b-91cd-482e-83ed-d81656aa719a")
 	)
 	(junction
 		(at 195.58 53.34)
@@ -14507,84 +15359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 156.21 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00986aca-f0a1-4989-bcb6-6e010c26a616")
-		(property "Reference" "#PWR040"
-			(at 156.21 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "Chassis"
-			(at 156.083 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 156.21 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "016ab51d-d9f0-46c8-9fbb-f7948f0015ef")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 209.55 142.24 90)
 		(unit 1)
@@ -14790,7 +15564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC"
 			(at 114.3 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -15134,7 +15908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 50.038 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT"
+		(property "Footprint" "Library:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC"
 			(at 186.69 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -15466,7 +16240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 176.022 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -15819,7 +16593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "Library:C_Disc_D7.5mm_W5.0mm_P7.50mm_TC"
 			(at 24.13 105.1052 0)
 			(hide yes)
 			(show_name no)
@@ -16409,7 +17183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 173.228 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -16495,7 +17269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC"
 			(at 35.56 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -16867,7 +17641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "Library:C_Disc_D10.5mm_W5.0mm_P7.50mm_TC"
 			(at 100.6348 85.725 0)
 			(hide yes)
 			(show_name no)
@@ -16947,7 +17721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 123.19 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -17075,8 +17849,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_5")
 		(lib_id "DevicesTC:R_compact")
 		(at 99.06 21.59 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17087,7 +17863,7 @@
 		(fields_autoplaced yes)
 		(uuid "348e17e2-60e7-4dc3-95b8-932178a9bd4a")
 		(property "Reference" "R13"
-			(at 100.838 20.5822 0)
+			(at 100.838 22.5978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17098,7 +17874,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 100.838 22.5977 0)
+			(at 100.838 20.5823 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17108,7 +17884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 97.282 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -17369,7 +18145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC"
 			(at 219.4052 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17853,7 +18629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT"
+		(property "Footprint" "Library:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC"
 			(at 176.53 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -18172,7 +18948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 132.08 60.452 90)
 			(hide yes)
 			(show_name no)
@@ -18254,7 +19030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 69.088 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -18568,7 +19344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 140.208 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -19226,7 +20002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 198.628 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -19471,7 +20247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC"
 			(at 149.225 32.7152 0)
 			(hide yes)
 			(show_name no)
@@ -19632,7 +20408,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 267.208 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -19714,7 +20490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 140.208 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -20266,7 +21042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC"
 			(at 80.01 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -21109,7 +21885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC"
 			(at 77.47 54.3052 0)
 			(hide yes)
 			(show_name no)
@@ -21338,8 +22114,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_8")
 		(lib_id "DevicesTC:R_compact")
-		(at 158.75 50.165 180)
+		(at 158.75 50.165 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21350,7 +22128,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aef0402-4811-4df1-9468-ac5b2e4d84a1")
 		(property "Reference" "R23"
-			(at 160.528 49.1572 0)
+			(at 160.528 51.1728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21361,7 +22139,7 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 160.528 51.1727 0)
+			(at 160.528 49.1573 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21371,7 +22149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 160.528 50.165 90)
 			(hide yes)
 			(show_name no)
@@ -21453,7 +22231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 172.212 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -22030,7 +22808,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 156.21 190.5 0)
+		(at 152.4 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22041,7 +22819,7 @@
 		(fields_autoplaced yes)
 		(uuid "80fa0ddb-a71f-4290-aaa0-f49d79835dfc")
 		(property "Reference" "H2"
-			(at 158.75 187.9599 0)
+			(at 154.94 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22052,7 +22830,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 158.75 190.4999 0)
+			(at 154.94 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22063,7 +22841,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad"
-			(at 156.21 190.5 0)
+			(at 152.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22074,7 +22852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 190.5 0)
+			(at 152.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22085,7 +22863,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 156.21 190.5 0)
+			(at 152.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22332,7 +23110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 37.338 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -22573,7 +23351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC"
 			(at 89.408 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -22924,7 +23702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 243.332 111.125 90)
 			(hide yes)
 			(show_name no)
@@ -23004,7 +23782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 213.36 96.012 90)
 			(hide yes)
 			(show_name no)
@@ -23176,7 +23954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC"
 			(at 64.77 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -24344,7 +25122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 101.092 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -24426,7 +25204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 197.358 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -24592,7 +25370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT"
+		(property "Footprint" "Library:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC"
 			(at 166.37 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -24641,8 +25419,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_4")
 		(lib_id "DevicesTC:R_compact")
-		(at 140.97 21.59 180)
+		(at 140.97 21.59 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24653,7 +25433,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fcf51c0-9632-4571-a929-6c0fdb9a282f")
 		(property "Reference" "R39"
-			(at 142.748 20.5822 0)
+			(at 142.748 22.5978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24664,7 +25444,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 142.748 22.5977 0)
+			(at 142.748 20.5823 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24674,7 +25454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 142.748 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -24833,7 +25613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 95.758 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -25076,7 +25856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 102.362 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -25553,7 +26333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC"
 			(at 227.33 96.8248 0)
 			(hide yes)
 			(show_name no)
@@ -25712,7 +26492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 189.738 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -25957,7 +26737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 52.832 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -26200,7 +26980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 173.228 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -26485,8 +27265,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_7")
 		(lib_id "DevicesTC:R_compact")
-		(at 210.82 86.36 90)
+		(at 210.82 86.36 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26522,7 +27304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC"
 			(at 210.82 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -26571,8 +27353,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_3")
 		(lib_id "DevicesTC:R_compact")
-		(at 106.68 88.9 180)
+		(at 106.68 88.9 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26583,7 +27367,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd4339d6-5a36-46cd-af30-b7f98a89d912")
 		(property "Reference" "R16"
-			(at 108.458 87.8922 0)
+			(at 108.458 89.9078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26594,7 +27378,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 108.458 89.9077 0)
+			(at 108.458 87.8923 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26604,7 +27388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 108.458 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -26684,7 +27468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "Library:C_Disc_D10.5mm_W5.0mm_P7.50mm_TC"
 			(at 127 38.4048 0)
 			(hide yes)
 			(show_name no)
@@ -27005,7 +27789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 257.048 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -27668,7 +28452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC"
 			(at 181.61 54.3052 0)
 			(hide yes)
 			(show_name no)
@@ -27748,7 +28532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "Library:C_Disc_D10.5mm_W5.0mm_P7.50mm_TC"
 			(at 77.47 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -28094,7 +28878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC"
 			(at 181.61 32.7152 0)
 			(hide yes)
 			(show_name no)
@@ -28143,8 +28927,10 @@
 		)
 	)
 	(symbol
+		(lib_name "R_compact_6")
 		(lib_id "DevicesTC:R_compact")
 		(at 52.07 21.59 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28155,7 +28941,7 @@
 		(fields_autoplaced yes)
 		(uuid "d25848b8-0472-452b-a770-2fda47531101")
 		(property "Reference" "R7"
-			(at 53.848 20.5822 0)
+			(at 53.848 22.5978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28166,7 +28952,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 53.848 22.5977 0)
+			(at 53.848 20.5823 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28176,7 +28962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 50.292 21.59 90)
 			(hide yes)
 			(show_name no)
@@ -28573,7 +29359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT"
+		(property "Footprint" "Library:C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC"
 			(at 122.8852 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -28812,7 +29598,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 182.88 0)
+		(at 152.4 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28823,7 +29609,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc3f79a8-fbbf-4ae5-89f9-7afedeb91757")
 		(property "Reference" "H1"
-			(at 158.75 181.6099 0)
+			(at 154.94 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28834,7 +29620,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 158.75 184.1499 0)
+			(at 154.94 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28845,7 +29631,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
-			(at 156.21 182.88 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28856,7 +29642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 182.88 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28867,7 +29653,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 182.88 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28918,7 +29704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC"
 			(at 77.47 44.1452 0)
 			(hide yes)
 			(show_name no)
@@ -29642,7 +30428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC"
 			(at 49.53 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -30537,7 +31323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 79.502 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -30619,7 +31405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 132.588 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -30864,7 +31650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 169.418 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -31024,7 +31810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC"
 			(at 193.802 35.56 90)
 			(hide yes)
 			(show_name no)
