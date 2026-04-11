@@ -480,7 +480,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -491,19 +491,59 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 18,
+        "clearance": 2.0,
+        "line_style": 0,
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "tuning_profile": "",
+        "via_diameter": 2.0,
+        "wire_width": 9
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "A": [
+        "HV"
+      ],
+      "A'": [
+        "HV"
+      ],
+      "B": [
+        "HV"
+      ],
+      "C": [
+        "HV"
+      ],
+      "D": [
+        "HV"
+      ],
+      "E": [
+        "HV"
+      ],
+      "Net-(R37-Pad1)": [
+        "HV"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "HV",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -675,7 +715,7 @@
         "uuid": "c97fe961-eaac-4315-a6d8-42e040059404"
       }
     ],
-    "used_designators": "TP2,W32,W34-35,W45,JP2-6",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

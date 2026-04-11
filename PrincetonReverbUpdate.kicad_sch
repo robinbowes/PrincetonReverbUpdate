@@ -15643,6 +15643,251 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 73.66 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "28d8b81f-2dae-44c4-b2f3-caa13bea0008")
+		(property "Net Class" "HV"
+			(at 74.3204 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 43.18 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eaf50b3-878e-4f89-b57e-577aab43870b")
+		(property "Net Class" "HV"
+			(at 43.8404 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -100.33 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 58.42 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "49dc0d4f-3119-4bc0-84a2-0dd706798f44")
+		(property "Net Class" "HV"
+			(at 59.0804 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -85.09 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 119.38 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b960f36-e825-4cca-89ca-1dd4430cec3f")
+		(property "Net Class" "HV"
+			(at 120.0404 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -24.13 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 265.43 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "968da5a5-bf6d-4785-9cc4-0a4a2736d3c6")
+		(property "Net Class" "HV"
+			(at 264.16 133.9596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 121.92 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 29.21 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca69f0c9-de99-4d73-ad48-37f1ca57ac9f")
+		(property "Net Class" "HV"
+			(at 29.8704 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -114.3 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 203.2 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "f693b322-3737-4598-8ebb-5d31506a3407")
+		(property "Net Class" "HV"
+			(at 203.8604 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 59.69 -57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:Fuse")
 		(at 209.55 142.24 90)
@@ -17289,7 +17534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "295cf1ae-0834-4b0a-ab1b-6a9a0a58f066")
-		(property "Reference" "W33"
+		(property "Reference" "W10"
 			(at 212.09 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17311,7 +17556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 215.9 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17350,7 +17595,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W33")
+					(reference "W10")
 					(unit 1)
 				)
 			)
@@ -18228,7 +18473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3557014a-9681-466c-b4e9-2b60bc9319a5")
-		(property "Reference" "W36"
+		(property "Reference" "W40"
 			(at 72.39 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18248,7 +18493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 72.39 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -18287,7 +18532,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W36")
+					(reference "W40")
 					(unit 1)
 				)
 			)
@@ -18489,7 +18734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a5b81eb-aee9-4b41-b7ce-16c220e020ab")
-		(property "Reference" "W18"
+		(property "Reference" "W28"
 			(at 33.02 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18511,7 +18756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18550,7 +18795,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W18")
+					(reference "W28")
 					(unit 1)
 				)
 			)
@@ -18727,7 +18972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b67329b-3b9e-4a56-b5f5-22b4fa23e651")
-		(property "Reference" "W41"
+		(property "Reference" "W31"
 			(at 166.878 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18749,7 +18994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 172.72 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18788,7 +19033,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W41")
+					(reference "W31")
 					(unit 1)
 				)
 			)
@@ -19452,7 +19697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "464c836a-b863-4d1f-b989-616baf6bc0db")
-		(property "Reference" "W38"
+		(property "Reference" "W44"
 			(at 72.39 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19472,7 +19717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 72.39 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -19511,7 +19756,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W38")
+					(reference "W44")
 					(unit 1)
 				)
 			)
@@ -19688,7 +19933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "487a1743-57ef-47d9-a011-9a5258eb59a1")
-		(property "Reference" "W8"
+		(property "Reference" "W15"
 			(at 97.028 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19710,7 +19955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 91.44 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19749,7 +19994,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W8")
+					(reference "W15")
 					(unit 1)
 				)
 			)
@@ -20004,7 +20249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dee3f4d-17bd-4afc-930c-b34e23588d22")
-		(property "Reference" "W21"
+		(property "Reference" "W35"
 			(at 104.902 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20026,7 +20271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20065,7 +20310,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W21")
+					(reference "W35")
 					(unit 1)
 				)
 			)
@@ -20083,7 +20328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f396900-a5ad-46b4-b120-25e077e992e2")
-		(property "Reference" "W23"
+		(property "Reference" "W36"
 			(at 123.19 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20105,7 +20350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 127 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -20144,7 +20389,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W23")
+					(reference "W36")
 					(unit 1)
 				)
 			)
@@ -20347,7 +20592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "528c7faf-7d47-4fef-86c6-6780a76e98b2")
-		(property "Reference" "W17"
+		(property "Reference" "W21"
 			(at 54.61 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20369,7 +20614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 58.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20408,7 +20653,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W17")
+					(reference "W21")
 					(unit 1)
 				)
 			)
@@ -20856,7 +21101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 86.36 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -20990,7 +21235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60512c45-16ee-46ab-8d2a-52a8813d431f")
-		(property "Reference" "W24"
+		(property "Reference" "W33"
 			(at 131.572 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21012,7 +21257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 135.89 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -21051,7 +21296,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W24")
+					(reference "W33")
 					(unit 1)
 				)
 			)
@@ -21150,7 +21395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65d96d7d-32b4-4a88-b85b-6e4c6c682913")
-		(property "Reference" "W20"
+		(property "Reference" "W24"
 			(at 107.188 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21172,7 +21417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 101.6 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21211,7 +21456,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W20")
+					(reference "W24")
 					(unit 1)
 				)
 			)
@@ -21489,7 +21734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c29e3db-4442-4244-85ac-27f64e365b09")
-		(property "Reference" "W16"
+		(property "Reference" "W18"
 			(at 195.6168 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21510,7 +21755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 195.58 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -21549,7 +21794,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W16")
+					(reference "W18")
 					(unit 1)
 				)
 			)
@@ -21810,7 +22055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71bbf731-775d-42c9-bc96-abc25c635552")
-		(property "Reference" "W31"
+		(property "Reference" "W39"
 			(at 266.7 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21832,7 +22077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 270.51 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -21871,7 +22116,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W31")
+					(reference "W39")
 					(unit 1)
 				)
 			)
@@ -22250,7 +22495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 196.85 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23454,7 +23699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84a7c10e-7cc6-4b23-9f99-9aa2ffb43a71")
-		(property "Reference" "W45"
+		(property "Reference" "W1"
 			(at 34.29 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23475,7 +23720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 34.29 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -23514,7 +23759,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W45")
+					(reference "W1")
 					(unit 1)
 				)
 			)
@@ -23531,7 +23776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85325a52-9ef3-4173-adef-eb73dcb804e1")
-		(property "Reference" "W5"
+		(property "Reference" "W14"
 			(at 82.042 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23553,7 +23798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -23592,7 +23837,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W5")
+					(reference "W14")
 					(unit 1)
 				)
 			)
@@ -24298,7 +24543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90434c79-09fd-420a-a1bb-59fed2351c18")
-		(property "Reference" "W19"
+		(property "Reference" "W34"
 			(at 60.96 115.316 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24319,7 +24564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -24358,7 +24603,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W19")
+					(reference "W34")
 					(unit 1)
 				)
 			)
@@ -24736,7 +24981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "941859e7-0a90-4bbc-bc39-2a48b7773ce1")
-		(property "Reference" "W11"
+		(property "Reference" "W16"
 			(at 138.938 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24758,7 +25003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -24797,7 +25042,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W11")
+					(reference "W16")
 					(unit 1)
 				)
 			)
@@ -24900,7 +25145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f15e42-99fc-4e0a-bcb7-8ff330f7be5c")
-		(property "Reference" "W32"
+		(property "Reference" "W42"
 			(at 140.97 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24922,7 +25167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 144.78 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -24961,7 +25206,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W32")
+					(reference "W42")
 					(unit 1)
 				)
 			)
@@ -25065,7 +25310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aca8cd1-fa81-4fd7-96ff-4fe52e318193")
-		(property "Reference" "W34"
+		(property "Reference" "W43"
 			(at 163.83 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25087,7 +25332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 167.64 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -25126,7 +25371,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W34")
+					(reference "W43")
 					(unit 1)
 				)
 			)
@@ -25143,7 +25388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b09e7d3-8d74-4494-90e6-b170eb0e2ef8")
-		(property "Reference" "W9"
+		(property "Reference" "W5"
 			(at 138.938 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25165,7 +25410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 135.89 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -25204,7 +25449,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W9")
+					(reference "W5")
 					(unit 1)
 				)
 			)
@@ -25306,7 +25551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b613e68-1548-4918-a3a7-aecfdd7bcc0b")
-		(property "Reference" "W42"
+		(property "Reference" "W37"
 			(at 165.354 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25328,7 +25573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 172.72 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25367,7 +25612,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W42")
+					(reference "W37")
 					(unit 1)
 				)
 			)
@@ -25798,7 +26043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1023ebf-7926-4dd2-945c-4c79de69bec9")
-		(property "Reference" "W39"
+		(property "Reference" "W19"
 			(at 127 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25819,7 +26064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -25858,7 +26103,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W39")
+					(reference "W19")
 					(unit 1)
 				)
 			)
@@ -26285,7 +26530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaaf5fbc-81c9-4f85-bf52-f997533d1e1d")
-		(property "Reference" "W13"
+		(property "Reference" "W9"
 			(at 156.464 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26307,7 +26552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26346,7 +26591,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W13")
+					(reference "W9")
 					(unit 1)
 				)
 			)
@@ -26519,7 +26764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad277568-72c7-40f5-889c-6cd9da07ac62")
-		(property "Reference" "W26"
+		(property "Reference" "W32"
 			(at 185.928 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26541,7 +26786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -26580,7 +26825,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W26")
+					(reference "W32")
 					(unit 1)
 				)
 			)
@@ -26677,7 +26922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0c3772a-372f-4bdc-9f27-edcb141c35ec")
-		(property "Reference" "W15"
+		(property "Reference" "W7"
 			(at 195.58 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26698,7 +26943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 195.58 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -26737,7 +26982,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W15")
+					(reference "W7")
 					(unit 1)
 				)
 			)
@@ -26836,7 +27081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c35018-34af-4599-84a3-f2350a26fbc3")
-		(property "Reference" "W30"
+		(property "Reference" "W27"
 			(at 240.03 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26857,7 +27102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -26896,7 +27141,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W30")
+					(reference "W27")
 					(unit 1)
 				)
 			)
@@ -27324,7 +27569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b83eb228-aefe-48cc-afa4-c2106a1e054f")
-		(property "Reference" "W4"
+		(property "Reference" "W11"
 			(at 82.042 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27346,7 +27591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -27385,7 +27630,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W4")
+					(reference "W11")
 					(unit 1)
 				)
 			)
@@ -27812,7 +28057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be9c2dfe-7b64-4bcc-998e-c5f1cf3c2832")
-		(property "Reference" "W6"
+		(property "Reference" "W20"
 			(at 35.306 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27822,7 +28067,7 @@
 				)
 			)
 		)
-		(property "Value" "FromInputJack"
+		(property "Value" "GNDFromInputJack"
 			(at 34.798 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -27833,7 +28078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 36.83 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -27872,7 +28117,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W6")
+					(reference "W20")
 					(unit 1)
 				)
 			)
@@ -27890,7 +28135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf987760-8542-45dd-bd6f-5c231f1dd150")
-		(property "Reference" "W22"
+		(property "Reference" "W30"
 			(at 123.19 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27912,7 +28157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -27951,7 +28196,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W22")
+					(reference "W30")
 					(unit 1)
 				)
 			)
@@ -28231,7 +28476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4445140-17ea-4033-89b1-9c0f66a3e97e")
-		(property "Reference" "W2"
+		(property "Reference" "W13"
 			(at 50.292 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28253,7 +28498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 54.61 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -28292,7 +28537,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W2")
+					(reference "W13")
 					(unit 1)
 				)
 			)
@@ -29306,7 +29551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2b4064c-a850-402f-adaa-6a0c7caa1c17")
-		(property "Reference" "W27"
+		(property "Reference" "W38"
 			(at 195.58 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29327,7 +29572,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 194.31 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -29366,7 +29611,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W27")
+					(reference "W38")
 					(unit 1)
 				)
 			)
@@ -29465,7 +29710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d56f3245-9198-42a0-a4ed-a1e8b0a50b0e")
-		(property "Reference" "W7"
+		(property "Reference" "W4"
 			(at 99.568 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29487,7 +29732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 93.98 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -29526,7 +29771,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W7")
+					(reference "W4")
 					(unit 1)
 				)
 			)
@@ -30206,7 +30451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd8e24c3-849f-4378-85e9-d4517a30a711")
-		(property "Reference" "W12"
+		(property "Reference" "W6"
 			(at 171.45 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30228,7 +30473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 179.07 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -30267,7 +30512,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W12")
+					(reference "W6")
 					(unit 1)
 				)
 			)
@@ -30284,7 +30529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de156537-cc75-4bd7-863c-e8619d20e4b7")
-		(property "Reference" "W40"
+		(property "Reference" "W12"
 			(at 259.334 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30306,7 +30551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 264.16 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -30345,7 +30590,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W40")
+					(reference "W12")
 					(unit 1)
 				)
 			)
@@ -30531,7 +30776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3d50397-50dc-46aa-a14a-f4ceb6118667")
-		(property "Reference" "W37"
+		(property "Reference" "W22"
 			(at 69.088 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30553,7 +30798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 74.93 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -30592,7 +30837,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W37")
+					(reference "W22")
 					(unit 1)
 				)
 			)
@@ -30609,7 +30854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4d5c301-ada6-45e7-985d-8b7602d2df02")
-		(property "Reference" "W10"
+		(property "Reference" "W8"
 			(at 131.318 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30631,7 +30876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -30670,7 +30915,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W10")
+					(reference "W8")
 					(unit 1)
 				)
 			)
@@ -30773,7 +31018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9ba5cfc-b6c9-4c74-9497-7b20c7ef07cf")
-		(property "Reference" "W44"
+		(property "Reference" "W29"
 			(at 94.742 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30795,7 +31040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -30834,7 +31079,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W44")
+					(reference "W29")
 					(unit 1)
 				)
 			)
@@ -31018,7 +31263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb253926-934a-452f-9179-8200ad02869c")
-		(property "Reference" "W28"
+		(property "Reference" "W26"
 			(at 227.33 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31039,7 +31284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 227.33 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -31078,7 +31323,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W28")
+					(reference "W26")
 					(unit 1)
 				)
 			)
@@ -31266,7 +31511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede7d9c0-d1ba-42f9-b54c-2d4cc056588f")
-		(property "Reference" "W1"
+		(property "Reference" "W2"
 			(at 52.832 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31288,7 +31533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 57.15 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -31327,7 +31572,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W1")
+					(reference "W2")
 					(unit 1)
 				)
 			)
@@ -31431,7 +31676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f127422b-93e9-44fb-ad86-24783911e208")
-		(property "Reference" "W43"
+		(property "Reference" "W41"
 			(at 88.9 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31452,7 +31697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 87.63 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -31491,7 +31736,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W43")
+					(reference "W41")
 					(unit 1)
 				)
 			)
@@ -31750,7 +31995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f89b5f6c-776c-43ca-9a8f-93c6cf8813a1")
-		(property "Reference" "W14"
+		(property "Reference" "W17"
 			(at 172.212 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31772,7 +32017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 166.37 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -31811,7 +32056,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W14")
+					(reference "W17")
 					(unit 1)
 				)
 			)
@@ -32231,7 +32476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff4ea63f-8cf9-4ef8-bb2a-21b3ff09382c")
-		(property "Reference" "W29"
+		(property "Reference" "W23"
 			(at 233.934 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32252,7 +32497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm"
+		(property "Footprint" "Library:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
 			(at 232.41 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -32291,7 +32536,7 @@
 		(instances
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "W29")
+					(reference "W23")
 					(unit 1)
 				)
 			)
