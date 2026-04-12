@@ -19398,7 +19398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm_TC"
+		(property "Footprint" "Library:SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC_Via"
 			(at 64.135 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -29808,7 +29808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm_TC"
+		(property "Footprint" "Library:SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC_Via"
 			(at 35.56 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -30314,7 +30314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm_TC"
+		(property "Footprint" "Library:SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC_Via"
 			(at 49.53 157.48 0)
 			(hide yes)
 			(show_name no)

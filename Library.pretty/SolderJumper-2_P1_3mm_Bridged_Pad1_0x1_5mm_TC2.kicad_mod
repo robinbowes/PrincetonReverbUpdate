@@ -1,0 +1,222 @@
+(footprint "SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip, front and back")
+	(tags "net tie solder jumper bridged")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "480bdd2f-ae57-4318-bd5f-59d702d9cf77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_TC"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "2537951b-ebc5-4e8c-becf-b9a68b1b311e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46bd5ec6-cbe1-4589-9d4b-e366dc77adf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f385fb75-25f1-499d-a629-e5f5d83b6ec4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0)
+	(zone_connect 2)
+	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		allow_soldermask_bridges
+	)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_poly
+		(pts
+			(xy -0.25 -0.7) (xy 0.25 -0.7) (xy 0.25 0.7) (xy -0.25 0.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "796546ec-7ab2-4893-b499-3b0053955326")
+	)
+	(fp_rect
+		(start -0.15 -0.75)
+		(end 0.15 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "cfef4fb8-0195-45f7-89df-b7fa0033b14e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.25 -0.7) (xy 0.25 -0.7) (xy 0.25 0.7) (xy -0.25 0.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Cu")
+		(uuid "796546ec-7ab2-4893-b499-3b0053955327")
+	)
+	(fp_rect
+		(start -0.15 -0.75)
+		(end 0.15 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "cfef4fb8-0195-45f7-89df-b7fa0033b14f")
+	)
+	(fp_line
+		(start -1.4 -1)
+		(end 1.4 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afa9a3d6-be49-43e7-ae45-176dc8c96ad6")
+	)
+	(fp_line
+		(start -1.4 1)
+		(end -1.4 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9220de8b-09ed-4228-aff4-e3dd14d8c6c6")
+	)
+	(fp_line
+		(start 1.4 -1)
+		(end 1.4 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9e9eb07-b004-4b4a-bbb5-1ab9c3183279")
+	)
+	(fp_line
+		(start 1.4 1)
+		(end -1.4 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bd6d867-4695-40f2-9eb6-1580abfe8bfe")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86b557a9-79b3-4485-bfa2-a548c0104d68")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6557941b-c2d3-40a0-84ea-694ff124411e")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end -1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50039349-ff6c-405d-a38b-d9309fd904e7")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6aa65eff-5636-470e-8f48-fea7c54aec8a")
+	)
+	(pad "1" smd rect
+		(at -0.65 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(clearance 0)
+		(zone_connect 2)
+		(uuid "5f353a67-3ea4-4ff8-b3e5-0a43ac53b20a")
+	)
+	(pad "1" smd rect
+		(at -0.65 0)
+		(size 1 1.5)
+		(layers "B.Cu" "B.Mask")
+		(clearance 0)
+		(zone_connect 2)
+		(uuid "5f353a67-3ea4-4ff8-b3e5-0a43ac53b20b")
+	)
+	(pad "2" smd rect
+		(at 0.65 0)
+		(size 1 1.5)
+		(layers "F.Cu" "F.Mask")
+		(clearance 0)
+		(zone_connect 2)
+		(uuid "9951090d-e8ce-405c-b5ef-731b6c68a3a7")
+	)
+	(pad "2" smd rect
+		(at 0.65 0)
+		(size 1 1.5)
+		(layers "B.Cu" "B.Mask")
+		(clearance 0)
+		(zone_connect 2)
+		(uuid "9951090d-e8ce-405c-b5ef-731b6c68a3a8")
+	)
+	(embedded_fonts no)
+)
