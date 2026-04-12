@@ -1,4 +1,4 @@
-(footprint "SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
+(footprint "SolderWire_TC"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.2 0)
 		(layer "F.Fab")
-		(uuid "7a6bc906-63d0-47ac-a468-3c86d6b09854")
+		(uuid "335b6f63-0b4f-4fbf-9899-da6c3d023536")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_TC"
+	(property "Value" "SolderWire_TC"
 		(at 0 2.2 0)
 		(layer "F.SilkS")
-		(uuid "3354c106-7bae-4542-8033-9847f8e67cb1")
+		(uuid "caf45afa-79f9-421f-a063-ba2979c62625")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e6047477-a8c6-4387-95a0-2e94667468d1")
+		(uuid "7c3d0d2e-3128-4429-aca8-ca58559fa5b5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0281a4f0-5e0c-41dc-932d-22dac7fa90c8")
+		(uuid "1e7279cd-ccf3-4f54-b531-cb439b96873d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "0d063356-59e0-4bb9-9ed5-f9eb99a8c8ee")
+		(uuid "5b4abafd-73fd-4b82-86ba-74be7e759bec")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "65864e8b-3bb6-4343-85d9-4508f9296664")
+		(uuid "2269c39b-0303-47af-9ca9-e5d2629e7fa4")
 	)
 	(fp_circle
 		(center 0 0)
@@ -82,12 +82,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5434e809-d7e6-4e7c-a763-24192f328468")
+		(uuid "3b8f500c-3d14-4eb5-80a2-d1b1916de6f3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b060ec7f-8b67-4369-8e09-6172c87e49fb")
+		(uuid "9979b80c-f1c5-46b0-8b87-c557618f5328")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -95,14 +95,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2 2)
-		(drill 0.85)
+		(size 3 3)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.125)
-		(uuid "4f028f70-5e26-4e1b-a308-6fd1ede7f374")
+		(uuid "bf153528-7787-4de3-b4ce-cb490caca1f7")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm.step"
