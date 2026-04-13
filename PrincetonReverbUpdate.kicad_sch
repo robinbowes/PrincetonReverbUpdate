@@ -9452,6 +9452,12 @@
 		(uuid "57a044d7-8761-4959-bb91-be85f0524c94")
 	)
 	(junction
+		(at 144.78 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae3f6da-500f-47a4-b900-c530d5850cfd")
+	)
+	(junction
 		(at 259.08 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9816,6 +9822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9cfd89b-6985-4fab-bedc-6eadbe0bf60a")
+	)
+	(junction
+		(at 196.85 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8221e1-5929-462b-8e62-57a99dad5c26")
 	)
 	(junction
 		(at 171.45 60.96)
@@ -13103,6 +13115,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c0ab15-8ac3-4a22-89bb-5576cdeb0c0c")
+	)
+	(wire
+		(pts
 			(xy 48.26 125.73) (xy 48.26 127)
 		)
 		(stroke
@@ -13525,7 +13547,7 @@
 	)
 	(global_label "VibPedal"
 		(shape input)
-		(at 144.78 143.51 0)
+		(at 146.05 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13535,7 +13557,7 @@
 		)
 		(uuid "643cdff5-8585-419e-bbf9-47c910c41f2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9294 143.51 0)
+			(at 157.1994 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15518,6 +15540,83 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:TestPoint_Small_TC")
+		(at 144.78 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ec62cb3-ef2d-4b42-b69c-22bf9cd85edd")
+		(property "Reference" "W46"
+			(at 144.78 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "VibPedSig"
+			(at 142.748 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SolderWire_TC"
+			(at 144.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "885ca86c-b1ce-4417-94ed-1dd37436f852")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "W46")
 					(unit 1)
 				)
 			)
@@ -23422,7 +23521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VibPedalGND"
+		(property "Value" "VibPedGND"
 			(at 139.7 147.828 0)
 			(hide yes)
 			(show_name no)
@@ -24886,7 +24985,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDE"
 			(at 87.63 49.8531 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29681,6 +29780,83 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DevicesTC:TestPoint_Small_TC")
+		(at 196.85 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed5148e9-2b52-4c04-9f57-392dd6c8bcde")
+		(property "Reference" "W45"
+			(at 198.12 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "CToCapCan"
+			(at 197.358 88.392 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SolderWire_TC"
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbb6c64a-637e-44e7-9d6d-d72a5a494792")
+		)
+		(instances
+			(project "PrincetonReverbUpdate"
+				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
+					(reference "W45")
 					(unit 1)
 				)
 			)
