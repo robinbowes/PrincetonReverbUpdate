@@ -69,6 +69,26 @@
       <undersideTransparency>true</undersideTransparency>
       <type>SQUARE</type>
     </diylc.boards.BlankBoard>
+    <diylc.electromechanical.DrillHole>
+      <id>ce72df4e-b20e-4f44-9378-926d7b0a6067</id>
+      <name>Hole1</name>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <diameter value="4.5" unit="mm"/>
+      <color hex="000000"/>
+      <point x="18.2" y="5.65"/>
+    </diylc.electromechanical.DrillHole>
+    <diylc.electromechanical.DrillHole>
+      <id>98a032be-b11b-476d-be78-2339d7a9c30a</id>
+      <name>Hole2</name>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <diameter value="4.5" unit="mm"/>
+      <color hex="000000"/>
+      <point x="8.15" y="5.7"/>
+    </diylc.electromechanical.DrillHole>
     <diylc.electromechanical.MiniToggleSwitch>
       <id>cf6b93ed-99c8-445e-b956-228993e0b126</id>
       <name defined-in="diylc.AbstractComponent">Power (DPST)</name>
@@ -2000,7 +2020,7 @@
     <diylc.misc.Label>
       <id>70bd5a11-ddba-46a8-82b5-026a744450af</id>
       <name>L1</name>
-      <point x="0.35" y="9.65"/>
+      <point x="0.6" y="9.25"/>
       <text>Safety</text>
       <font name="Tahoma" size="18" style="0"/>
       <color hex="000000"/>
@@ -2033,7 +2053,7 @@
     <diylc.misc.Label>
       <id>c4781459-b81e-401e-9993-7d19fe347af1</id>
       <name>L1</name>
-      <point x="0.35" y="9.75"/>
+      <point x="0.6" y="9.35"/>
       <text>Ground</text>
       <font name="Tahoma" size="18" style="0"/>
       <color hex="000000"/>
@@ -2044,7 +2064,7 @@
     <diylc.misc.Label>
       <id>bc0f9bd8-ea49-4524-8931-f33144dd3819</id>
       <name>L1</name>
-      <point x="0.35" y="9.85"/>
+      <point x="0.6" y="9.45"/>
       <text>Bolt</text>
       <font name="Tahoma" size="18" style="0"/>
       <color hex="000000"/>
@@ -2099,7 +2119,7 @@
     <diylc.misc.Label>
       <id>f032a5a1-0ae7-4ceb-98d3-8a760508a4c6</id>
       <name>L1</name>
-      <point x="2.35" y="9.1"/>
+      <point x="2.25" y="9.2"/>
       <text>DC B+ Out</text>
       <font name="Tahoma" size="22" style="0"/>
       <color hex="ff0000"/>
@@ -3200,7 +3220,7 @@
     <diylc.misc.GroundSymbol>
       <id>e5c60f21-65e0-4ebb-86be-7400969f4ad3</id>
       <name>GND1</name>
-      <point x="3.25" y="9.85"/>
+      <point x="0.35" y="9.55"/>
       <color hex="000000"/>
       <size value="0.15" unit="in"/>
       <type>DEFAULT</type>
@@ -3408,7 +3428,7 @@
     <diylc.misc.Label>
       <id>20f433df-986a-4f80-a2f3-e358d806f95b</id>
       <name>L2</name>
-      <point x="2.85" y="9.8"/>
+      <point x="0.45" y="9.6"/>
       <text>Chassis Ground</text>
       <font name="Tahoma" size="14" style="0"/>
       <color hex="000000"/>
@@ -3544,26 +3564,6 @@
       <gauge>_22</gauge>
       <striped>false</striped>
     </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <id>2ff6480b-e46d-4fa7-8dbd-39bad824f4dc</id>
-      <name>W3</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <controlPoints2>
-        <point x="6.0" y="8.25"/>
-        <point x="6.0" y="7.55"/>
-        <point x="6.4" y="7.2"/>
-        <point x="8.05" y="7.05"/>
-      </controlPoints2>
-      <color hex="ff0000"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_20</gauge>
-      <striped>false</striped>
-    </diylc.connectivity.HookupWire>
     <diylc.passive.MultiSectionCapacitor>
       <id>930ce5ee-3790-4ebc-b76d-febd13db7d5d</id>
       <name>Cap Can</name>
@@ -3605,13 +3605,14 @@
         <point x="6.3" y="7.75"/>
         <point x="9.3" y="6.8"/>
       </controlPoints2>
-      <color hex="ff0000"/>
+      <color hex="ff6666"/>
       <pointCount>FOUR</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <id>564b5fd1-91c4-4837-a30d-30c9876d972a</id>
@@ -3645,13 +3646,14 @@
         <point x="7.4" y="7.75"/>
         <point x="9.6" y="6.8"/>
       </controlPoints2>
-      <color hex="ff0000"/>
+      <color hex="ff6600"/>
       <pointCount>FOUR</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <id>0d3ee97d-9ab1-4d2b-9582-4a5ef923a70a</id>
@@ -4448,7 +4450,7 @@
       </alphaPercent>
       <controlPoints2>
         <point x="2.05" y="9.05"/>
-        <point x="2.45" y="9.0"/>
+        <point x="2.75" y="9.45"/>
         <point x="4.15" y="6.45"/>
         <point x="5.7" y="6.4"/>
       </controlPoints2>
@@ -4706,7 +4708,7 @@
       </alphaPercent>
       <controlPoints2>
         <point x="6.15" y="6.3"/>
-        <point x="4.95" y="7.05"/>
+        <point x="6.05" y="7.0"/>
         <point x="2.4" y="8.55"/>
         <point x="3.2" y="8.75"/>
       </controlPoints2>
@@ -5985,6 +5987,16 @@
       <layer>_1</layer>
       <holeType>NTPH</holeType>
     </diylc.connectivity.SolderPad>
+    <diylc.misc.GroundSymbol>
+      <id>ee89c2dd-777e-42cb-83c2-5dfff4cd2f28</id>
+      <name>GND2</name>
+      <point x="18.2" y="5.75"/>
+      <color hex="000000"/>
+      <size value="0.15" unit="in"/>
+      <type>DEFAULT</type>
+      <orientation>DEFAULT</orientation>
+      <stroke>1</stroke>
+    </diylc.misc.GroundSymbol>
     <diylc.misc.Label>
       <id>57927f28-760b-48e4-a154-dcc03a503f62</id>
       <point x="11.1" y="6.7"/>
@@ -5995,26 +6007,44 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>e2b6f1dc-aea5-4502-ae85-01619ca938ad</id>
+      <name>LAB1</name>
+      <point x="17.95" y="5.9"/>
+      <text>Chassis Ground</text>
+      <font name="Tahoma" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.HookupWire>
+      <id>2ff6480b-e46d-4fa7-8dbd-39bad824f4dc</id>
+      <name>W3</name>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <controlPoints2>
+        <point x="6.0" y="8.25"/>
+        <point x="6.0" y="7.55"/>
+        <point x="5.25" y="7.3"/>
+        <point x="5.7" y="6.4"/>
+      </controlPoints2>
+      <color hex="ff0000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_20</gauge>
+      <striped>false</striped>
+    </diylc.connectivity.HookupWire>
   </components>
   <groups/>
   <groupsEx>
     <group>
       <componentIds>
-        <uuid>aba02f55-4376-47db-8bca-fc6a36d8a8e8</uuid>
-        <uuid>cf254022-b774-4758-9731-fdc386653564</uuid>
-        <uuid>cdee5fa2-0c40-43e0-8f90-e200c9077a77</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
-        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
-        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
+        <uuid>11bc2f53-940c-476d-aac6-a3ddf3db160a</uuid>
+        <uuid>91d33921-f27f-4512-8a54-7670effb21c7</uuid>
       </componentIds>
     </group>
     <group>
@@ -6116,14 +6146,27 @@
     </group>
     <group>
       <componentIds>
+        <uuid>aba02f55-4376-47db-8bca-fc6a36d8a8e8</uuid>
+        <uuid>cf254022-b774-4758-9731-fdc386653564</uuid>
+        <uuid>cdee5fa2-0c40-43e0-8f90-e200c9077a77</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
+        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
         <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
         <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
       </componentIds>
     </group>
     <group>
       <componentIds>
-        <uuid>11bc2f53-940c-476d-aac6-a3ddf3db160a</uuid>
-        <uuid>91d33921-f27f-4512-8a54-7670effb21c7</uuid>
+        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
+        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
       </componentIds>
     </group>
   </groupsEx>
