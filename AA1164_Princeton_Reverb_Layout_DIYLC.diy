@@ -14,34 +14,6 @@
   <dotSpacing>1</dotSpacing>
   <components>
     <diylc.boards.BlankBoard>
-      <id>6f9514d8-71f9-4215-92e0-8d35d2441509</id>
-      <name>Board1</name>
-      <alphaPercent>
-        <value>51</value>
-      </alphaPercent>
-      <value></value>
-      <controlPoints>
-        <point x="7.75" y="4.3"/>
-        <point x="18.65" y="6.9"/>
-      </controlPoints>
-      <firstPoint x="7.75" y="4.3"/>
-      <secondPoint x="18.65" y="6.9"/>
-      <boardColor hex="ccffcc"/>
-      <borderColor hex="ada47d"/>
-      <coordinateColor hex="b6b6b6"/>
-      <xType>Numbers</xType>
-      <coordinateOrigin>Top_Left</coordinateOrigin>
-      <coordinateDisplay>One_Side</coordinateDisplay>
-      <yType>Letters</yType>
-      <length value="276.86" unit="mm"/>
-      <width value="66.04" unit="mm"/>
-      <mode>TwoPoints</mode>
-      <boardUndersideDisplay>NONE</boardUndersideDisplay>
-      <undersideOffset value="0.1" unit="in"/>
-      <undersideTransparency>true</undersideTransparency>
-      <type>SQUARE</type>
-    </diylc.boards.BlankBoard>
-    <diylc.boards.BlankBoard>
       <id>3c64c28e-78d8-47ff-8c49-c179c4d829a7</id>
       <name>Board2</name>
       <alphaPercent>
@@ -63,6 +35,33 @@
       <yType>Letters</yType>
       <length value="20.32" unit="mm"/>
       <width value="34.29" unit="mm"/>
+      <mode>TwoPoints</mode>
+      <boardUndersideDisplay>NONE</boardUndersideDisplay>
+      <undersideOffset value="0.1" unit="in"/>
+      <undersideTransparency>true</undersideTransparency>
+      <type>SQUARE</type>
+    </diylc.boards.BlankBoard>
+    <diylc.boards.BlankBoard>
+      <id>c9dfa8c1-b79a-4c4e-9795-11840dd01db2</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <value></value>
+      <controlPoints>
+        <point x="7.7" y="4.55"/>
+        <point x="18.5" y="6.75"/>
+      </controlPoints>
+      <firstPoint x="7.7" y="4.55"/>
+      <secondPoint x="18.5" y="6.75"/>
+      <boardColor hex="ccffcc"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <length value="274.32" unit="mm"/>
+      <width value="55.88" unit="mm"/>
       <mode>TwoPoints</mode>
       <boardUndersideDisplay>NONE</boardUndersideDisplay>
       <undersideOffset value="0.1" unit="in"/>
@@ -559,7 +558,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="18.1" y="6.8"/>
+        <point x="17.6" y="6.65"/>
         <point x="18.45" y="8.0"/>
         <point x="18.45" y="8.55"/>
         <point x="18.35" y="8.9"/>
@@ -579,7 +578,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="17.7" y="6.8"/>
+        <point x="17.2" y="6.65"/>
         <point x="17.75" y="7.6"/>
         <point x="16.5" y="9.0"/>
         <point x="17.55" y="8.95"/>
@@ -619,7 +618,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="17.5" y="6.8"/>
+        <point x="17.0" y="6.65"/>
         <point x="17.3" y="7.8"/>
         <point x="17.45" y="8.35"/>
         <point x="17.8" y="8.6"/>
@@ -665,8 +664,8 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="12.4" y="4.5"/>
-        <point x="14.2" y="7.25"/>
+        <point x="12.4" y="4.75"/>
+        <point x="14.45" y="7.1"/>
         <point x="14.55" y="8.25"/>
         <point x="15.45" y="8.75"/>
       </controlPoints2>
@@ -685,7 +684,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="12.5" y="4.5"/>
+        <point x="12.5" y="4.75"/>
         <point x="14.2" y="7.2"/>
         <point x="15.45" y="8.1"/>
         <point x="15.65" y="8.55"/>
@@ -752,9 +751,9 @@
       </alphaPercent>
       <controlPoints2>
         <point x="13.4" y="10.6"/>
-        <point x="12.8" y="9.9"/>
-        <point x="12.95" y="9.45"/>
-        <point x="12.6" y="9.15"/>
+        <point x="12.4" y="10.15"/>
+        <point x="11.2" y="9.25"/>
+        <point x="11.9" y="8.75"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -771,10 +770,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="13.7" y="6.8"/>
+        <point x="13.7" y="6.65"/>
         <point x="13.65" y="8.05"/>
-        <point x="13.45" y="8.8"/>
-        <point x="12.65" y="8.9"/>
+        <point x="11.0" y="7.6"/>
+        <point x="11.85" y="9.0"/>
       </controlPoints2>
       <color hex="ffcc33"/>
       <pointCount>FOUR</pointCount>
@@ -791,10 +790,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="15.3" y="6.8"/>
+        <point x="15.1" y="6.65"/>
         <point x="14.6" y="8.5"/>
-        <point x="10.0" y="7.9"/>
-        <point x="11.85" y="8.95"/>
+        <point x="13.05" y="8.8"/>
+        <point x="12.65" y="8.9"/>
       </controlPoints2>
       <color hex="ffcc33"/>
       <pointCount>FOUR</pointCount>
@@ -857,10 +856,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="10.4" y="6.8"/>
+        <point x="10.4" y="6.65"/>
         <point x="10.4" y="7.5"/>
-        <point x="10.8" y="9.25"/>
-        <point x="9.7" y="9.15"/>
+        <point x="8.45" y="8.2"/>
+        <point x="9.0" y="8.7"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -877,10 +876,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="10.2" y="6.8"/>
+        <point x="10.2" y="6.65"/>
         <point x="10.25" y="7.5"/>
-        <point x="10.25" y="8.7"/>
-        <point x="9.75" y="8.9"/>
+        <point x="7.7" y="8.6"/>
+        <point x="8.95" y="8.95"/>
       </controlPoints2>
       <color hex="ffcc33"/>
       <pointCount>FOUR</pointCount>
@@ -917,10 +916,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="12.0" y="6.8"/>
+        <point x="12.0" y="6.65"/>
         <point x="12.05" y="7.2"/>
-        <point x="7.35" y="8.6"/>
-        <point x="8.95" y="9.0"/>
+        <point x="10.7" y="8.95"/>
+        <point x="9.75" y="8.9"/>
       </controlPoints2>
       <color hex="ffcc33"/>
       <pointCount>FOUR</pointCount>
@@ -1050,7 +1049,7 @@
         <point x="4.55" y="9.05"/>
         <point x="5.15" y="8.9"/>
         <point x="8.2" y="7.8"/>
-        <point x="8.4" y="6.8"/>
+        <point x="8.4" y="6.65"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -1499,7 +1498,7 @@
         <point x="7.0" y="7.8"/>
         <point x="7.25" y="7.4"/>
         <point x="11.25" y="7.4"/>
-        <point x="11.3" y="6.8"/>
+        <point x="11.3" y="6.65"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>FOUR</pointCount>
@@ -1519,7 +1518,7 @@
         <point x="4.35" y="8.0"/>
         <point x="4.75" y="7.6"/>
         <point x="11.25" y="7.65"/>
-        <point x="11.6" y="6.8"/>
+        <point x="11.5" y="6.65"/>
       </controlPoints2>
       <color hex="ffcc33"/>
       <pointCount>FOUR</pointCount>
@@ -2254,7 +2253,7 @@
         <point x="18.75" y="2.45"/>
         <point x="18.8" y="2.85"/>
         <point x="18.9" y="4.75"/>
-        <point x="18.5" y="4.5"/>
+        <point x="18.3" y="4.75"/>
       </controlPoints2>
       <color hex="cccccc"/>
       <pointCount>FOUR</pointCount>
@@ -2271,7 +2270,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="17.2" y="4.5"/>
+        <point x="16.9" y="4.75"/>
         <point x="16.1" y="3.85"/>
         <point x="13.6" y="3.4"/>
         <point x="12.4" y="1.5"/>
@@ -2302,7 +2301,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="17.4" y="4.5"/>
+        <point x="17.1" y="4.75"/>
         <point x="16.35" y="3.7"/>
         <point x="14.05" y="3.55"/>
         <point x="12.7" y="1.5"/>
@@ -2325,7 +2324,7 @@
         <point x="14.9" y="1.5"/>
         <point x="14.9" y="3.55"/>
         <point x="15.85" y="3.45"/>
-        <point x="16.9" y="4.5"/>
+        <point x="17.3" y="4.75"/>
       </controlPoints2>
       <color hex="ffffff"/>
       <pointCount>FOUR</pointCount>
@@ -2365,7 +2364,7 @@
         <point x="10.45" y="1.5"/>
         <point x="11.25" y="2.75"/>
         <point x="12.0" y="3.0"/>
-        <point x="14.0" y="4.5"/>
+        <point x="14.0" y="4.75"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2403,7 +2402,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="10.2" y="4.5"/>
+        <point x="10.2" y="4.75"/>
         <point x="9.75" y="3.95"/>
         <point x="9.1" y="2.75"/>
         <point x="9.0" y="1.5"/>
@@ -2426,7 +2425,7 @@
         <point x="6.75" y="1.5"/>
         <point x="7.2" y="2.0"/>
         <point x="7.25" y="2.95"/>
-        <point x="9.4" y="4.5"/>
+        <point x="9.3" y="4.75"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -2446,7 +2445,7 @@
         <point x="1.45" y="8.7"/>
         <point x="3.9" y="6.65"/>
         <point x="4.8" y="8.15"/>
-        <point x="7.9" y="6.8"/>
+        <point x="7.9" y="6.65"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>FOUR</pointCount>
@@ -2467,7 +2466,7 @@
         <point x="6.45" y="1.5"/>
         <point x="6.7" y="2.9"/>
         <point x="8.05" y="3.95"/>
-        <point x="9.1" y="4.5"/>
+        <point x="9.0" y="4.75"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -3450,7 +3449,7 @@
     <diylc.misc.Label>
       <id>8f4c8eed-3deb-492b-a195-223d1e88a04b</id>
       <name>L1</name>
-      <point x="12.1" y="8.8"/>
+      <point x="12.4" y="9.05"/>
       <text>A</text>
       <font name="Tahoma" size="22" style="0"/>
       <color hex="000000"/>
@@ -3461,7 +3460,7 @@
     <diylc.misc.Label>
       <id>0d85c965-5929-4569-84b3-69c5a89d53b6</id>
       <name>L1</name>
-      <point x="12.4" y="9.05"/>
+      <point x="12.1" y="8.85"/>
       <text>B</text>
       <font name="Tahoma" size="22" style="0"/>
       <color hex="000000"/>
@@ -3472,7 +3471,7 @@
     <diylc.misc.Label>
       <id>ea5b4b12-b1fe-4d27-93a0-ac9d28bfd97b</id>
       <name>L1</name>
-      <point x="9.2" y="8.85"/>
+      <point x="9.5" y="9.05"/>
       <text>A</text>
       <font name="Tahoma" size="22" style="0"/>
       <color hex="000000"/>
@@ -3483,7 +3482,7 @@
     <diylc.misc.Label>
       <id>06eecbfa-4a8d-426c-89ff-7f7f946a7751</id>
       <name>L1</name>
-      <point x="9.5" y="9.1"/>
+      <point x="9.2" y="8.85"/>
       <text>B</text>
       <font name="Tahoma" size="22" style="0"/>
       <color hex="000000"/>
@@ -3520,7 +3519,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="18.3" y="6.8"/>
+        <point x="17.8" y="6.65"/>
         <point x="18.75" y="9.35"/>
         <point x="18.65" y="9.7"/>
         <point x="18.1" y="9.35"/>
@@ -3551,10 +3550,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="15.7" y="6.8"/>
+        <point x="15.5" y="6.65"/>
         <point x="15.6" y="7.75"/>
-        <point x="11.9" y="7.9"/>
-        <point x="12.1" y="8.55"/>
+        <point x="13.3" y="9.5"/>
+        <point x="12.4" y="9.3"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -3603,7 +3602,7 @@
         <point x="6.15" y="5.8"/>
         <point x="6.75" y="5.8"/>
         <point x="6.3" y="7.75"/>
-        <point x="9.3" y="6.8"/>
+        <point x="9.1" y="6.65"/>
       </controlPoints2>
       <color hex="ff6666"/>
       <pointCount>FOUR</pointCount>
@@ -3624,7 +3623,7 @@
         <point x="5.7" y="6.45"/>
         <point x="5.8" y="6.85"/>
         <point x="7.55" y="7.75"/>
-        <point x="9.0" y="6.8"/>
+        <point x="8.7" y="6.65"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>FOUR</pointCount>
@@ -3644,7 +3643,7 @@
         <point x="6.2" y="6.3"/>
         <point x="6.45" y="6.8"/>
         <point x="7.4" y="7.75"/>
-        <point x="9.6" y="6.8"/>
+        <point x="9.6" y="6.65"/>
       </controlPoints2>
       <color hex="ff6600"/>
       <pointCount>FOUR</pointCount>
@@ -3684,7 +3683,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="9.8" y="4.5"/>
+        <point x="8.7" y="4.75"/>
         <point x="8.75" y="3.0"/>
         <point x="7.35" y="3.0"/>
         <point x="7.05" y="1.5"/>
@@ -3704,7 +3703,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="14.5" y="4.5"/>
+        <point x="14.5" y="4.75"/>
         <point x="14.4" y="3.85"/>
         <point x="11.3" y="2.55"/>
         <point x="10.75" y="1.5"/>
@@ -3727,7 +3726,7 @@
         <point x="11.05" y="1.5"/>
         <point x="11.5" y="2.65"/>
         <point x="13.6" y="3.9"/>
-        <point x="14.3" y="4.5"/>
+        <point x="14.2" y="4.75"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -4026,10 +4025,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="13.3" y="6.8"/>
+        <point x="13.3" y="6.65"/>
         <point x="13.15" y="7.8"/>
-        <point x="12.85" y="9.5"/>
-        <point x="12.4" y="9.35"/>
+        <point x="12.3" y="7.9"/>
+        <point x="12.1" y="8.55"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -4046,10 +4045,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="10.7" y="6.8"/>
+        <point x="10.7" y="6.65"/>
         <point x="10.7" y="7.7"/>
-        <point x="10.55" y="9.7"/>
-        <point x="9.5" y="9.3"/>
+        <point x="8.8" y="8.05"/>
+        <point x="9.2" y="8.55"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -4066,10 +4065,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="11.8" y="6.8"/>
+        <point x="11.8" y="6.65"/>
         <point x="11.6" y="7.8"/>
-        <point x="9.05" y="8.15"/>
-        <point x="9.2" y="8.55"/>
+        <point x="10.65" y="9.4"/>
+        <point x="9.5" y="9.3"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -4086,10 +4085,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="14.0" y="6.8"/>
+        <point x="14.0" y="6.65"/>
         <point x="13.55" y="7.8"/>
-        <point x="7.55" y="7.55"/>
-        <point x="8.55" y="8.35"/>
+        <point x="11.05" y="9.15"/>
+        <point x="10.35" y="9.15"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -4106,7 +4105,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="11.1" y="6.8"/>
+        <point x="11.1" y="6.65"/>
         <point x="11.05" y="7.1"/>
         <point x="10.9" y="10.35"/>
         <point x="12.05" y="10.6"/>
@@ -4232,7 +4231,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="12.4" y="6.8"/>
+        <point x="12.4" y="6.65"/>
         <point x="12.25" y="7.6"/>
         <point x="14.65" y="8.4"/>
         <point x="14.85" y="9.0"/>
@@ -4274,10 +4273,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="15.5" y="6.8"/>
+        <point x="15.3" y="6.65"/>
         <point x="15.0" y="8.2"/>
-        <point x="11.4" y="8.1"/>
-        <point x="11.9" y="8.75"/>
+        <point x="13.1" y="9.05"/>
+        <point x="12.6" y="9.15"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -4412,7 +4411,7 @@
         <point x="8.4" y="1.5"/>
         <point x="9.2" y="2.75"/>
         <point x="9.95" y="3.0"/>
-        <point x="10.5" y="4.5"/>
+        <point x="10.5" y="4.75"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -4432,7 +4431,7 @@
         <point x="5.45" y="6.05"/>
         <point x="5.1" y="5.3"/>
         <point x="4.95" y="4.85"/>
-        <point x="8.4" y="4.5"/>
+        <point x="7.9" y="4.75"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -4505,13 +4504,13 @@
       <holeType>NTPH</holeType>
     </diylc.connectivity.SolderPad>
     <diylc.connectivity.SolderPad>
-      <id>61b3f649-93fa-4f90-802b-95cf4725ad56</id>
+      <id>cd542e9e-5cf0-43a8-b1e7-70020c68edc9</id>
       <alphaPercent>
         <value>100</value>
       </alphaPercent>
       <size value="0.09" unit="in"/>
       <color hex="cc6600"/>
-      <point x="18.0" y="4.5"/>
+      <point x="17.9" y="4.75"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -4635,9 +4634,9 @@
       <length value="12.0" unit="mm"/>
       <width value="4.0" unit="mm"/>
       <points>
-        <point x="8.55" y="8.35"/>
-        <point x="9.0" y="8.75"/>
-        <point x="8.775" y="8.55"/>
+        <point x="9.700000000000001" y="9.15"/>
+        <point x="10.35" y="9.15"/>
+        <point x="10.025" y="9.15"/>
       </points>
       <bodyColor hex="d2d7db"/>
       <borderColor hex="b2b7bb"/>
@@ -4647,6 +4646,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="2.0" unit="W"/>
@@ -4728,10 +4728,10 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="13.5" y="6.8"/>
+        <point x="13.5" y="6.65"/>
         <point x="13.3" y="8.15"/>
-        <point x="13.5" y="9.35"/>
-        <point x="12.6" y="9.15"/>
+        <point x="11.45" y="7.85"/>
+        <point x="11.9" y="8.75"/>
       </controlPoints2>
       <color hex="ffff00"/>
       <pointCount>FOUR</pointCount>
@@ -4768,7 +4768,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="15.9" y="6.8"/>
+        <point x="15.7" y="6.65"/>
         <point x="15.75" y="7.6"/>
         <point x="14.2" y="10.55"/>
         <point x="10.25" y="10.25"/>
@@ -4791,7 +4791,7 @@
         <point x="10.25" y="10.85"/>
         <point x="13.85" y="10.25"/>
         <point x="15.6" y="8.75"/>
-        <point x="16.1" y="6.8"/>
+        <point x="15.9" y="6.65"/>
       </controlPoints2>
       <color hex="339900"/>
       <pointCount>FOUR</pointCount>
@@ -4811,7 +4811,7 @@
         <point x="17.5" y="3.7"/>
         <point x="17.55" y="4.0"/>
         <point x="17.5" y="4.2"/>
-        <point x="18.0" y="4.5"/>
+        <point x="17.9" y="4.75"/>
       </controlPoints2>
       <color hex="ff3333"/>
       <pointCount>FOUR</pointCount>
@@ -4897,7 +4897,7 @@
         <value>41</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="10.9" y="6.8"/>
+        <point x="10.9" y="6.65"/>
         <point x="10.85" y="7.4"/>
         <point x="10.9" y="10.55"/>
         <point x="11.85" y="10.6"/>
@@ -4921,7 +4921,7 @@
         <point x="13.45" y="10.45"/>
         <point x="13.6" y="8.95"/>
         <point x="14.25" y="8.15"/>
-        <point x="14.3" y="6.8"/>
+        <point x="14.3" y="6.65"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -4939,7 +4939,7 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="14.7" y="6.8"/>
+        <point x="14.7" y="6.65"/>
         <point x="14.45" y="9.8"/>
         <point x="14.7" y="10.5"/>
         <point x="15.35" y="10.35"/>
@@ -4952,1041 +4952,6 @@
       <gauge>_22</gauge>
       <striped>false</striped>
     </diylc.connectivity.HookupWire>
-    <diylc.misc.Label>
-      <id>eeaa5948-4b6b-4098-9c46-849bf0f43d9b</id>
-      <point x="18.0" y="4.4"/>
-      <text>FETB+</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>f023c911-eaf1-442f-b68a-8672c0af91f1</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="18.1" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>86485964-21c5-47de-b742-6c898ec66078</id>
-      <point x="18.1" y="6.7"/>
-      <text>1BA</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>74bcff8f-8572-45f3-a887-93e636241c73</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="16.9" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>07e90596-c2bd-4580-b3c8-e7efcba9fa06</id>
-      <point x="16.9" y="4.4"/>
-      <text>TrebTop</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>a2b05326-7edf-455c-9e39-7cc8d43ab202</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="17.7" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>fbff400a-8440-49de-a07e-c012662d0e9b</id>
-      <point x="17.7" y="6.7"/>
-      <text>1AA</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>46491196-e95a-4a8a-81dd-eeb6f9a4bee9</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="15.3" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>01cf9df0-aa4f-42e1-8d82-836fa096d4b4</id>
-      <point x="15.3" y="6.7"/>
-      <text>3AA</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>93f7e63d-241c-468a-b827-bce8c882d9df</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="12.0" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>2f700c0c-ebf2-4928-ac2e-6fcab8044981</id>
-      <point x="12.0" y="6.7"/>
-      <text>4AA</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>19c0a984-c581-4d55-8758-7b2d024f6164</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="11.3" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>129ca508-d09f-4954-8e0a-8e1a6e452db9</id>
-      <point x="11.3" y="6.7"/>
-      <text>6V6A</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>58243e1a-a9cd-432f-823f-d40fc97c7b3b</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="15.5" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>4ad54d8d-1891-4e78-abe2-de2ee2695467</id>
-      <point x="15.5" y="6.7"/>
-      <text>3AG</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>c706dbb5-be52-4813-a094-8c494ed6354f</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="14.0" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>d4001db8-29c4-4091-b7a8-997ea4eb4c39</id>
-      <point x="14.0" y="6.7"/>
-      <text>4Astopper</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>e38e97bb-c034-4cef-91e0-18333c63b126</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="8.4" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>cbaabf88-e973-4548-86c3-7d27ecc7cbd0</id>
-      <point x="8.4" y="6.7"/>
-      <text>6V6Cathode</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>de5edc76-d9a5-47c6-addc-1e48c2cb11c4</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="17.4" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>1f4e01fb-a483-4c3d-a1b5-fbdf083fa5b3</id>
-      <point x="17.4" y="4.4"/>
-      <text>BassTop</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>1dd48ef9-cdb5-449b-9e39-fc136d48fba4</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="15.9" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>d7a1ecd1-949a-4071-a80d-fd813ff44ce7</id>
-      <point x="15.9" y="6.7"/>
-      <text>Spk GND</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>f953a4af-3a1d-41f6-bf17-115dd90a55d9</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="18.3" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>8661c79b-9e9b-4b42-b42a-589e28d2bb5f</id>
-      <point x="18.3" y="6.7"/>
-      <text>1BK</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>5b9fce8e-48d7-4065-9f78-bc6abe371be7</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="17.2" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>4892df38-5d0e-4aca-9fe6-d5ac34aa3146</id>
-      <point x="17.2" y="4.4"/>
-      <text>BassBot</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>e1a30086-12c1-4d56-bc3b-91939e942b04</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="17.5" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>f173350c-51e1-4ca1-a8a9-4e17f9bd0d5b</id>
-      <point x="17.5" y="6.7"/>
-      <text>1AK</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>e99b24ce-12e8-4016-b6e6-df223582a5a9</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="15.7" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>eb4b711d-2f1e-4e54-a37d-4aadfe009e1f</id>
-      <point x="15.7" y="6.7"/>
-      <text>3AK</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>bca5e77b-ffc2-4408-85c9-87cf2e039da4</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="11.8" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>77f1175f-3f5b-4fa7-b40a-824891bbacc9</id>
-      <point x="11.8" y="6.7"/>
-      <text>4AK</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>81082664-3044-4239-b758-30b41351b124</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="11.6" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>b73070b5-b92f-4ab9-ad0e-8bf697447203</id>
-      <point x="11.6" y="6.7"/>
-      <text>6V6B</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>fdf307a3-be1b-481e-8900-37c813cf4213</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="16.1" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>1c0f0306-7801-4130-ab22-4d1e5c43e13a</id>
-      <point x="16.1" y="6.7"/>
-      <text>NFBin</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>c874d6f9-71f3-4d5b-9115-a3ac5bbc71a2</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="18.5" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>0752c14c-fdfb-434a-950f-de4ff36a64c6</id>
-      <point x="18.5" y="4.4"/>
-      <text>GNDFromInputJack</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>d33ffa04-1696-4c2e-89bf-156079e6121d</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="12.4" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>14aba230-4138-4922-a0c1-f62bc23f97af</id>
-      <point x="12.4" y="6.7"/>
-      <text>ToRevTX</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>d339ccd8-cd65-4c66-8f00-2e5e58db10af</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="14.7" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>a8f5425f-f681-4697-a5b3-6e43bbb42eef</id>
-      <point x="14.7" y="6.7"/>
-      <text>RevProtectorGND</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>2b327915-130c-4aa4-9eb1-db3f5c7f9062</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="9.4" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>623ff4a2-cdb6-4dc9-9ad8-9ede95b97990</id>
-      <point x="9.4" y="4.4"/>
-      <text>IntensityWiper</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>fc5137a9-fd83-4335-afe8-e2630f3ae225</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="13.7" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>2cead3fd-2b3e-45dc-9590-549f61daa732</id>
-      <point x="13.7" y="6.7"/>
-      <text>3BA</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>b9a17557-b40d-483b-b3c4-c4b8a27769f7</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="10.2" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>56c6b377-9ad9-4446-a500-92f439f397f5</id>
-      <point x="10.2" y="6.7"/>
-      <text>4BA</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>aa131935-2b3c-478e-9c7c-02fb420d1e3b</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="9.8" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>692b75e1-9560-45e9-97f7-bee97cf08c06</id>
-      <point x="9.8" y="4.4"/>
-      <text>IntensityTop</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>5aa3300d-de0c-409d-8793-173d61d06cf8</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="9.1" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>5c48af96-6ffb-42ab-8b55-780590ab872e</id>
-      <point x="9.1" y="4.4"/>
-      <text>IntensityBot</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>caeab747-6696-4324-bf58-a06a6ef73786</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="12.4" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>053bbc24-e6d4-4fd3-949e-e5c709df6f45</id>
-      <point x="12.4" y="4.4"/>
-      <text>2G</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>8e2de5f7-a37b-433f-913a-26317b76a408</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="13.5" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>72cf3301-be9e-4d52-b457-150c70892c74</id>
-      <point x="13.5" y="6.7"/>
-      <text>3BG</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>1d5440ab-0aae-4ce8-a73e-a26123f63829</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="14.3" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>e70a6a91-d0be-46ec-b7b6-1eb814a62255</id>
-      <point x="14.3" y="4.4"/>
-      <text>RevPotTop</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>ae63bd9a-6f6e-4844-89b8-6cd740b0c3ef</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="10.2" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>2f41ff4c-0c28-4e3f-afbb-52821b05c9bd</id>
-      <point x="10.2" y="4.4"/>
-      <text>SpeedPotTop</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>bf3c25f7-183f-45b3-99ff-bf3481201957</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="10.4" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>00c17199-1104-481a-b894-c03b791f3ee6</id>
-      <point x="10.4" y="6.7"/>
-      <text>4BG</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>ec2329ac-43ca-4ed8-9464-7549fdc9d9d1</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="14.5" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>d46587b4-d671-4efb-be98-54a667a28dfd</id>
-      <point x="14.5" y="4.4"/>
-      <text>RevPotWiper</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>0fbd72f1-c5d0-4c64-ad09-d2afe6ca52c6</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="12.5" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>a0bc2227-9fd7-4b17-8990-b3a4eda6f243</id>
-      <point x="12.5" y="4.4"/>
-      <text>2K</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>5f074491-90da-4a3f-8809-48dd72d6445d</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="13.3" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>f99fb290-ee98-42a8-935c-f5888cb5481e</id>
-      <point x="13.3" y="6.7"/>
-      <text>3BK</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>5e1fa914-3d94-46c6-a4d7-1265e2356c56</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="14.0" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>dd8dfe6f-b267-4ecc-9b9e-3a1e18477789</id>
-      <point x="14.0" y="4.4"/>
-      <text>RevPotBot</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>6ee9f674-903a-4ab1-9b49-3cfaf44e2ade</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="10.5" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>e3de69fd-37bf-40c9-9e48-e6a6645d6710</id>
-      <point x="10.5" y="4.4"/>
-      <text>SpeedPotBot</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>a8e35ca1-851d-4bda-83b3-1a53902c9297</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="10.7" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>dbdca8bb-d052-4857-a3cc-d84c2bb774d8</id>
-      <point x="10.7" y="6.7"/>
-      <text>4BK</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>80193bcf-49e7-4a0c-a024-209d6a4f5b0c</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="7.9" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>bfcb29ef-1b6a-43e7-a551-74b427558d11</id>
-      <point x="7.9" y="6.7"/>
-      <text>ACBiasIn</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>f31fa12a-883e-433f-aaff-4a852e6aae91</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="9.6" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>97117392-bec2-419f-a1c1-ce2a1c966e41</id>
-      <point x="9.6" y="6.7"/>
-      <text>BToCapCan</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>051dd651-f98c-4819-be8b-656c88d7b99c</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="9.0" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>771fc371-a4e0-4e8e-b6d1-fe1c1311940f</id>
-      <point x="9.0" y="6.7"/>
-      <text>AToCapCan</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>dd3f97c5-50bf-4f6e-8aa3-543bc673d401</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="10.9" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>3265734d-3a43-4d2b-8dda-92347126e86a</id>
-      <point x="10.9" y="6.7"/>
-      <text>VibPedGND</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>d42fdda2-6de0-4026-9eb9-f2743f1c467f</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="14.3" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>41db892b-f605-43e4-b6a6-8d9ba8fc4a5d</id>
-      <point x="14.3" y="6.7"/>
-      <text>RevPedalGND</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>65fe8373-e60e-48f4-a1dd-2098a71be023</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="8.4" y="4.5"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>f31dd6db-2ee5-45c9-b0c2-35436a948d33</id>
-      <point x="8.4" y="4.4"/>
-      <text>GNDToCapCan</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>60321b40-1fc2-48cc-98aa-0aa4b85e43b3</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="9.3" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.misc.Label>
-      <id>3c5c74de-032a-4ac8-b001-132e54e102c7</id>
-      <point x="9.3" y="6.7"/>
-      <text>CToCapCan</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.connectivity.SolderPad>
-      <id>28d462aa-7bed-49bb-9f9b-221ef26d01bd</id>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="cc6600"/>
-      <point x="11.1" y="6.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
     <diylc.misc.GroundSymbol>
       <id>ee89c2dd-777e-42cb-83c2-5dfff4cd2f28</id>
       <name>GND2</name>
@@ -5997,16 +4962,6 @@
       <orientation>DEFAULT</orientation>
       <stroke>1</stroke>
     </diylc.misc.GroundSymbol>
-    <diylc.misc.Label>
-      <id>57927f28-760b-48e4-a154-dcc03a503f62</id>
-      <point x="11.1" y="6.7"/>
-      <text>VibPedSig</text>
-      <font name="Dialog" size="11" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
     <diylc.misc.Label>
       <id>e2b6f1dc-aea5-4502-ae85-01619ca938ad</id>
       <name>LAB1</name>
@@ -6038,6 +4993,1051 @@
       <gauge>_20</gauge>
       <striped>false</striped>
     </diylc.connectivity.HookupWire>
+    <diylc.misc.Label>
+      <id>c647179f-3f1f-479d-8317-6eecb594ef05</id>
+      <point x="17.9" y="4.65"/>
+      <text>FETB+</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>3ef90510-7ac6-4cef-87ed-893f2dcb4b54</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="17.6" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>0f73317f-b5cd-4a0e-999c-2629cc01a098</id>
+      <point x="17.6" y="6.55"/>
+      <text>1BA</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>63aa4960-63ce-4439-910d-044fcf686ebd</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="17.3" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>379b26ee-cf15-4d5e-a0f5-deb282542acd</id>
+      <point x="17.3" y="4.65"/>
+      <text>TrebTop</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>106803c5-5f6e-4b21-9377-f389bec6b80e</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="17.2" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>e4cdd2d1-7e0f-44df-9b5a-fa56dc8af946</id>
+      <point x="17.2" y="6.55"/>
+      <text>1AA</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>3a02a834-4dae-4c3f-9cfa-9d978aaa6b04</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="15.1" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>3e4a4102-3c72-4f02-b39d-1a6a45573a7d</id>
+      <point x="15.1" y="6.55"/>
+      <text>3AA</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>3edd41fe-db21-4c7d-bd16-cfbae26d6d13</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="12.0" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>ba869c0a-da1e-4777-8fbb-d24445bd9210</id>
+      <point x="12.0" y="6.55"/>
+      <text>4AA</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>c9a7a695-6c12-4c47-95e7-9a34a50ad3ce</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="11.3" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>76cb8edd-4ce0-436d-978f-a866863e1bb1</id>
+      <point x="11.3" y="6.55"/>
+      <text>6V6A</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>de4f917d-2951-4559-93c3-48fecc9c3d39</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="15.3" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>5203ae5e-b7af-4687-aa33-ddce9b5d842c</id>
+      <point x="15.3" y="6.55"/>
+      <text>3AG</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>61b1b3a3-31cc-4eab-b69b-8130e7c5d4a9</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="14.0" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>7718d498-7a1c-4d36-8ad7-a41742b0d930</id>
+      <point x="14.0" y="6.55"/>
+      <text>4Astopper</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>97933cd1-2ca5-4dd3-aed8-7819da241e58</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="8.4" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>06ee448f-560f-4418-ae8b-645e6a218b54</id>
+      <point x="8.4" y="6.55"/>
+      <text>6V6Cathode</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>ace4f831-9b72-4c28-93eb-46b2ad09e80f</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="17.1" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>56b92c69-6591-4651-97b5-b75cbffdf7a9</id>
+      <point x="17.1" y="4.65"/>
+      <text>BassTop</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>8fb12b56-b754-4191-bd42-2da3fed9be05</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="15.7" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>b09b99b1-f14a-4deb-9ef4-ac226e669b86</id>
+      <point x="15.7" y="6.55"/>
+      <text>Spk GND</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>f4850989-5e1a-4239-8029-c7c9bc7cfebc</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="17.8" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>ef5079c9-ab30-4c34-9022-9ad54a0f9f49</id>
+      <point x="17.8" y="6.55"/>
+      <text>1BK</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>cf1473f3-4d03-4945-a270-3611b421bce7</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="16.9" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>0eacf80a-dc75-48eb-ba46-902ebeaa376d</id>
+      <point x="16.9" y="4.65"/>
+      <text>BassBot</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>3882dd05-80d3-433a-a5de-bd7fd219192d</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="17.0" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>8f7794a9-3119-48ed-a6c3-bfa37f49f397</id>
+      <point x="17.0" y="6.55"/>
+      <text>1AK</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>f63b4faf-a3d0-470c-a5b4-e54718167a7c</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="15.5" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>0fbc4f1f-156b-4228-b24e-0d4742b90955</id>
+      <point x="15.5" y="6.55"/>
+      <text>3AK</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>ebf85568-a624-4274-ac35-af3d46fcebad</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="11.8" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>3f73703a-e29e-4d7b-92cf-e4c36aeedf49</id>
+      <point x="11.8" y="6.55"/>
+      <text>4AK</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>7cd54722-e656-4972-93fb-50cb9215dda5</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="11.5" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>53a1d38f-2ace-4bc2-8fd4-8579bbb62309</id>
+      <point x="11.5" y="6.55"/>
+      <text>6V6B</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>6531a5f9-b784-4b24-99e1-bb4de6f8fcc8</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="15.9" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>5f798265-3bf4-4d55-9a16-939d312bc95e</id>
+      <point x="15.9" y="6.55"/>
+      <text>NFBin</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>a83d4ea8-7f8c-4c8f-8381-f5cbe298a84d</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="18.3" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>281c9c5b-c22a-405a-a3d1-60792bea692a</id>
+      <point x="18.3" y="4.65"/>
+      <text>GNDFromInputJack</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>b513792b-5e94-4fb4-a505-fff7951fb2ea</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="12.4" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>5ad4fb29-13cf-4256-959c-73516863c0f4</id>
+      <point x="12.4" y="6.55"/>
+      <text>ToRevTX</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>c2e4cfd5-8e3c-419a-8f47-26a06789e7ae</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="14.7" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>9c071fd3-d23f-443b-8b25-47001c3711b7</id>
+      <point x="14.7" y="6.55"/>
+      <text>RevProtectorGND</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>acf3cdb4-90f9-46ee-8e4c-76b455605d4c</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="9.3" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>c079004c-37c1-498e-abc4-d713b7ed1717</id>
+      <point x="9.3" y="4.65"/>
+      <text>IntensityWiper</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>07c5fb6c-7de6-42c4-8429-c7aa0508a45b</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="13.7" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>ae0752ea-7c5d-42de-934b-c2ac7df83c8c</id>
+      <point x="13.7" y="6.55"/>
+      <text>3BA</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>85257e9b-b869-4ba1-a9a1-0c62e44f7d10</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="10.2" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>30302e91-99b2-4078-b6a3-df31de18aa3f</id>
+      <point x="10.2" y="6.55"/>
+      <text>4BA</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>87721895-8ac5-4de6-80d8-6905cc74d634</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="8.7" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>fac9dc0d-18ab-4f3e-895b-15c760156197</id>
+      <point x="8.7" y="4.65"/>
+      <text>IntensityTop</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>92bdecbd-0477-46cd-aac4-e491cfdb2fa7</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="9.0" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>543a6682-5428-479d-b95c-1f635563d316</id>
+      <point x="9.0" y="4.65"/>
+      <text>IntensityBot</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>5069349e-f425-49fb-bc4d-d11ce4bd10e3</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="12.4" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>74857b3e-d138-4e2f-aec8-8a5d9bf738ba</id>
+      <point x="12.4" y="4.65"/>
+      <text>2G</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>adadb3cb-9a2a-4884-bee1-b6a6bd812eb3</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="13.5" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>b1f77c84-53eb-4087-b717-485c5e155536</id>
+      <point x="13.5" y="6.55"/>
+      <text>3BG</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>79a5161f-9556-4c86-936b-3adcec4b0230</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="14.2" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>3f7745aa-e587-49dd-bc1b-e0d25dc2b11d</id>
+      <point x="14.2" y="4.65"/>
+      <text>RevPotTop</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>9684a019-8b23-4b71-927e-3a386c4f5aeb</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="10.2" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>8a6e8031-1830-4c54-a319-c11bcd88efe9</id>
+      <point x="10.2" y="4.65"/>
+      <text>SpeedPotTop</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>ad676257-b841-4547-aaae-a9f6b0913af6</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="10.4" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>b9ae5da0-7d39-42da-a415-479357291f21</id>
+      <point x="10.4" y="6.55"/>
+      <text>4BG</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>ce15043b-30ab-4e17-b0f3-05816f3e41de</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="14.5" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>d4282555-a775-4f1b-8f9b-55b75cdeaf2b</id>
+      <point x="14.5" y="4.65"/>
+      <text>RevPotWiper</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>75c97606-237a-4add-85c2-5a00223d99bc</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="12.5" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>7b21cf29-ad00-4af5-9b83-54e74b1669ef</id>
+      <point x="12.5" y="4.65"/>
+      <text>2K</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>2c4e9e72-5090-47aa-a507-f7018ad60974</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="13.3" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>62c026b4-b321-4f32-bce8-a95d2075cacb</id>
+      <point x="13.3" y="6.55"/>
+      <text>3BK</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>4166413c-4dfa-4a90-80b9-df4db558a21b</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="14.0" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>391af691-3152-4973-ba6e-d8e0fc8b9681</id>
+      <point x="14.0" y="4.65"/>
+      <text>RevPotBot</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>c90d9f84-9772-4e8e-9073-3368ec853d9e</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="10.5" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>e6f0b68c-4b3d-4fc6-b3e4-ac6285a5fb8a</id>
+      <point x="10.5" y="4.65"/>
+      <text>SpeedPotBot</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>699f76d6-f461-4352-938c-fe6b587ffd9d</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="10.7" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>1b37cc8b-45f9-4a6e-b5dc-e7434ad6c1b9</id>
+      <point x="10.7" y="6.55"/>
+      <text>4BK</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>dddf90fb-73a4-4393-b091-0b4ac4ac2f18</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="7.9" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>da3c45db-9cec-4894-b015-fbe41eb13c6d</id>
+      <point x="7.9" y="6.55"/>
+      <text>ACBiasIn</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>7f34893a-bf74-4e02-99b9-2d2473b279d5</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="9.6" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>5f7e5131-2d8d-4c21-b8d5-81b9ba33a2be</id>
+      <point x="9.6" y="6.55"/>
+      <text>BToCapCan</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>4846f0d0-081b-4c91-b63f-f2bae4360c24</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="8.7" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>50eb124a-d507-45a7-9978-9a4d75dc4b03</id>
+      <point x="8.7" y="6.55"/>
+      <text>AToCapCan</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>28c72de8-de14-4cf3-8283-ed1851f72614</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="10.9" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>2ba02766-7004-4d70-a0c9-e1847f8f7a92</id>
+      <point x="10.9" y="6.55"/>
+      <text>VibPedGND</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>48d64d5c-c4ca-4904-bb81-c398d96d5936</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="14.3" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>491ccaa4-b185-4bf2-80aa-2b4e137fe8af</id>
+      <point x="14.3" y="6.55"/>
+      <text>RevPedalGND</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>55da63c1-2179-42cc-80f6-85634b7d5b43</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="7.9" y="4.75"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>cd8d39b1-9162-49d4-8488-3f9022bc5280</id>
+      <point x="7.9" y="4.65"/>
+      <text>GNDToCapCan</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>a8037f18-b7ba-4f09-9e57-0e2b5974d513</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="9.1" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>e995b7b8-315a-40af-9b57-6ffc0286b781</id>
+      <point x="9.1" y="6.55"/>
+      <text>CToCapCan</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.SolderPad>
+      <id>a54ee905-df40-412e-b42a-1cdb3876bf96</id>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <size value="0.09" unit="in"/>
+      <color hex="cc6600"/>
+      <point x="11.1" y="6.65"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+      <holeType>NTPH</holeType>
+    </diylc.connectivity.SolderPad>
+    <diylc.misc.Label>
+      <id>02fc3b33-7d55-469c-b5ac-4c4ba984a52a</id>
+      <point x="11.1" y="6.55"/>
+      <text>VibPedSig</text>
+      <font name="Dialog" size="11" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <groupsEx>
@@ -6049,100 +6049,9 @@
     </group>
     <group>
       <componentIds>
-        <uuid>c874d6f9-71f3-4d5b-9115-a3ac5bbc71a2</uuid>
-        <uuid>74bcff8f-8572-45f3-a887-93e636241c73</uuid>
-        <uuid>d7a1ecd1-949a-4071-a80d-fd813ff44ce7</uuid>
-        <uuid>dd8dfe6f-b267-4ecc-9b9e-3a1e18477789</uuid>
-        <uuid>61b3f649-93fa-4f90-802b-95cf4725ad56</uuid>
-        <uuid>81082664-3044-4239-b758-30b41351b124</uuid>
-        <uuid>bfcb29ef-1b6a-43e7-a551-74b427558d11</uuid>
-        <uuid>5e1fa914-3d94-46c6-a4d7-1265e2356c56</uuid>
-        <uuid>a0bc2227-9fd7-4b17-8990-b3a4eda6f243</uuid>
-        <uuid>65fe8373-e60e-48f4-a1dd-2098a71be023</uuid>
-        <uuid>e1a30086-12c1-4d56-bc3b-91939e942b04</uuid>
-        <uuid>41db892b-f605-43e4-b6a6-8d9ba8fc4a5d</uuid>
-        <uuid>dbdca8bb-d052-4857-a3cc-d84c2bb774d8</uuid>
-        <uuid>f953a4af-3a1d-41f6-bf17-115dd90a55d9</uuid>
-        <uuid>00c17199-1104-481a-b894-c03b791f3ee6</uuid>
-        <uuid>2cead3fd-2b3e-45dc-9590-549f61daa732</uuid>
-        <uuid>a8f5425f-f681-4697-a5b3-6e43bbb42eef</uuid>
-        <uuid>8661c79b-9e9b-4b42-b42a-589e28d2bb5f</uuid>
-        <uuid>2f41ff4c-0c28-4e3f-afbb-52821b05c9bd</uuid>
-        <uuid>2b327915-130c-4aa4-9eb1-db3f5c7f9062</uuid>
-        <uuid>60321b40-1fc2-48cc-98aa-0aa4b85e43b3</uuid>
-        <uuid>eeaa5948-4b6b-4098-9c46-849bf0f43d9b</uuid>
-        <uuid>72cf3301-be9e-4d52-b457-150c70892c74</uuid>
-        <uuid>aa131935-2b3c-478e-9c7c-02fb420d1e3b</uuid>
-        <uuid>d33ffa04-1696-4c2e-89bf-156079e6121d</uuid>
-        <uuid>ec2329ac-43ca-4ed8-9464-7549fdc9d9d1</uuid>
-        <uuid>46491196-e95a-4a8a-81dd-eeb6f9a4bee9</uuid>
-        <uuid>692b75e1-9560-45e9-97f7-bee97cf08c06</uuid>
-        <uuid>58243e1a-a9cd-432f-823f-d40fc97c7b3b</uuid>
-        <uuid>5f074491-90da-4a3f-8809-48dd72d6445d</uuid>
-        <uuid>b73070b5-b92f-4ab9-ad0e-8bf697447203</uuid>
-        <uuid>fbff400a-8440-49de-a07e-c012662d0e9b</uuid>
-        <uuid>129ca508-d09f-4954-8e0a-8e1a6e452db9</uuid>
-        <uuid>e70a6a91-d0be-46ec-b7b6-1eb814a62255</uuid>
-        <uuid>f31fa12a-883e-433f-aaff-4a852e6aae91</uuid>
-        <uuid>bca5e77b-ffc2-4408-85c9-87cf2e039da4</uuid>
-        <uuid>6ee9f674-903a-4ab1-9b49-3cfaf44e2ade</uuid>
-        <uuid>c706dbb5-be52-4813-a094-8c494ed6354f</uuid>
-        <uuid>5aa3300d-de0c-409d-8793-173d61d06cf8</uuid>
-        <uuid>1d5440ab-0aae-4ce8-a73e-a26123f63829</uuid>
-        <uuid>d46587b4-d671-4efb-be98-54a667a28dfd</uuid>
-        <uuid>b9a17557-b40d-483b-b3c4-c4b8a27769f7</uuid>
-        <uuid>f99fb290-ee98-42a8-935c-f5888cb5481e</uuid>
-        <uuid>dd3f97c5-50bf-4f6e-8aa3-543bc673d401</uuid>
-        <uuid>fdf307a3-be1b-481e-8900-37c813cf4213</uuid>
-        <uuid>86485964-21c5-47de-b742-6c898ec66078</uuid>
-        <uuid>0752c14c-fdfb-434a-950f-de4ff36a64c6</uuid>
-        <uuid>e99b24ce-12e8-4016-b6e6-df223582a5a9</uuid>
-        <uuid>1dd48ef9-cdb5-449b-9e39-fc136d48fba4</uuid>
-        <uuid>2f700c0c-ebf2-4928-ac2e-6fcab8044981</uuid>
-        <uuid>80193bcf-49e7-4a0c-a024-209d6a4f5b0c</uuid>
-        <uuid>4892df38-5d0e-4aca-9fe6-d5ac34aa3146</uuid>
-        <uuid>d339ccd8-cd65-4c66-8f00-2e5e58db10af</uuid>
-        <uuid>07e90596-c2bd-4580-b3c8-e7efcba9fa06</uuid>
-        <uuid>f023c911-eaf1-442f-b68a-8672c0af91f1</uuid>
-        <uuid>f31dd6db-2ee5-45c9-b0c2-35436a948d33</uuid>
-        <uuid>623ff4a2-cdb6-4dc9-9ad8-9ede95b97990</uuid>
-        <uuid>93f7e63d-241c-468a-b827-bce8c882d9df</uuid>
-        <uuid>19c0a984-c581-4d55-8758-7b2d024f6164</uuid>
-        <uuid>de5edc76-d9a5-47c6-addc-1e48c2cb11c4</uuid>
-        <uuid>0fbd72f1-c5d0-4c64-ad09-d2afe6ca52c6</uuid>
-        <uuid>771fc371-a4e0-4e8e-b6d1-fe1c1311940f</uuid>
-        <uuid>eb4b711d-2f1e-4e54-a37d-4aadfe009e1f</uuid>
-        <uuid>fc5137a9-fd83-4335-afe8-e2630f3ae225</uuid>
-        <uuid>053bbc24-e6d4-4fd3-949e-e5c709df6f45</uuid>
-        <uuid>5c48af96-6ffb-42ab-8b55-780590ab872e</uuid>
-        <uuid>a2b05326-7edf-455c-9e39-7cc8d43ab202</uuid>
-        <uuid>caeab747-6696-4324-bf58-a06a6ef73786</uuid>
-        <uuid>56c6b377-9ad9-4446-a500-92f439f397f5</uuid>
-        <uuid>a8e35ca1-851d-4bda-83b3-1a53902c9297</uuid>
-        <uuid>01cf9df0-aa4f-42e1-8d82-836fa096d4b4</uuid>
-        <uuid>5b9fce8e-48d7-4065-9f78-bc6abe371be7</uuid>
-        <uuid>97117392-bec2-419f-a1c1-ce2a1c966e41</uuid>
-        <uuid>3265734d-3a43-4d2b-8dda-92347126e86a</uuid>
-        <uuid>77f1175f-3f5b-4fa7-b40a-824891bbacc9</uuid>
-        <uuid>ae63bd9a-6f6e-4844-89b8-6cd740b0c3ef</uuid>
-        <uuid>d42fdda2-6de0-4026-9eb9-f2743f1c467f</uuid>
-        <uuid>f173350c-51e1-4ca1-a8a9-4e17f9bd0d5b</uuid>
-        <uuid>d4001db8-29c4-4091-b7a8-997ea4eb4c39</uuid>
-        <uuid>3c5c74de-032a-4ac8-b001-132e54e102c7</uuid>
-        <uuid>cbaabf88-e973-4548-86c3-7d27ecc7cbd0</uuid>
-        <uuid>8e2de5f7-a37b-433f-913a-26317b76a408</uuid>
-        <uuid>1f4e01fb-a483-4c3d-a1b5-fbdf083fa5b3</uuid>
-        <uuid>57927f28-760b-48e4-a154-dcc03a503f62</uuid>
-        <uuid>4ad54d8d-1891-4e78-abe2-de2ee2695467</uuid>
-        <uuid>051dd651-f98c-4819-be8b-656c88d7b99c</uuid>
-        <uuid>e3de69fd-37bf-40c9-9e48-e6a6645d6710</uuid>
-        <uuid>e38e97bb-c034-4cef-91e0-18333c63b126</uuid>
-        <uuid>bf3c25f7-183f-45b3-99ff-bf3481201957</uuid>
-        <uuid>14aba230-4138-4922-a0c1-f62bc23f97af</uuid>
-        <uuid>1c0f0306-7801-4130-ab22-4d1e5c43e13a</uuid>
-        <uuid>28d462aa-7bed-49bb-9f9b-221ef26d01bd</uuid>
+        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
+        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
       </componentIds>
-      <name>WireConnections</name>
     </group>
     <group>
       <componentIds>
@@ -6163,14 +6072,10 @@
         <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
       </componentIds>
     </group>
-    <group>
-      <componentIds>
-        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
-        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
-      </componentIds>
-    </group>
   </groupsEx>
-  <lockedLayers/>
+  <lockedLayers>
+    <int>3</int>
+  </lockedLayers>
   <lockedComponents/>
   <hiddenLayers/>
   <font name="Tahoma" size="14" style="0"/>

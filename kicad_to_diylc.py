@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
 kicad_to_diylc.py
-Convert W* wire-point footprints from a KiCad .kicad_pcb file to a DIYLC v5 .diy file.
+Convert a KiCad .kicad_pcb file to a DIYLC v5 .diy file.
+
+Outputs:
+  - A BlankBoard sized to the Edge.Cuts outline
+  - A SolderPad + Label for every W* footprint
 
 Usage:
     python3 kicad_to_diylc.py PrincetonReverbUpdate.kicad_pcb
 
-Output:
-    PrincetonReverbUpdate_wires.diy  (same directory as input)
-
-Each W* footprint becomes a solder pad + label showing "Wn: Value".
-Coordinates are preserved relative to the bottom-left of the W* bounding box,
-snapped to a 0.1" grid, with a 0.5" margin.
+Output file: PrincetonReverbUpdate_wires.diy (same directory as input)
 """
 
 import re
@@ -20,16 +19,31 @@ import uuid
 from pathlib import Path
 
 # --- Config ---
-MARGIN_IN   = 0.5    # canvas margin in inches
-GRID_IN     = 0.1    # snap grid in inches
-PAD_COLOR   = "CC6600"
-LABEL_COLOR = "000000"
-LABEL_SIZE  = 11     # font pt
-LABEL_OFFSET_IN = 0.1  # label sits this far above the pad
+MARGIN_IN        = 0.5    # canvas margin around the board (inches)
+GRID_IN          = 0.1    # snap grid (inches)
+PAD_COLOR        = "CC6600"
+LABEL_COLOR      = "000000"
+LABEL_SIZE       = 11     # font pt
+LABEL_OFFSET_IN  = 0.1   # label sits this far above the pad
+BOARD_COLOR      = "ccffcc"
+BOARD_BORDER     = "ada47d"
+BOARD_COORD      = "b6b6b6"
+
+
+def parse_edge_cuts_rect(pcb_text):
+    """Return (x1_mm, y1_mm, x2_mm, y2_mm) of the Edge.Cuts gr_rect, or None."""
+    m = re.search(
+        r'\(gr_rect\s*\(start ([\d.\-]+) ([\d.\-]+)\)\s*\(end ([\d.\-]+) ([\d.\-]+)\)'
+        r'.*?"Edge\.Cuts"',
+        pcb_text, re.DOTALL
+    )
+    if m:
+        return tuple(float(v) for v in m.groups())
+    return None
 
 
 def parse_w_footprints(pcb_text):
-    """Extract (ref, x_mm, y_mm, value) for all W* footprints."""
+    """Return sorted list of (ref, x_mm, y_mm, value) for all W* footprints."""
     results = []
     for fp in pcb_text.split('\n\t(footprint ')[1:]:
         ref_m = re.search(r'\(property "Reference" "(W\d+)"', fp)
@@ -40,10 +54,12 @@ def parse_w_footprints(pcb_text):
         val_m = re.search(r'\(property "Value" "([^"]*)"', fp)
         if not at_m:
             continue
-        x   = float(at_m.group(1))
-        y   = float(at_m.group(2))
-        val = val_m.group(1) if val_m else ref
-        results.append((ref, x, y, val))
+        results.append((
+            ref,
+            float(at_m.group(1)),
+            float(at_m.group(2)),
+            val_m.group(1) if val_m else ref,
+        ))
     results.sort(key=lambda r: int(r[0][1:]))
     return results
 
@@ -56,7 +72,12 @@ def mm_to_in(mm):
     return mm / 25.4
 
 
-def build_diy(footprints, canvas_w, canvas_h):
+def place(mm_val, origin_mm):
+    """Convert KiCad mm coord to snapped DIYLC inches relative to origin."""
+    return snap(mm_to_in(mm_val - origin_mm) + MARGIN_IN)
+
+
+def build_diy(board_rect_mm, footprints, canvas_w, canvas_h):
     lines = []
 
     def ln(s=""):
@@ -77,14 +98,59 @@ def build_diy(footprints, canvas_w, canvas_h):
     ln('  <dotSpacing>1</dotSpacing>')
     ln('  <components>')
 
-    for ref, px, py, val in footprints:
-        label_text = f'{val}'
-        pad_id = str(uuid.uuid4())
-        lbl_id = str(uuid.uuid4())
+    # --- BlankBoard ---
+    if board_rect_mm:
+        bx1_mm = min(board_rect_mm[0], board_rect_mm[2])
+        by1_mm = min(board_rect_mm[1], board_rect_mm[3])
+        bx2_mm = max(board_rect_mm[0], board_rect_mm[2])
+        by2_mm = max(board_rect_mm[1], board_rect_mm[3])
+        ox_mm, oy_mm = bx1_mm, by1_mm
+
+        bx1 = snap(MARGIN_IN)
+        by1 = snap(MARGIN_IN)
+        bx2 = snap(mm_to_in(bx2_mm - bx1_mm) + MARGIN_IN)
+        by2 = snap(mm_to_in(by2_mm - by1_mm) + MARGIN_IN)
+        b_w_mm = round(bx2_mm - bx1_mm, 4)
+        b_h_mm = round(by2_mm - by1_mm, 4)
+
+        ln('    <diylc.boards.BlankBoard>')
+        ln(f'      <id>{uuid.uuid4()}</id>')
+        ln('      <n>PCB</n>')
+        ln('      <alphaPercent><value>100</value></alphaPercent>')
+        ln('      <value></value>')
+        ln('      <controlPoints>')
+        ln(f'        <point x="{bx1}" y="{by1}"/>')
+        ln(f'        <point x="{bx2}" y="{by2}"/>')
+        ln('      </controlPoints>')
+        ln(f'      <firstPoint x="{bx1}" y="{by1}"/>')
+        ln(f'      <secondPoint x="{bx2}" y="{by2}"/>')
+        ln(f'      <boardColor hex="{BOARD_COLOR}"/>')
+        ln(f'      <borderColor hex="{BOARD_BORDER}"/>')
+        ln(f'      <coordinateColor hex="{BOARD_COORD}"/>')
+        ln('      <xType>Numbers</xType>')
+        ln('      <coordinateOrigin>Top_Left</coordinateOrigin>')
+        ln('      <coordinateDisplay>One_Side</coordinateDisplay>')
+        ln('      <yType>Letters</yType>')
+        ln(f'      <length value="{b_w_mm}" unit="mm"/>')
+        ln(f'      <width value="{b_h_mm}" unit="mm"/>')
+        ln('      <mode>TwoPoints</mode>')
+        ln('      <boardUndersideDisplay>NONE</boardUndersideDisplay>')
+        ln('      <undersideOffset value="0.1" unit="in"/>')
+        ln('      <undersideTransparency>true</undersideTransparency>')
+        ln('      <type>SQUARE</type>')
+        ln('    </diylc.boards.BlankBoard>')
+    else:
+        ox_mm = min(f[1] for f in footprints)
+        oy_mm = min(f[2] for f in footprints)
+
+    # --- Wire points ---
+    for ref, kx, ky, val in footprints:
+        px = place(kx, ox_mm)
+        py = place(ky, oy_mm)
         ly = round(py - LABEL_OFFSET_IN, 4)
 
         ln(f'    <diylc.connectivity.SolderPad>')
-        ln(f'      <id>{pad_id}</id>')
+        ln(f'      <id>{uuid.uuid4()}</id>')
         ln(f'      <n>{ref}</n>')
         ln(f'      <alphaPercent><value>100</value></alphaPercent>')
         ln(f'      <size value="0.09" unit="in"/>')
@@ -97,10 +163,10 @@ def build_diy(footprints, canvas_w, canvas_h):
         ln(f'    </diylc.connectivity.SolderPad>')
 
         ln(f'    <diylc.misc.Label>')
-        ln(f'      <id>{lbl_id}</id>')
+        ln(f'      <id>{uuid.uuid4()}</id>')
         ln(f'      <n>L{ref[1:]}</n>')
         ln(f'      <point x="{px}" y="{ly}"/>')
-        ln(f'      <text>{label_text}</text>')
+        ln(f'      <text>{val}</text>')
         ln(f'      <font name="Dialog" size="{LABEL_SIZE}" style="0"/>')
         ln(f'      <color hex="{LABEL_COLOR}"/>')
         ln(f'      <horizontalAlignment>CENTER</horizontalAlignment>')
@@ -131,29 +197,34 @@ def main():
         sys.exit(1)
 
     pcb_text = pcb_path.read_text(encoding='utf-8')
-    footprints = parse_w_footprints(pcb_text)
 
+    board_rect = parse_edge_cuts_rect(pcb_text)
+    if board_rect:
+        x1, y1, x2, y2 = board_rect
+        print(f"Board outline: {abs(x2-x1):.2f} x {abs(y2-y1):.2f} mm")
+    else:
+        print("Warning: no Edge.Cuts rect found — board outline omitted")
+
+    footprints = parse_w_footprints(pcb_text)
     if not footprints:
         print("No W* footprints found.")
         sys.exit(1)
-
     print(f"Found {len(footprints)} W* footprints")
 
-    # Convert mm -> inches, origin at bounding box min, add margin, snap to grid
-    xs_mm = [f[1] for f in footprints]
-    ys_mm = [f[2] for f in footprints]
-    x_min_mm, y_min_mm = min(xs_mm), min(ys_mm)
+    if board_rect:
+        x1 = min(board_rect[0], board_rect[2])
+        y1 = min(board_rect[1], board_rect[3])
+        x2 = max(board_rect[0], board_rect[2])
+        y2 = max(board_rect[1], board_rect[3])
+        canvas_w = round(snap(mm_to_in(x2 - x1) + MARGIN_IN * 2) + 0.2, 1)
+        canvas_h = round(snap(mm_to_in(y2 - y1) + MARGIN_IN * 2) + 0.2, 1)
+    else:
+        xs = [f[1] for f in footprints]
+        ys = [f[2] for f in footprints]
+        canvas_w = round(snap(mm_to_in(max(xs) - min(xs)) + MARGIN_IN * 2) + 0.5, 1)
+        canvas_h = round(snap(mm_to_in(max(ys) - min(ys)) + MARGIN_IN * 2) + 0.5, 1)
 
-    placed = []
-    for ref, kx, ky, val in footprints:
-        px = snap(mm_to_in(kx - x_min_mm) + MARGIN_IN)
-        py = snap(mm_to_in(ky - y_min_mm) + MARGIN_IN)
-        placed.append((ref, px, py, val))
-
-    canvas_w = round(snap(mm_to_in(max(xs_mm) - x_min_mm) + MARGIN_IN * 2) + 0.5, 1)
-    canvas_h = round(snap(mm_to_in(max(ys_mm) - y_min_mm) + MARGIN_IN * 2) + 0.5, 1)
-
-    diy_xml = build_diy(placed, canvas_w, canvas_h)
+    diy_xml = build_diy(board_rect, footprints, canvas_w, canvas_h)
 
     out_path = pcb_path.with_name(pcb_path.stem + '_wires.diy')
     out_path.write_text(diy_xml, encoding='utf-8')

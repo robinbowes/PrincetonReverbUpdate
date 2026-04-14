@@ -20154,7 +20154,7 @@
 	(symbol
 		(lib_id "Valve:ECC83")
 		(at 140.97 41.91 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20249,7 +20249,7 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "U3")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -23068,7 +23068,7 @@
 	(symbol
 		(lib_id "Valve:ECC83")
 		(at 106.68 106.68 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23163,7 +23163,7 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "U3")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -27020,7 +27020,7 @@
 	(symbol
 		(lib_id "Valve:ECC83")
 		(at 196.85 109.22 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27115,7 +27115,7 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "U4")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -28226,7 +28226,7 @@
 	(symbol
 		(lib_id "Valve:ECC83")
 		(at 173.99 41.91 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28321,7 +28321,7 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "U4")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
