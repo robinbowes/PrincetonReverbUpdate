@@ -5,6 +5,7 @@ on:
       - main
       - mods
       - mods-pcb
+      - fab
   pull_request:
 jobs:
   generate-schematic-pdf:

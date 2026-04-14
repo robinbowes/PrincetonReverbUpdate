@@ -1,0 +1,120 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+331.75,-148.25,90.0,top,C1,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+287.75,-140.75,-90.0,top,C10,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,10p,tht
+234.0,-124.25,90.0,top,C11,,,C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC,3.3n,tht
+287.75,-133.544888,-90.0,top,C12,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+131.75,-135.5,90.0,top,C13,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,10n,tht
+229.75,-142.5,0.0,top,C14,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n,tht
+124.25,-135.5,90.0,top,C15,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,22n,tht
+124.25,-148.0,90.0,top,C17,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,22n,tht
+187.75,-130.473959,90.0,top,C18,,,CP_Radial_D12.5mm_P5.00mm,22u 450V,tht
+119.25,-111.5,0.0,top,C19,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n,tht
+195.7,-112.5,0.0,top,C2,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+166.0,-107.25,-90.0,top,C20,,,C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC,47n,tht
+174.75,-107.25,-90.0,top,C21,,,C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC,47n,tht
+116.25,-109.5,180.0,top,C22,,,C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC,100n,tht
+248.48,-122.223959,90.0,top,C23,,,CP_Radial_D12.5mm_P5.00mm,22u 450V,tht
+81.25,-110.55,-90.0,top,C24,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+308.7,-122.223959,90.0,top,C25,,,CP_Radial_D12.5mm_P5.00mm,22u 450V,tht
+234.0,-136.5,90.0,top,C27,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,100-470p,tht
+72.5,-110.344888,-90.0,top,C29,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+338.0,-140.25,90.0,top,C3,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,250p,tht
+295.75,-110.0,180.0,top,C4,,,C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC,100n,tht
+338.0,-109.5,180.0,top,C5,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,47n,tht
+258.0,-114.75,0.0,top,C6,,,C_Disc_D7.5mm_W5.0mm_P7.50mm_TC,470p,tht
+331.75,-142.205113,90.0,top,C7,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+295.75,-149.25,90.0,top,C8,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n,tht
+205.75,-130.0,180.0,top,C9,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
+78.0,-124.0,90.0,top,D1,,,D_DO-41_SOD81_P7.62mm_Horizontal,UF4007,tht
+130.25,-141.5,0.0,top,D2,,,LED_D5.0mm,Red,tht
+85.073893,-124.8,0.0,top,H1,,,MountingHole_4.3mm_M4_TC,4mm Hole,tht
+333.5,-124.75,0.0,top,H2,,,MountingHole_4.3mm_M4_ISO7380_Pad,4mm HolePad,tht
+169.55,-100.0,0.0,top,JP4,,,SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC_Via,AB-C,smt
+202.15,-100.0,0.0,top,JP5,,,SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC_Via,C-D,smt
+282.65,-100.0,0.0,top,JP6,,,SolderJumper-2_P1_3mm_Bridged_Pad1_0x1_5mm_TC_Via,D-E,smt
+314.62,-109.75,180.0,top,R10,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,6.8k,tht
+303.05,-144.25,90.0,top,R11,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
+221.25,-122.0,-90.0,top,R12,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
+308.5,-144.24,90.0,top,R13,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+210.25,-122.01,-90.0,top,R14,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
+282.5,-127.13,-90.0,top,R15,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,3.3Meg,tht
+226.75,-121.98,-90.0,top,R16,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+260.4,-127.01,-90.0,top,R17,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,470k,tht
+265.75,-127.04,-90.0,top,R18,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
+277.0,-127.0,-90.0,top,R19,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,47r,tht
+149.25,-143.0,90.0,top,R20,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+143.75,-143.0,90.0,top,R21,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
+271.5,-127.01,-90.0,top,R22,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,2.7k,tht
+226.75,-142.5,180.0,top,R23,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
+138.25,-143.0,90.0,top,R24,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
+198.0,-143.25,180.0,top,R26,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1k,tht
+215.75,-122.0,-90.0,top,R27,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,56k,tht
+100.25,-123.75,-90.0,top,R28,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,1k 1W,tht
+107.25,-129.0,-90.0,top,R29,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
+198.0,-137.75,180.0,top,R30,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,56k,tht
+112.5,-129.0,-90.0,top,R31,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
+158.75,-112.5,180.0,top,R33,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
+158.74,-107.0,180.0,top,R34,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
+85.75,-106.0,180.0,top,R35,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,10k,tht
+72.5,-143.0,90.0,top,R37,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+255.0,-126.91,-90.0,top,R39,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+191.2,-119.25,90.0,top,R4,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
+227.78,-110.4,180.0,top,R40,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
+156.06,-119.9,180.0,top,R41,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
+125.5,-119.9,180.0,top,R42,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,1k 1W,tht
+93.5,-123.75,-90.0,top,R46,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,100k 1W,tht
+78.0,-143.0,90.0,top,R48,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1r 1%,tht
+324.65,-144.2,90.0,top,R5,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
+185.95,-119.25,90.0,top,R6,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
+319.25,-144.2,90.0,top,R7,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+313.85,-144.2,90.0,top,R8,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+289.5,-119.9,180.0,top,R9,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
+72.5,-118.0,90.0,top,RV7,,,Potentiometer_Bourns_3296W_Vertical,22k Lin,tht
+78.75,-149.25,180.0,top,TP1,,,TestPoint_Keystone_5005-5009_Compact,BiasTP,tht
+80.25,-100.0,0.0,top,TP2,,,TestPoint_Keystone_5005-5009_Compact,GND,tht
+326.0,-100.0,0.0,top,W1,,,SolderWire_TC,FETB+,tht
+85.1,-149.25,0.0,top,W10,,,SolderWire_TC,6V6Cathode,tht
+306.5,-100.0,0.0,top,W11,,,SolderWire_TC,BassTop,tht
+271.0,-149.25,0.0,top,W12,,,SolderWire_TC,Spk GND,tht
+324.75,-149.25,0.0,top,W13,,,SolderWire_TC,1-3,tht
+300.5,-100.0,0.0,top,W14,,,SolderWire_TC,BassBot,tht
+303.0,-149.25,0.0,top,W15,,,SolderWire_TC,1-8,tht
+265.5,-149.25,0.0,top,W16,,,SolderWire_TC,3-3,tht
+171.0,-149.25,0.0,top,W17,,,SolderWire_TC,4-3,tht
+165.5,-149.25,0.0,top,W18,,,SolderWire_TC,6V6B,tht
+276.5,-149.25,0.0,top,W19,,,SolderWire_TC,NFBin,tht
+318.75,-149.25,0.0,top,W2,,,SolderWire_TC,1-1,tht
+336.75,-100.0,0.0,top,W20,,,SolderWire_TC,GNDFromInputJack,tht
+187.75,-149.25,0.0,top,W21,,,SolderWire_TC,ToRevTX,tht
+244.75,-149.25,0.0,top,W22,,,SolderWire_TC,RevProtectorGND,tht
+108.5,-100.0,0.0,top,W23,,,SolderWire_TC,IntWiper,tht
+220.0,-149.25,0.0,top,W24,,,SolderWire_TC,3-6,tht
+131.75,-149.25,0.0,top,W25,,,SolderWire_TC,4-6,tht
+93.0,-100.0,0.0,top,W26,,,SolderWire_TC,IntTop,tht
+100.5,-100.0,0.0,top,W27,,,SolderWire_TC,IntBot,tht
+186.0,-100.0,0.0,top,W28,,,SolderWire_TC,2-2,tht
+214.75,-149.25,0.0,top,W29,,,SolderWire_TC,3-7,tht
+312.25,-100.0,0.0,top,W3,,,SolderWire_TC,TrebTop,tht
+234.0,-100.0,0.0,top,W30,,,SolderWire_TC,RevPotTop,tht
+130.6,-100.0,0.0,top,W31,,,SolderWire_TC,SpeedPotTop,tht
+137.25,-149.25,0.0,top,W32,,,SolderWire_TC,4-7,tht
+241.0,-100.0,0.0,top,W33,,,SolderWire_TC,RevPotWiper,tht
+191.25,-100.0,0.0,top,W34,,,SolderWire_TC,2-8,tht
+209.25,-149.25,0.0,top,W35,,,SolderWire_TC,3-8,tht
+227.75,-100.0,0.0,top,W36,,,SolderWire_TC,RevPotBot,tht
+138.5,-100.0,0.0,top,W37,,,SolderWire_TC,SpeedPotBot,tht
+142.75,-149.25,0.0,top,W38,,,SolderWire_TC,4-8,tht
+72.5,-149.25,0.0,top,W39,,,SolderWire_TC,ACBiasIn,tht
+308.5,-149.25,0.0,top,W4,,,SolderWire_TC,1-6,tht
+116.75,-149.25,0.0,top,W40,,,SolderWire_TC,BToCapCanB,tht
+93.5,-149.25,0.0,top,W41,,,SolderWire_TC,AToCapCanA,tht
+148.25,-149.25,0.0,top,W42,,,SolderWire_TC,VibPedGND,tht
+235.25,-149.25,0.0,top,W43,,,SolderWire_TC,RevPedalGND,tht
+72.5,-100.0,0.0,top,W44,,,SolderWire_TC,GNDToCapCan,tht
+104.25,-149.25,0.0,top,W45,,,SolderWire_TC,A'ToCapCanC,tht
+154.4,-149.25,0.0,top,W46,,,SolderWire_TC,VibPedSig,tht
+255.0,-149.25,0.0,top,W5,,,SolderWire_TC,3-1,tht
+176.5,-149.25,0.0,top,W6,,,SolderWire_TC,4-1,tht
+160.0,-149.25,0.0,top,W7,,,SolderWire_TC,6V6A,tht
+260.5,-149.25,0.0,top,W8,,,SolderWire_TC,3-2,tht
+226.75,-149.25,0.0,top,W9,,,SolderWire_TC,4-2stop,tht
