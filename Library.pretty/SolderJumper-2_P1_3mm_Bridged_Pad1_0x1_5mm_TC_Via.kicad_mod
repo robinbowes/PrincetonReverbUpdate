@@ -7,8 +7,8 @@
 	(tags "net tie solder jumper bridged via")
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
-		(layer "F.SilkS")
-		(uuid "81c2dbcd-19d5-40c9-b163-164c60d9db42")
+		(layer "F.Fab")
+		(uuid "6c7d0946-7683-4111-8d27-6ff71c2105c1")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_TC_Via"
 		(at 0 1.9 0)
 		(layer "F.Fab")
-		(uuid "3a110f46-62e5-4cf1-845a-7b8d242d3518")
+		(uuid "e438d65a-f74c-42ef-9d3d-26900993ca16")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f3de9387-d810-49c3-8646-fafb892bdbb2")
+		(uuid "ef567297-4b25-47c1-97e1-12935ffd04a1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9064c4d1-c8d8-4e5e-bcae-a27397840649")
+		(uuid "085fdcf2-6c25-445b-b686-cf0a56e6de71")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -70,7 +70,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "796546ec-7ab2-4893-b499-3b0053955326")
+		(uuid "fbafcfe3-4db9-4614-a4f5-f8b3eb08734f")
 	)
 	(fp_rect
 		(start -0.15 -0.75)
@@ -81,7 +81,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "cfef4fb8-0195-45f7-89df-b7fa0033b14e")
+		(uuid "a0a5c027-95f8-41f9-8bc6-03130f28f425")
 	)
 	(fp_poly
 		(pts
@@ -93,7 +93,7 @@
 		)
 		(fill yes)
 		(layer "B.Cu")
-		(uuid "796546ec-7ab2-4893-b499-3b0053955327")
+		(uuid "6caa84bb-e2ce-467c-88cb-b584cad13c1a")
 	)
 	(fp_rect
 		(start -0.15 -0.75)
@@ -104,7 +104,7 @@
 		)
 		(fill yes)
 		(layer "B.Mask")
-		(uuid "cfef4fb8-0195-45f7-89df-b7fa0033b14f")
+		(uuid "7407662d-fb10-4844-8cdb-c7f188ac2cbd")
 	)
 	(fp_line
 		(start -1.4 -1)
@@ -114,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "afa9a3d6-be49-43e7-ae45-176dc8c96ad6")
+		(uuid "ce6b10b3-96fa-4d46-a55e-129cbcc9f5ff")
 	)
 	(fp_line
 		(start -1.4 1)
@@ -124,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9220de8b-09ed-4228-aff4-e3dd14d8c6c6")
+		(uuid "de755423-3866-44d0-8958-45dc1460c808")
 	)
 	(fp_line
 		(start 1.4 -1)
@@ -134,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d9e9eb07-b004-4b4a-bbb5-1ab9c3183279")
+		(uuid "b4535f17-256c-4ccf-8845-c9f22e8955f3")
 	)
 	(fp_line
 		(start 1.4 1)
@@ -144,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3bd6d867-4695-40f2-9eb6-1580abfe8bfe")
+		(uuid "0e73c6df-c1c8-47ae-9fff-787b989c93e4")
 	)
 	(fp_line
 		(start -1.65 -1.25)
@@ -154,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "86b557a9-79b3-4485-bfa2-a548c0104d68")
+		(uuid "48ea2725-309f-4183-bbfb-da6e91e1ca57")
 	)
 	(fp_line
 		(start -1.65 -1.25)
@@ -164,7 +164,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6557941b-c2d3-40a0-84ea-694ff124411e")
+		(uuid "99d58380-a93a-4db9-a3d8-fbba5c8bb25f")
 	)
 	(fp_line
 		(start 1.65 1.25)
@@ -174,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "50039349-ff6c-405d-a38b-d9309fd904e7")
+		(uuid "f030a4fb-ff26-4b63-89e9-4e442dfa485d")
 	)
 	(fp_line
 		(start 1.65 1.25)
@@ -184,7 +184,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6aa65eff-5636-470e-8f48-fea7c54aec8a")
+		(uuid "9a8ef77f-b4cb-43f0-b440-d618684d900e")
 	)
 	(pad "1" smd rect
 		(at -0.65 0)
@@ -192,7 +192,7 @@
 		(layers "F.Cu" "F.Mask")
 		(clearance 0)
 		(zone_connect 2)
-		(uuid "5f353a67-3ea4-4ff8-b3e5-0a43ac53b20a")
+		(uuid "46d37d06-48b9-4c09-842c-4838b2931af7")
 	)
 	(pad "1" smd rect
 		(at -0.65 0)
@@ -200,7 +200,7 @@
 		(layers "B.Cu" "B.Mask")
 		(clearance 0)
 		(zone_connect 2)
-		(uuid "5f353a67-3ea4-4ff8-b3e5-0a43ac53b20b")
+		(uuid "d96ddf05-2f3a-4b2c-a66e-cc66e5131685")
 	)
 	(pad "2" smd rect
 		(at 0.65 0)
@@ -208,7 +208,7 @@
 		(layers "F.Cu" "F.Mask")
 		(clearance 0)
 		(zone_connect 2)
-		(uuid "9951090d-e8ce-405c-b5ef-731b6c68a3a7")
+		(uuid "6d9c4476-d058-4c4b-a93a-9d6c7ab706ca")
 	)
 	(pad "2" smd rect
 		(at 0.65 0)
@@ -216,7 +216,7 @@
 		(layers "B.Cu" "B.Mask")
 		(clearance 0)
 		(zone_connect 2)
-		(uuid "9951090d-e8ce-405c-b5ef-731b6c68a3a8")
+		(uuid "cfd0bb30-65ef-458f-ae39-3e73a60f5926")
 	)
 	(pad "3" thru_hole circle
 		(at 0 0)
@@ -226,7 +226,7 @@
 		(remove_unused_layers no)
 		(clearance 0)
 		(zone_connect 2)
-		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+		(uuid "bb7d4b77-1532-42bd-a57f-1dd0e82fe8b2")
 	)
 	(embedded_fonts no)
 )

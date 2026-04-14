@@ -17276,7 +17276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2G"
+		(property "Value" "2-2"
 			(at 35.56 102.108 0)
 			(hide yes)
 			(show_name no)
@@ -18475,7 +18475,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1AK"
+		(property "Value" "1-8"
 			(at 96.52 55.372 0)
 			(hide yes)
 			(show_name no)
@@ -18791,7 +18791,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3BK"
+		(property "Value" "3-8"
 			(at 104.14 120.142 0)
 			(hide yes)
 			(show_name no)
@@ -19937,7 +19937,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3BA"
+		(property "Value" "3-6"
 			(at 106.68 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -21015,7 +21015,7 @@
 				)
 			)
 		)
-		(property "Value" "4BA"
+		(property "Value" "4-6"
 			(at 194.818 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -21890,7 +21890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
+		(property "Value" "4mm HolePad"
 			(at 154.94 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22918,7 +22918,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2-8"
 			(at 57.658 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -23357,7 +23357,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3AK"
+		(property "Value" "3-3"
 			(at 138.43 55.372 0)
 			(hide yes)
 			(show_name no)
@@ -23764,7 +23764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3AA"
+		(property "Value" "3-1"
 			(at 140.97 33.782 0)
 			(hide yes)
 			(show_name no)
@@ -24906,7 +24906,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4Astopper"
+		(property "Value" "4-2stop"
 			(at 158.75 43.942 0)
 			(hide yes)
 			(show_name no)
@@ -25140,7 +25140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4BG"
+		(property "Value" "4-7"
 			(at 187.96 107.188 0)
 			(hide yes)
 			(show_name no)
@@ -25456,7 +25456,7 @@
 				)
 			)
 		)
-		(property "Value" "IntensityBot"
+		(property "Value" "IntBot"
 			(at 240.03 99.822 0)
 			(hide yes)
 			(show_name no)
@@ -26772,7 +26772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1BK"
+		(property "Value" "1-3"
 			(at 49.53 51.308 0)
 			(hide yes)
 			(show_name no)
@@ -27846,7 +27846,7 @@
 				)
 			)
 		)
-		(property "Value" "4BK"
+		(property "Value" "4-8"
 			(at 192.278 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -28006,7 +28006,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1AA"
+		(property "Value" "1-6"
 			(at 99.06 33.782 0)
 			(hide yes)
 			(show_name no)
@@ -28435,7 +28435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "4mm Hole"
 			(at 154.94 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28747,7 +28747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4AA"
+		(property "Value" "4-1"
 			(at 173.99 29.718 0)
 			(hide yes)
 			(show_name no)
@@ -29150,7 +29150,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3AG"
+		(property "Value" "3-2"
 			(at 133.35 43.942 0)
 			(hide yes)
 			(show_name no)
@@ -29314,7 +29314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3BG"
+		(property "Value" "3-7"
 			(at 93.98 104.648 0)
 			(hide yes)
 			(show_name no)
@@ -29558,7 +29558,7 @@
 				)
 			)
 		)
-		(property "Value" "IntensityTop"
+		(property "Value" "IntTop"
 			(at 225.298 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -29884,7 +29884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1BA"
+		(property "Value" "1-1"
 			(at 52.07 29.718 0)
 			(hide yes)
 			(show_name no)
@@ -30368,7 +30368,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4AK"
+		(property "Value" "4-3"
 			(at 171.45 55.372 0)
 			(hide yes)
 			(show_name no)
@@ -30848,7 +30848,7 @@
 				)
 			)
 		)
-		(property "Value" "IntensityWiper"
+		(property "Value" "IntWiper"
 			(at 230.378 92.71 0)
 			(hide yes)
 			(show_name no)
