@@ -93,13 +93,13 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_57555571)
+			(layerselection 0x00000000_00000000_55555555_5555557f)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
@@ -116,13 +116,13 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(sketchpadsonfab no)
+			(sketchpadsonfab yes)
 			(plotpadnumbers no)
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 5)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -899,7 +899,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -916,13 +916,17 @@
 		(path "/dcf92060-6449-46ed-9a7a-733f6cf9ca31")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(clearance 0)
 		(zone_connect 2)
-		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			allow_soldermask_bridges
-		)
+		(attr smd exclude_from_bom allow_missing_courtyard allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2, 3")
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -0.25 -0.7) (xy 0.25 -0.7) (xy 0.25 0.7) (xy -0.25 0.7)
@@ -6883,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6900,13 +6904,17 @@
 		(path "/4358bd3f-3ed4-4916-9571-27ab52eed3c0")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(clearance 0)
 		(zone_connect 2)
-		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			allow_soldermask_bridges
-		)
+		(attr smd exclude_from_bom allow_missing_courtyard allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2, 3")
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -0.25 -0.7) (xy 0.25 -0.7) (xy 0.25 0.7) (xy -0.25 0.7)
@@ -13549,7 +13557,7 @@
 				)
 			)
 		)
-		(property "Value" "AToCapCan"
+		(property "Value" "AToCapCanA"
 			(at 0 2.2 0)
 			(layer "F.SilkS")
 			(uuid "4407a92f-4527-4094-8af6-c80cf959b883")
@@ -15697,7 +15705,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15714,13 +15722,17 @@
 		(path "/d57cb0f5-3b4e-40ce-a652-e1ff5f540f08")
 		(sheetname "/")
 		(sheetfile "PrincetonReverbUpdate.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(clearance 0)
 		(zone_connect 2)
-		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			allow_soldermask_bridges
-		)
+		(attr smd exclude_from_bom allow_missing_courtyard allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2, 3")
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
 				(xy -0.25 -0.7) (xy 0.25 -0.7) (xy 0.25 0.7) (xy -0.25 0.7)
@@ -23609,7 +23621,7 @@
 				)
 			)
 		)
-		(property "Value" "CToCapCan"
+		(property "Value" "A'ToCapCanC"
 			(at 0 2.2 0)
 			(layer "F.SilkS")
 			(uuid "93a84190-a837-4725-9e9d-ca169cb4b568")
@@ -31904,7 +31916,7 @@
 				)
 			)
 		)
-		(property "Value" "BToCapCan"
+		(property "Value" "BToCapCanB"
 			(at 0 2.2 0)
 			(layer "F.SilkS")
 			(uuid "351e2d9f-e841-4065-8c9b-528e5787565a")
@@ -33999,6 +34011,97 @@
 		(layer "Edge.Cuts")
 		(uuid "5e0379e8-2d7c-4cdf-ab50-2853d30ac673")
 	)
+	(gr_text "Typical Bias\n30–35Vdc\n50–60mA"
+		(at 82 144.75 0)
+		(layer "F.SilkS")
+		(uuid "2c5171b3-d6bf-4019-8652-d27f4c66a2e9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "~350Vdc"
+		(at 155.25 118.25 0)
+		(layer "F.SilkS")
+		(uuid "2e5827fb-d85e-4733-80e5-e1ff5c911d73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "~300Vdc"
+		(at 263.75 123.25 0)
+		(layer "F.SilkS")
+		(uuid "cf31612d-4669-42ed-8c02-a0342874b2cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "~240Vdc"
+		(at 289.25 118.25 0)
+		(layer "F.SilkS")
+		(uuid "399d8751-a43c-498d-b250-9e9b21c401dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "~420Vdc"
+		(at 91.4 150.55 90)
+		(layer "F.SilkS")
+		(uuid "58564df3-89b8-44f6-932d-a04772a21eae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "~400Vdc"
+		(at 102.25 150.55 90)
+		(layer "F.SilkS")
+		(uuid "a49dc20a-d194-427c-b118-6636c921474a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "~400Vdc"
+		(at 114.7 150.55 90)
+		(layer "F.SilkS")
+		(uuid "83705ff9-16a7-417c-9dab-d63dd4e8bd0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "{dblquote}Princetown-modded{dblquote}\nTristan Collins\nApril 2026"
 		(at 166 143.75 0)
 		(layer "F.SilkS")
@@ -34006,7 +34109,8 @@
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.1)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify bottom)
 		)

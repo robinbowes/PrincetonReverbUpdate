@@ -2736,8 +2736,8 @@
       <controlPoints2>
         <point x="2.3" y="6.1"/>
         <point x="1.6" y="6.75"/>
-        <point x="0.65" y="7.75"/>
-        <point x="1.9" y="8.55"/>
+        <point x="2.55" y="8.6"/>
+        <point x="2.1" y="8.75"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>FOUR</pointCount>
@@ -2796,8 +2796,8 @@
       <controlPoints2>
         <point x="2.3" y="6.1"/>
         <point x="0.75" y="6.85"/>
-        <point x="1.75" y="7.45"/>
-        <point x="1.45" y="8.7"/>
+        <point x="1.0" y="8.0"/>
+        <point x="1.65" y="8.55"/>
       </controlPoints2>
       <color hex="ff0000"/>
       <pointCount>FOUR</pointCount>
@@ -3176,7 +3176,7 @@
     <diylc.misc.Label>
       <id>f032a5a1-0ae7-4ceb-98d3-8a760508a4c6</id>
       <name>L1</name>
-      <point x="2.25" y="9.2"/>
+      <point x="1.3" y="9.35"/>
       <text>DC B+ Out</text>
       <font name="Tahoma" size="22" style="0"/>
       <color hex="ff0000"/>
@@ -3500,8 +3500,8 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="1.45" y="8.7"/>
-        <point x="3.9" y="6.65"/>
+        <point x="1.65" y="8.55"/>
+        <point x="0.8" y="7.5"/>
         <point x="4.8" y="8.15"/>
         <point x="7.9" y="6.65"/>
       </controlPoints2>
@@ -4210,26 +4210,6 @@
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
-      <striped>false</striped>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <id>37954bdd-ce19-40cf-be98-543d0a48fcfe</id>
-      <name>W9</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <controlPoints2>
-        <point x="4.2" y="10.45"/>
-        <point x="4.45" y="10.7"/>
-        <point x="4.8" y="10.75"/>
-        <point x="6.15" y="10.25"/>
-      </controlPoints2>
-      <color hex="000000"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
       <striped>false</striped>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
@@ -5506,8 +5486,8 @@
         <value>100</value>
       </alphaPercent>
       <controlPoints2>
-        <point x="2.05" y="9.05"/>
-        <point x="2.75" y="9.45"/>
+        <point x="1.6" y="9.2"/>
+        <point x="1.85" y="10.15"/>
         <point x="4.15" y="6.45"/>
         <point x="5.7" y="6.4"/>
       </controlPoints2>
@@ -6007,6 +5987,56 @@
       <orientation>DEFAULT</orientation>
       <stroke>1</stroke>
     </diylc.misc.GroundSymbol>
+    <diylc.semiconductors.DiodePlastic>
+      <id>525ebadb-ec61-4a67-9947-882d008e50bc</id>
+      <name>D1</name>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="1.65" y="8.45"/>
+        <point x="1.45" y="8.7"/>
+        <point x="1.55" y="8.575"/>
+      </points>
+      <bodyColor hex="404040"/>
+      <borderColor hex="2c2c2c"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value></value>
+      <markerColor hex="dddddd"/>
+    </diylc.semiconductors.DiodePlastic>
+    <diylc.semiconductors.DiodePlastic>
+      <id>b8547ea7-5c7a-47e5-b291-48fdd19dd6c0</id>
+      <name>D2</name>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="2.1" y="8.75"/>
+        <point x="1.9" y="8.6"/>
+        <point x="2.0" y="8.675"/>
+      </points>
+      <bodyColor hex="404040"/>
+      <borderColor hex="2c2c2c"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value></value>
+      <markerColor hex="dddddd"/>
+    </diylc.semiconductors.DiodePlastic>
     <diylc.misc.Label>
       <id>e2b6f1dc-aea5-4502-ae85-01619ca938ad</id>
       <name>LAB1</name>
@@ -6038,26 +6068,45 @@
       <gauge>_20</gauge>
       <striped>false</striped>
     </diylc.connectivity.HookupWire>
+    <diylc.misc.WrapLabel>
+      <id>c372c32f-6f3f-4911-bd74-746ddf80c667</id>
+      <name>LAB2</name>
+      <controlPoints>
+        <point x="17.25" y="2.95"/>
+        <point x="17.9" y="3.85"/>
+      </controlPoints>
+      <firstPoint x="17.25" y="2.95"/>
+      <secondPoint x="17.9" y="3.85"/>
+      <font name="Dialog" size="20" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>FET boost PCB board</value>
+    </diylc.misc.WrapLabel>
   </components>
   <groups/>
   <groupsEx>
     <group>
       <componentIds>
-        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
-        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>aba02f55-4376-47db-8bca-fc6a36d8a8e8</uuid>
-        <uuid>cf254022-b774-4758-9731-fdc386653564</uuid>
-        <uuid>cdee5fa2-0c40-43e0-8f90-e200c9077a77</uuid>
+        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
+        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
       </componentIds>
     </group>
     <group>
       <componentIds>
         <uuid>11bc2f53-940c-476d-aac6-a3ddf3db160a</uuid>
         <uuid>91d33921-f27f-4512-8a54-7670effb21c7</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
+        <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
+        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
       </componentIds>
     </group>
     <group>
@@ -6160,14 +6209,9 @@
     </group>
     <group>
       <componentIds>
-        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
-        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
-        <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
+        <uuid>aba02f55-4376-47db-8bca-fc6a36d8a8e8</uuid>
+        <uuid>cf254022-b774-4758-9731-fdc386653564</uuid>
+        <uuid>cdee5fa2-0c40-43e0-8f90-e200c9077a77</uuid>
       </componentIds>
     </group>
   </groupsEx>

@@ -9036,7 +9036,7 @@
 		)
 		(uuid "9506c718-0257-4a81-ac62-a924406659aa")
 	)
-	(text "DPST for safety"
+	(text "DPST for safety\nSPST for space..."
 		(exclude_from_sim no)
 		(at 214.63 135.89 0)
 		(effects
@@ -9150,16 +9150,6 @@
 			(justify left)
 		)
 		(uuid "c1dce5ac-3dd8-4adb-afe8-2aff2952b7d8")
-	)
-	(text "TODO\n\nCHECK BASS POT WIRING"
-		(exclude_from_sim no)
-		(at 194.564 170.434 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "cc2e9d4a-9506-4a7c-b20f-1090bb11904c")
 	)
 	(text "Black"
 		(exclude_from_sim no)
@@ -10395,16 +10385,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 53.34) (xy 85.09 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21166d03-5380-4328-b7cd-fcce04e42efb")
-	)
-	(wire
-		(pts
 			(xy 119.38 185.42) (xy 101.6 185.42)
 		)
 		(stroke
@@ -11325,6 +11305,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 43.18) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0cf538-60ba-44a9-9a83-6da0a5cf95cf")
+	)
+	(wire
+		(pts
 			(xy 67.31 31.75) (xy 67.31 33.02)
 		)
 		(stroke
@@ -11562,16 +11552,6 @@
 			(type default)
 		)
 		(uuid "8254a1ad-2bef-466b-826a-47fadf35159d")
-	)
-	(wire
-		(pts
-			(xy 85.09 53.34) (xy 85.09 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f3ca76-dad7-41dc-8156-6218f98bee9b")
 	)
 	(wire
 		(pts
@@ -12232,6 +12212,16 @@
 			(type default)
 		)
 		(uuid "b7c02b7a-804c-45c0-8b05-196d2fa19ae1")
+	)
+	(wire
+		(pts
+			(xy 81.28 43.18) (xy 85.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b41570-7c15-4233-9904-77ad54b561e7")
 	)
 	(wire
 		(pts
@@ -17014,7 +17004,7 @@
 				)
 			)
 		)
-		(property "Value" "BToCapCan"
+		(property "Value" "BToCapCanB"
 			(at 72.39 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25935,7 +25925,7 @@
 		(dnp no)
 		(uuid "b83eb228-aefe-48cc-afa4-c2106a1e054f")
 		(property "Reference" "W11"
-			(at 82.042 43.18 0)
+			(at 82.042 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27914,22 +27904,22 @@
 		(dnp no)
 		(uuid "d5639e2a-132f-4c5f-a273-5b3c4bff79dc")
 		(property "Reference" "RV2"
-			(at 84.328 41.91 90)
+			(at 84.328 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Value" "1M Log"
-			(at 85.598 41.91 90)
+			(at 85.598 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -29806,7 +29796,7 @@
 				)
 			)
 		)
-		(property "Value" "CToCapCan"
+		(property "Value" "A'ToCapCanC"
 			(at 197.358 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30048,7 +30038,7 @@
 				)
 			)
 		)
-		(property "Value" "AToCapCan"
+		(property "Value" "AToCapCanA"
 			(at 88.138 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
