@@ -8875,19 +8875,6 @@
 		)
 		(uuid "6a1b1681-72e4-4dc7-9c9a-6b7f75a9e23d")
 	)
-	(text "Jumper from\nother jack"
-		(exclude_from_sim no)
-		(at 31.242 39.116 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.016 1.016)
-				(italic yes)
-			)
-			(justify left)
-		)
-		(uuid "6af51300-e679-4391-9ef2-3caee27103d1")
-	)
 	(text "Only tank output side is\ngrounded, and to chassis\nwhen it is"
 		(exclude_from_sim no)
 		(at 78.105 74.295 0)
@@ -9682,6 +9669,12 @@
 		(uuid "a898ded6-c033-43a7-a0af-4202b719bbc2")
 	)
 	(junction
+		(at 36.83 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9079b76-bd34-47f0-b2cf-070250ec448e")
+	)
+	(junction
 		(at 125.73 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9698,12 +9691,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae4cdb68-8c27-4733-acfa-7231d3cdcbf6")
-	)
-	(junction
-		(at 41.91 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aeafc5ad-969c-419c-8e0f-6c58ed4d19ff")
 	)
 	(junction
 		(at 44.45 185.42)
@@ -10215,7 +10202,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 33.02) (xy 41.91 41.91)
+			(xy 34.29 33.02) (xy 34.29 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10262,6 +10249,16 @@
 			(type default)
 		)
 		(uuid "15261c64-9a27-4132-a0ab-cfe5e5dce2c3")
+	)
+	(wire
+		(pts
+			(xy 36.83 35.56) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1755ba50-fc5b-4734-977b-0f71b0dd9df5")
 	)
 	(wire
 		(pts
@@ -10535,6 +10532,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 54.61) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aee36cf-e0a4-49ef-b2a9-f56f3f6bdc34")
+	)
+	(wire
+		(pts
 			(xy 49.53 67.31) (xy 49.53 62.23)
 		)
 		(stroke
@@ -10695,7 +10702,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 33.02) (xy 33.02 33.02)
+			(xy 34.29 33.02) (xy 33.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11045,16 +11052,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 59.69) (xy 33.02 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b87c1f-b6e6-405f-ae48-26913bd4ade3")
-	)
-	(wire
-		(pts
 			(xy 158.75 31.75) (xy 158.75 41.91)
 		)
 		(stroke
@@ -11185,6 +11182,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 59.69) (xy 34.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644a6d21-07df-41d5-a921-76ad5aa1abe6")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.23) (xy 138.43 62.23)
 		)
 		(stroke
@@ -11222,6 +11229,16 @@
 			(type default)
 		)
 		(uuid "6717d75a-b2c8-4a8f-98af-b65ec18495a1")
+	)
+	(wire
+		(pts
+			(xy 33.02 54.61) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d9e8c0-7b38-4d45-93ce-2f5783ac761d")
 	)
 	(wire
 		(pts
@@ -12002,6 +12019,16 @@
 			(type default)
 		)
 		(uuid "a4a83d90-536e-44cc-a7f3-34c280bbb9c2")
+	)
+	(wire
+		(pts
+			(xy 33.02 35.56) (xy 36.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f62ebd-2a78-41c5-9dab-7b5e4e3ae78b")
 	)
 	(wire
 		(pts
@@ -12872,16 +12899,6 @@
 			(type default)
 		)
 		(uuid "e4623675-375d-4a95-9759-53654a97b199")
-	)
-	(wire
-		(pts
-			(xy 36.83 59.69) (xy 36.83 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4663e84-6677-4830-95ad-f627cc93be3c")
 	)
 	(wire
 		(pts
@@ -25992,84 +26009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8bb48b9-7278-49e1-80d8-e9b0cceee2ae")
-		(property "Reference" "#PWR034"
-			(at 39.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "GNDE"
-			(at 36.195 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "290bf5c0-17b9-477a-8bc7-fefd8d6e934b")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_compact_7")
 		(lib_id "DevicesTC:R_compact")
 		(at 210.82 86.36 270)
@@ -26472,85 +26411,6 @@
 			(project "PrincetonReverbUpdate"
 				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
 					(reference "W30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 35.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c155f53c-2ca4-423d-9216-1a7d0055757a")
-		(property "Reference" "#PWR035"
-			(at 39.37 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "GNDE"
-			(at 36.195 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d36ee826-5bdd-4668-abf9-98ae3061962e")
-		)
-		(instances
-			(project "PrincetonReverbUpdate"
-				(path "/c97fe961-eaac-4315-a6d8-42e040059404"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
