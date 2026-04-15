@@ -4799,20 +4799,6 @@
       <value>Jack</value>
     </diylc.connectivity.Eyelet>
     <diylc.connectivity.SolderPad>
-      <id>268f06af-5fc8-4ae0-88af-71b41837021f</id>
-      <name>Pad1</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="17.85" y="2.15"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
       <id>12069a07-8299-440f-a29c-c72df3f26fdd</id>
       <name>Pad1</name>
       <alphaPercent>
@@ -4827,20 +4813,6 @@
       <holeType>NTPH</holeType>
     </diylc.connectivity.SolderPad>
     <diylc.connectivity.SolderPad>
-      <id>f2216938-cfae-48bb-b995-7d21d1e36d9a</id>
-      <name>Pad1</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="17.65" y="1.8"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
       <id>533943f0-c254-4ebc-814d-b9f6df1a6581</id>
       <name>Pad1</name>
       <alphaPercent>
@@ -4849,20 +4821,6 @@
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
       <point x="18.7" y="2.45"/>
-      <type>ROUND</type>
-      <holeSize value="0.8" unit="mm"/>
-      <layer>_1</layer>
-      <holeType>NTPH</holeType>
-    </diylc.connectivity.SolderPad>
-    <diylc.connectivity.SolderPad>
-      <id>0d10a2f4-4f19-45f5-87ec-36d42407175c</id>
-      <name>Pad1</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <size value="0.09" unit="in"/>
-      <color hex="000000"/>
-      <point x="17.65" y="2.5"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -4909,45 +4867,6 @@
       <colorCode>_4_BAND</colorCode>
       <shape>Tubular</shape>
     </diylc.passive.Resistor>
-    <diylc.connectivity.HookupWire>
-      <id>a3e82d3b-382a-47d6-9b02-cf2b540d3f71</id>
-      <name>W3</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <controlPoints2>
-        <point x="18.3" y="2.5"/>
-        <point x="18.45" y="2.6"/>
-        <point x="18.7" y="2.45"/>
-      </controlPoints2>
-      <color hex="000000"/>
-      <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_24</gauge>
-      <striped>false</striped>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
-      <id>d55757e4-023a-4573-ae32-c21df17502dd</id>
-      <name>W3</name>
-      <alphaPercent>
-        <value>100</value>
-      </alphaPercent>
-      <controlPoints2>
-        <point x="18.05" y="2.15"/>
-        <point x="17.95" y="2.15"/>
-        <point x="17.85" y="2.15"/>
-      </controlPoints2>
-      <color hex="000000"/>
-      <pointCount>THREE</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <id>c8d2c6b3-cab3-4a7c-9331-d38ff7e18940</id>
       <name>L2</name>
@@ -4982,28 +4901,6 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
-      <id>767faf73-7781-40aa-92fb-9be41ae665a6</id>
-      <name>L2</name>
-      <point x="17.55" y="2.55"/>
-      <text>Tip</text>
-      <font name="Tahoma" size="20" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
-      <id>3ae8fc5a-df7e-4826-a717-5111b46b8761</id>
-      <name>L2</name>
-      <point x="17.8" y="2.05"/>
-      <text>Switch</text>
-      <font name="Tahoma" size="20" style="0"/>
-      <color hex="000000"/>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
       <id>48b4269a-dea5-447d-b7ae-ed6a4df2af7d</id>
       <name>L2</name>
       <point x="18.35" y="2.6"/>
@@ -5017,7 +4914,7 @@
     <diylc.misc.Label>
       <id>3f558e54-6e05-4317-b43f-56d229d5fad4</id>
       <name>L2</name>
-      <point x="17.85" y="1.75"/>
+      <point x="17.75" y="3.55"/>
       <text>Ground</text>
       <font name="Tahoma" size="20" style="0"/>
       <color hex="000000"/>
@@ -5875,9 +5772,9 @@
       </alphaPercent>
       <controlPoints2>
         <point x="17.3" y="3.7"/>
-        <point x="18.9" y="4.15"/>
-        <point x="18.95" y="9.3"/>
-        <point x="18.3" y="9.15"/>
+        <point x="17.1" y="3.3"/>
+        <point x="17.95" y="3.4"/>
+        <point x="18.3" y="2.5"/>
       </controlPoints2>
       <color hex="ccff66"/>
       <pointCount>FOUR</pointCount>
@@ -6082,31 +5979,35 @@
       <horizontalAlignment>LEFT</horizontalAlignment>
       <value>FET boost PCB board</value>
     </diylc.misc.WrapLabel>
+    <diylc.misc.Label>
+      <id>e3fb3990-3bcc-4a83-926f-27abf544bc0a</id>
+      <name>LAB3</name>
+      <point x="17.5" y="3.55"/>
+      <text>B+</text>
+      <font name="Tahoma" size="20" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>f36f33a0-fd31-41b6-a3b5-5153452d2a22</id>
+      <name>LAB4</name>
+      <point x="17.25" y="3.6"/>
+      <text>Signal</text>
+      <font name="Tahoma" size="20" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <groupsEx>
     <group>
       <componentIds>
-        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
-        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
         <uuid>11bc2f53-940c-476d-aac6-a3ddf3db160a</uuid>
         <uuid>91d33921-f27f-4512-8a54-7670effb21c7</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
-        <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
-        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
       </componentIds>
     </group>
     <group>
@@ -6212,6 +6113,24 @@
         <uuid>aba02f55-4376-47db-8bca-fc6a36d8a8e8</uuid>
         <uuid>cf254022-b774-4758-9731-fdc386653564</uuid>
         <uuid>cdee5fa2-0c40-43e0-8f90-e200c9077a77</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
+        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
+        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
+        <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
       </componentIds>
     </group>
   </groupsEx>
