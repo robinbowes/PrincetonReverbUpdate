@@ -8818,7 +8818,7 @@
 		)
 		(uuid "50963c45-03f0-4b79-b583-d3f98958a5e2")
 	)
-	(text "Resevoir"
+	(text "Reservoir"
 		(exclude_from_sim no)
 		(at 87.63 138.43 0)
 		(effects
