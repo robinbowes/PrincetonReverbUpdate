@@ -15426,7 +15426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k 3W"
 			(at 71.628 84.8277 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19237,8 +19237,8 @@
 				)
 			)
 		)
-		(property "Value" "1k 5W"
-			(at 252.73 42.926 90)
+		(property "Value" "680r 5W"
+			(at 252.73 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26044,7 +26044,7 @@
 				)
 			)
 		)
-		(property "Value" "1k 3W"
+		(property "Value" "10k 1W"
 			(at 210.82 83.8282 90)
 			(show_name no)
 			(do_not_autoplace no)
