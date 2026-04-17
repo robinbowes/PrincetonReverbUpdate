@@ -14553,10 +14553,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07d23fbc-4210-41f2-bba1-8abf6f0f59ed")
 		(property "Reference" "C8"
-			(at 110.49 26.0597 90)
+			(at 110.49 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14565,8 +14564,8 @@
 				)
 			)
 		)
-		(property "Value" "22n"
-			(at 110.49 28.0752 90)
+		(property "Value" "22n 630V"
+			(at 110.49 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14989,7 +14988,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n 630V"
 			(at 182.88 105.5452 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15057,26 +15056,25 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0efbbce1-c954-4f72-a900-8585ee57ac8d")
 		(property "Reference" "RV5"
-			(at 79.5021 47.2522 0)
+			(at 79.502 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "250k Log"
-			(at 79.5021 49.2677 0)
+			(at 79.502 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 				(justify right)
 			)
@@ -15671,7 +15669,7 @@
 				)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "470p 500V"
 			(at 27.94 100.4652 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16329,10 +16327,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ad931fc-1796-4db8-8463-975e7ba3a4cf")
 		(property "Reference" "R9"
-			(at 35.56 140.2327 90)
+			(at 35.56 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16344,8 +16341,8 @@
 				)
 			)
 		)
-		(property "Value" "10k 1W"
-			(at 35.56 142.2482 90)
+		(property "Value" "10k 3W"
+			(at 35.56 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16799,7 +16796,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3Meg"
+		(property "Value" "3.3M"
 			(at 123.19 29.2182 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17209,10 +17206,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39a2a553-5fda-4c2e-8fdf-8b492a0fe893")
 		(property "Reference" "C19"
-			(at 221.361 103.1322 0)
+			(at 221.488 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17222,8 +17218,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22n"
-			(at 221.361 105.1477 0)
+		(property "Value" "22n 630V"
+			(at 221.488 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17704,7 +17700,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 172.72 105.5452 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19227,7 +19223,6 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56cae286-b2c5-4d4f-bb4c-987a57fc50b7")
 		(property "Reference" "R44"
 			(at 250.7227 43.18 90)
@@ -19242,8 +19237,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 252.7382 43.18 90)
+		(property "Value" "1k 5W"
+			(at 252.73 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19313,10 +19308,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "584f1e1d-9a33-4f21-8128-d0a240001625")
 		(property "Reference" "C14"
-			(at 153.035 26.0597 90)
+			(at 153.162 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19325,8 +19319,8 @@
 				)
 			)
 		)
-		(property "Value" "22n"
-			(at 153.035 28.0752 90)
+		(property "Value" "22n 630V"
+			(at 153.162 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19472,10 +19466,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5bba790f-707f-437c-a55c-32b922cee1a9")
 		(property "Reference" "R37"
-			(at 267.208 122.1822 0)
+			(at 266.954 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19485,8 +19478,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 267.208 124.1977 0)
+		(property "Value" "100k 1W"
+			(at 266.954 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20108,10 +20101,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69be756d-82d8-4421-9cef-20fc856bc5c9")
 		(property "Reference" "R42"
-			(at 80.01 140.2327 90)
+			(at 80.01 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20120,8 +20112,8 @@
 				)
 			)
 		)
-		(property "Value" "1k 1W"
-			(at 80.01 142.2482 90)
+		(property "Value" "1k 3W"
+			(at 80.01 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20963,7 +20955,7 @@
 				)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47n 630V"
 			(at 73.66 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22338,7 +22330,7 @@
 				)
 			)
 		)
-		(property "Value" "100k 1W"
+		(property "Value" "220k 3W"
 			(at 85.0982 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22848,10 +22840,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8de13f22-9038-4bbc-bad2-63423dd722fd")
 		(property "Reference" "R41"
-			(at 64.77 140.2327 90)
+			(at 64.77 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22863,8 +22854,8 @@
 				)
 			)
 		)
-		(property "Value" "10k 1W"
-			(at 64.77 142.2482 90)
+		(property "Value" "10k 3W"
+			(at 64.77 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23629,7 +23620,7 @@
 				)
 			)
 		)
-		(property "Value" "470r"
+		(property "Value" "470r 3W"
 			(at 224.79 58.4118 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24282,7 +24273,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 162.56 105.5452 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24836,26 +24827,25 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a861781f-3166-4fe9-9605-74b93409c5ee")
 		(property "Reference" "RV1"
-			(at 79.5021 35.8222 0)
+			(at 79.502 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "250k Log"
-			(at 79.5021 37.8377 0)
+			(at 79.502 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 				(justify right)
 			)
@@ -25233,10 +25223,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af933b72-9eac-4f2b-b6c3-4d39c90a9910")
 		(property "Reference" "C22"
-			(at 223.52 92.0997 90)
+			(at 223.52 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25245,8 +25234,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 223.52 94.1152 90)
+		(property "Value" "100n 630V"
+			(at 223.52 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26055,7 +26044,7 @@
 				)
 			)
 		)
-		(property "Value" "1k 1W"
+		(property "Value" "1k 3W"
 			(at 210.82 83.8282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26210,10 +26199,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd78d086-bc3f-41a1-ad1a-aae1f119d2a6")
 		(property "Reference" "C10"
-			(at 123.19 33.6797 90)
+			(at 123.19 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26222,8 +26210,8 @@
 				)
 			)
 		)
-		(property "Value" "10p"
-			(at 123.19 35.6952 90)
+		(property "Value" "10p 500V"
+			(at 123.19 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27109,10 +27097,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c905b56d-f1e0-4caa-ab4d-48b172537532")
 		(property "Reference" "C20"
-			(at 185.42 47.6497 90)
+			(at 185.42 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27124,8 +27111,8 @@
 				)
 			)
 		)
-		(property "Value" "47n"
-			(at 185.42 49.6652 90)
+		(property "Value" "47n 630V"
+			(at 185.42 50.038 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27207,7 +27194,7 @@
 				)
 			)
 		)
-		(property "Value" "250p"
+		(property "Value" "250p 500V"
 			(at 73.66 28.0752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27535,10 +27522,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd8b43e8-deda-432a-801c-415a397c8d2a")
 		(property "Reference" "C21"
-			(at 185.42 26.0597 90)
+			(at 185.42 26.416 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27550,8 +27536,8 @@
 				)
 			)
 		)
-		(property "Value" "47n"
-			(at 185.42 28.0752 90)
+		(property "Value" "47n 630V"
+			(at 185.42 28.448 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28021,26 +28007,25 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7f95ea7-6fc0-42b1-81c9-a0b5b9c7b9ad")
 		(property "Reference" "C11"
-			(at 124.841 100.5922 0)
+			(at 124.714 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "3.3n"
-			(at 124.841 102.6077 0)
+		(property "Value" "3.3n 630V"
+			(at 124.714 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
@@ -28371,7 +28356,7 @@
 		(dnp no)
 		(uuid "dce60508-a2bf-49c7-b0b1-9bf6cc7a4c61")
 		(property "Reference" "C4"
-			(at 70.612 44.45 90)
+			(at 71.374 44.958 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28380,8 +28365,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 70.866 46.228 90)
+		(property "Value" "100n 630V"
+			(at 71.628 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29086,10 +29071,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e96b6fed-db7d-41cd-89d8-135259ee5414")
 		(property "Reference" "R40"
-			(at 49.53 140.2327 90)
+			(at 49.53 140.716 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29101,8 +29085,8 @@
 				)
 			)
 		)
-		(property "Value" "10k 1W"
-			(at 49.53 142.2482 90)
+		(property "Value" "10k 3W"
+			(at 49.53 142.494 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30319,7 +30303,7 @@
 				)
 			)
 		)
-		(property "Value" "470r"
+		(property "Value" "470r 3W"
 			(at 224.79 31.7418 90)
 			(show_name no)
 			(do_not_autoplace no)
