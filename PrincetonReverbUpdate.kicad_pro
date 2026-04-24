@@ -508,7 +508,7 @@
         "track_width": 2.0,
         "tuning_profile": "",
         "via_diameter": 2.0,
-        "wire_width": 9
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -565,7 +565,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}_footprints.csv",
+    "bom_export_filename": "${PROJECTNAME}_quantities.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -617,10 +617,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -715,7 +715,7 @@
         "uuid": "c97fe961-eaac-4315-a6d8-42e040059404"
       }
     ],
-    "used_designators": "W45-46",
+    "used_designators": "R47,D5,W45-46",
     "variants": []
   },
   "sheets": [
