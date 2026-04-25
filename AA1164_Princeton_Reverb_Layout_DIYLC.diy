@@ -5659,6 +5659,31 @@
       <voltage>_63V</voltage>
       <voltageNew value="2.0" unit="KV"/>
     </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.semiconductors.DiodePlastic>
+      <id>5fe1ee0b-ade6-42f7-9a9b-f0dc63781ae6</id>
+      <name>D3</name>
+      <alphaPercent>
+        <value>100</value>
+      </alphaPercent>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="7.05" y="1.5"/>
+        <point x="6.45" y="1.5"/>
+        <point x="6.75" y="1.5"/>
+      </points>
+      <bodyColor hex="404040"/>
+      <borderColor hex="2c2c2c"/>
+      <labelColor hex="ffffff"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value></value>
+      <markerColor hex="dddddd"/>
+    </diylc.semiconductors.DiodePlastic>
     <diylc.misc.Label>
       <id>e2b6f1dc-aea5-4502-ae85-01619ca938ad</id>
       <name>LAB1</name>
@@ -5879,13 +5904,30 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.misc.Label>
+      <id>2a3ccc7f-a494-4b3b-a2d6-79a3b9b50d54</id>
+      <name>LAB5</name>
+      <point x="6.3" y="1.3"/>
+      <text>De-thump diode</text>
+      <font name="Tahoma" size="22" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <groupsEx>
     <group>
       <componentIds>
-        <uuid>11bc2f53-940c-476d-aac6-a3ddf3db160a</uuid>
-        <uuid>91d33921-f27f-4512-8a54-7670effb21c7</uuid>
+        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
+        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
+        <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
       </componentIds>
     </group>
     <group>
@@ -5893,18 +5935,6 @@
         <uuid>aba02f55-4376-47db-8bca-fc6a36d8a8e8</uuid>
         <uuid>cf254022-b774-4758-9731-fdc386653564</uuid>
         <uuid>cdee5fa2-0c40-43e0-8f90-e200c9077a77</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
-        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
-      </componentIds>
-    </group>
-    <group>
-      <componentIds>
-        <uuid>012b4a57-710b-4f1d-8e5d-326d6c4b8d30</uuid>
-        <uuid>1a3151b1-047d-4a4e-abe8-22697334c4f2</uuid>
       </componentIds>
     </group>
     <group>
@@ -6007,8 +6037,14 @@
     </group>
     <group>
       <componentIds>
-        <uuid>26820773-9c27-4689-a0ad-c7c4151ac41c</uuid>
-        <uuid>d2698f44-5564-43b8-8bb2-248559cafda6</uuid>
+        <uuid>11bc2f53-940c-476d-aac6-a3ddf3db160a</uuid>
+        <uuid>91d33921-f27f-4512-8a54-7670effb21c7</uuid>
+      </componentIds>
+    </group>
+    <group>
+      <componentIds>
+        <uuid>6c6d9aa0-8ab1-49f1-947b-677c6d2f47e1</uuid>
+        <uuid>c0897f4a-d667-4f87-967b-20508eaf04c0</uuid>
       </componentIds>
     </group>
   </groupsEx>
