@@ -367,6 +367,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -484,6 +485,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2518,6 +2520,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2635,6 +2638,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -2931,6 +2935,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -5728,6 +5733,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -5803,7 +5809,7 @@
 				)
 			)
 		)
-		(property "Value" "1k 1W"
+		(property "Value" "1k 3W"
 			(at 10.16 2 180)
 			(layer "F.Fab")
 			(uuid "10f7a31a-fa65-4b4d-a10a-22cf3875b034")
@@ -6024,6 +6030,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6141,6 +6148,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6258,6 +6266,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6375,6 +6384,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6492,6 +6502,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -6788,6 +6799,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -7114,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3n"
+		(property "Value" "3.3n 630V"
 			(at 7.5 2.25 90)
 			(layer "F.Fab")
 			(uuid "e6c1f642-8145-4b9e-a9bb-b194a9fc40b7")
@@ -7344,6 +7356,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -8948,7 +8961,7 @@
 				)
 			)
 		)
-		(property "Value" "10k 1W"
+		(property "Value" "10k 3W"
 			(at 10.16 2 180)
 			(layer "F.Fab")
 			(uuid "677bc6b6-c095-4870-811b-5c857b00e6ae")
@@ -9306,7 +9319,7 @@
 				)
 			)
 		)
-		(property "Value" "100k 1W"
+		(property "Value" "220k 3W"
 			(at 10.16 2 270)
 			(layer "F.Fab")
 			(uuid "ec6b36be-5531-4530-aaa9-ca5b817f9060")
@@ -9527,6 +9540,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -9823,6 +9837,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -10077,7 +10092,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 630V"
 			(at 13.75 4 180)
 			(layer "F.Fab")
 			(uuid "268ca6e9-9271-4029-bbf0-f005fb72d184")
@@ -10256,7 +10271,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 5 2 90)
 			(layer "F.Fab")
 			(uuid "0fd4fbd7-7928-44b7-87d2-890c0294e978")
@@ -11836,6 +11851,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -13482,6 +13498,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -13599,6 +13616,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -13716,6 +13734,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -13970,7 +13989,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "10p 500V"
 			(at 3.75 2 270)
 			(layer "F.Fab")
 			(uuid "5e05d3fa-8bd1-41d2-a2e8-62f666f1e0fc")
@@ -14538,6 +14557,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -14655,6 +14675,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -14772,6 +14793,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -14847,7 +14869,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 1W"
 			(at 7.62 1.5 90)
 			(layer "F.Fab")
 			(uuid "f08cc261-addb-4d05-84f0-d02df7c24d4c")
@@ -15026,7 +15048,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 630V"
 			(at 13.75 4 0)
 			(layer "F.Fab")
 			(uuid "4df00c77-0cfd-4c71-9a62-a2f6a43ce779")
@@ -15247,6 +15269,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -15323,7 +15346,7 @@
 				)
 			)
 		)
-		(property "Value" "10k 1W"
+		(property "Value" "10k 3W"
 			(at 10.16 2 180)
 			(layer "F.Fab")
 			(uuid "99ac7d06-c762-43db-a0e2-18c44c7d70f9")
@@ -15974,6 +15997,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16091,6 +16115,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16166,7 +16191,7 @@
 				)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "470p 500V"
 			(at 3.75 1.5 0)
 			(layer "F.Fab")
 			(uuid "e87512ef-7df4-4ce3-bad7-4d67ec5c56ba")
@@ -16575,6 +16600,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16692,6 +16718,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16809,6 +16836,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -16926,6 +16954,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -17111,7 +17140,7 @@
 				)
 			)
 		)
-		(property "Value" "100-470p"
+		(property "Value" "100p"
 			(at 3.75 2 90)
 			(layer "F.Fab")
 			(uuid "34ca8619-fda2-45ab-b05d-3d9303c082cb")
@@ -17279,7 +17308,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3Meg"
+		(property "Value" "3.3M"
 			(at 7.62 1.5 270)
 			(layer "F.Fab")
 			(uuid "c994735d-634a-4367-8a06-5c8f1ddfa595")
@@ -20001,6 +20030,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -20509,6 +20539,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -20626,6 +20657,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -21280,6 +21312,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -21534,7 +21567,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 10 2.5 90)
 			(layer "F.Fab")
 			(uuid "d8001cf4-c0cb-4f95-b28c-2a4c4dc672cb")
@@ -23063,7 +23096,7 @@
 				)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47n 630V"
 			(at 12.5 2.5 90)
 			(layer "F.Fab")
 			(uuid "bbc8fd46-845f-4e43-932f-9eb8c9a1ebd8")
@@ -23284,6 +23317,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -23401,6 +23435,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -23663,6 +23698,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -26281,6 +26317,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -26356,7 +26393,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10n 630V"
 			(at 5 2 90)
 			(layer "F.Fab")
 			(uuid "45b6a7ba-45e8-4955-9539-19a5211e160d")
@@ -26544,7 +26581,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 5 2 90)
 			(layer "F.Fab")
 			(uuid "a7e48c37-9b49-444f-b6f3-fde4c0342293")
@@ -26732,7 +26769,7 @@
 				)
 			)
 		)
-		(property "Value" "1k 1W"
+		(property "Value" "10k 1W"
 			(at 10.16 2 270)
 			(layer "F.Fab")
 			(uuid "7695cfdc-8c09-4bcf-950b-22ab22e15737")
@@ -30109,7 +30146,7 @@
 				)
 			)
 		)
-		(property "Value" "250p"
+		(property "Value" "250p 500V"
 			(at 3.75 2 90)
 			(layer "F.Fab")
 			(uuid "244150b7-bff9-48e3-83b1-634262f351ac")
@@ -30319,6 +30356,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -30436,6 +30474,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -30904,7 +30943,7 @@
 				)
 			)
 		)
-		(property "Value" "10k 1W"
+		(property "Value" "10k 3W"
 			(at 10.16 2 180)
 			(layer "F.Fab")
 			(uuid "237d3170-29dd-4b00-891d-266b0a38803a")
@@ -31262,7 +31301,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 10 2.5 0)
 			(layer "F.Fab")
 			(uuid "56a21ff9-07a0-4673-bffb-7732f1dc8f46")
@@ -31620,7 +31659,7 @@
 				)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47n 630V"
 			(at 10 2.5 180)
 			(layer "F.Fab")
 			(uuid "b389e251-5298-451f-afca-2a493bb66cff")
@@ -31841,6 +31880,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -31958,6 +31998,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -32075,6 +32116,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -32192,6 +32234,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -32309,6 +32352,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -32384,7 +32428,7 @@
 				)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47n 630V"
 			(at 12.5 2.5 90)
 			(layer "F.Fab")
 			(uuid "3e3ef8ee-9021-4041-8967-100b671c56b5")
@@ -32784,6 +32828,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)
@@ -33362,7 +33407,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "22n 630V"
 			(at 10 2.5 0)
 			(layer "F.Fab")
 			(uuid "da2946be-258d-46db-8c57-1fb0bdc92e9a")
@@ -33762,6 +33807,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -1.5)

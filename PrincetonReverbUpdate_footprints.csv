@@ -42,7 +42,7 @@
 "D2","1","Red","LED_THT:LED_D5.0mm"
 "D1","1","UF4007","Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 "CN1","1","JJ CanCap",""
-"C27","1","100-470p","Library:C_Disc_D10.5mm_W5.0mm_P7.50mm_TC"
+"C27","1","100p","Library:C_Disc_D10.5mm_W5.0mm_P7.50mm_TC"
 "C16","1","100p 2kV",""
 "C13","1","10n 630V","Library:C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC"
 "C11","1","3.3n 630V","Library:C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC"
