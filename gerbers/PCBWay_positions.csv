@@ -1,29 +1,29 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
 331.75,-148.25,90.0,top,C1,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
-287.75,-140.75,-90.0,top,C10,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,10p,tht
-234.0,-124.25,90.0,top,C11,,,C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC,3.3n,tht
+287.75,-140.75,-90.0,top,C10,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,10p 500V,tht
+234.0,-124.25,90.0,top,C11,,,C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT_TC,3.3n 630V,tht
 287.75,-133.544888,-90.0,top,C12,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
-131.75,-135.5,90.0,top,C13,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,10n,tht
-229.75,-142.5,0.0,top,C14,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n,tht
-124.25,-135.5,90.0,top,C15,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,22n,tht
-124.25,-148.0,90.0,top,C17,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,22n,tht
+131.75,-135.5,90.0,top,C13,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,10n 630V,tht
+229.75,-142.5,0.0,top,C14,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n 630V,tht
+124.25,-135.5,90.0,top,C15,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,22n 630V,tht
+124.25,-148.0,90.0,top,C17,,,C_Rect_L11.0mm_W5.1mm_P10.00mm_MKT_TC,22n 630V,tht
 187.75,-130.473959,90.0,top,C18,,,CP_Radial_D12.5mm_P5.00mm,22u 450V,tht
-119.25,-111.5,0.0,top,C19,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n,tht
+119.25,-111.5,0.0,top,C19,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n 630V,tht
 195.7,-112.5,0.0,top,C2,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
-166.0,-107.25,-90.0,top,C20,,,C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC,47n,tht
-174.75,-107.25,-90.0,top,C21,,,C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC,47n,tht
-116.25,-109.5,180.0,top,C22,,,C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC,100n,tht
+166.0,-107.25,-90.0,top,C20,,,C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC,47n 630V,tht
+174.75,-107.25,-90.0,top,C21,,,C_Axial_L19.0mm_D7.5mm_P25.00mm_Horizontal_TC,47n 630V,tht
+116.25,-109.5,180.0,top,C22,,,C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC,100n 630V,tht
 248.48,-122.223959,90.0,top,C23,,,CP_Radial_D12.5mm_P5.00mm,22u 450V,tht
 81.25,-110.55,-90.0,top,C24,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
 308.7,-122.223959,90.0,top,C25,,,CP_Radial_D12.5mm_P5.00mm,22u 450V,tht
-234.0,-136.5,90.0,top,C27,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,100-470p,tht
+234.0,-136.5,90.0,top,C27,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,100p,tht
 72.5,-110.344888,-90.0,top,C29,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
-338.0,-140.25,90.0,top,C3,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,250p,tht
-295.75,-110.0,180.0,top,C4,,,C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC,100n,tht
-338.0,-109.5,180.0,top,C5,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,47n,tht
-258.0,-114.75,0.0,top,C6,,,C_Disc_D7.5mm_W5.0mm_P7.50mm_TC,470p,tht
+338.0,-140.25,90.0,top,C3,,,C_Disc_D10.5mm_W5.0mm_P7.50mm_TC,250p 500V,tht
+295.75,-110.0,180.0,top,C4,,,C_Axial_L22.0mm_D10.5mm_P27.50mm_Horizontal_TC,100n 630V,tht
+338.0,-109.5,180.0,top,C5,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,47n 630V,tht
+258.0,-114.75,0.0,top,C6,,,C_Disc_D7.5mm_W5.0mm_P7.50mm_TC,470p 500V,tht
 331.75,-142.205113,90.0,top,C7,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
-295.75,-149.25,90.0,top,C8,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n,tht
+295.75,-149.25,90.0,top,C8,,,C_Axial_L17.0mm_D6.5mm_P20.00mm_Horizontal_TC,22n 630V,tht
 205.75,-130.0,180.0,top,C9,,,CP_Radial_D5.0mm_P2.00mm,22u 50V,tht
 78.0,-124.0,90.0,top,D1,,,D_DO-41_SOD81_P7.62mm_Horizontal,UF4007,tht
 130.25,-141.5,0.0,top,D2,,,LED_D5.0mm,Red,tht
@@ -37,7 +37,7 @@
 221.25,-122.0,-90.0,top,R12,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
 308.5,-144.24,90.0,top,R13,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
 210.25,-122.01,-90.0,top,R14,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
-282.5,-127.13,-90.0,top,R15,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,3.3Meg,tht
+282.5,-127.13,-90.0,top,R15,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,3.3M,tht
 226.75,-121.98,-90.0,top,R16,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
 260.4,-127.01,-90.0,top,R17,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,470k,tht
 265.75,-127.04,-90.0,top,R18,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
@@ -49,26 +49,26 @@
 138.25,-143.0,90.0,top,R24,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
 198.0,-143.25,180.0,top,R26,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1k,tht
 215.75,-122.0,-90.0,top,R27,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,56k,tht
-100.25,-123.75,-90.0,top,R28,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,1k 1W,tht
+100.25,-123.75,-90.0,top,R28,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
 107.25,-129.0,-90.0,top,R29,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
 198.0,-137.75,180.0,top,R30,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,56k,tht
 112.5,-129.0,-90.0,top,R31,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
 158.75,-112.5,180.0,top,R33,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
 158.74,-107.0,180.0,top,R34,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,220k,tht
 85.75,-106.0,180.0,top,R35,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,10k,tht
-72.5,-143.0,90.0,top,R37,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
+72.5,-143.0,90.0,top,R37,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k 1W,tht
 255.0,-126.91,-90.0,top,R39,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
 191.2,-119.25,90.0,top,R4,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
-227.78,-110.4,180.0,top,R40,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
-156.06,-119.9,180.0,top,R41,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
-125.5,-119.9,180.0,top,R42,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,1k 1W,tht
-93.5,-123.75,-90.0,top,R46,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,100k 1W,tht
+227.78,-110.4,180.0,top,R40,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 3W,tht
+156.06,-119.9,180.0,top,R41,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 3W,tht
+125.5,-119.9,180.0,top,R42,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,1k 3W,tht
+93.5,-123.75,-90.0,top,R46,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,220k 3W,tht
 78.0,-143.0,90.0,top,R48,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1r 1%,tht
 324.65,-144.2,90.0,top,R5,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1.5k,tht
 185.95,-119.25,90.0,top,R6,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,1Meg,tht
 319.25,-144.2,90.0,top,R7,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
 313.85,-144.2,90.0,top,R8,,,R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal_TC,100k,tht
-289.5,-119.9,180.0,top,R9,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 1W,tht
+289.5,-119.9,180.0,top,R9,,,R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal_TC,10k 3W,tht
 72.5,-118.0,90.0,top,RV7,,,Potentiometer_Bourns_3296W_Vertical,22k Lin,tht
 78.75,-149.25,180.0,top,TP1,,,TestPoint_Keystone_5005-5009_Compact,BiasTP,tht
 80.25,-100.0,0.0,top,TP2,,,TestPoint_Keystone_5005-5009_Compact,GND,tht
