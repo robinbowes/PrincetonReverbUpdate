@@ -12902,6 +12902,19 @@
 		)
 		(uuid "5de47bbb-7085-44c1-b6dc-c578cdc391ab")
 	)
+	(text "Isolated from Chassis\nwith shoulder washers"
+		(exclude_from_sim no)
+		(at 269.24 54.864 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "65042d33-6cda-4d3b-ae6c-4b41369ff2a0")
+	)
 	(text "6.6k to 8ohm"
 		(exclude_from_sim no)
 		(at 239.268 53.34 0)
@@ -13153,6 +13166,19 @@
 			)
 		)
 		(uuid "bad20cb9-3d86-4e24-a023-73ff1305abc5")
+	)
+	(text "Isolated from Chassis\nwith shoulder washers"
+		(exclude_from_sim no)
+		(at 18.796 68.072 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.016 1.016)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "bb1bad5d-53af-4f07-a054-68721dcca0ce")
 	)
 	(text "Gr/Yel"
 		(exclude_from_sim no)
